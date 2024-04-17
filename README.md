@@ -1,4 +1,5 @@
  Hola! Mi nombre es Lucía Rossi 
+ <p style="color:blue;">Probando</p>
 
 En esta plataforma estaré documentando mi proceso de la Especialización en Fabricación Digital e Innovación (EFDI - UTEC & FAB LAB BARCELONA).
 
