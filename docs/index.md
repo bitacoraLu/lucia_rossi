@@ -1,6 +1,7 @@
-## Hola! Mi nombre es Lucía 
-<p style="color:blue;">Probando</p>
+## Bienvenides a mi bitácora!
 
 ![](../images/perezoso.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+En esta plataforma encontrarán mi documentación del proceso como estudiante de la _Especialización en Fabricación digital e Innovación_ [(EFDI - UTEC & FAB LAB BARCELONA)](https://utec.edu.uy/uploads/plan/aae9141ec11a54d8a37697a357b1e167f51bf041.pdf)
+
+**¡Estoy muy emocionada de comenzar mi bitácora!**
