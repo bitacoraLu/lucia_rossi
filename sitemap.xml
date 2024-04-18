@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://fablabbcn.github.io/efdi-template/about/me/</loc>
-         <lastmod>2024-04-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://fablabbcn.github.io/efdi-template/diseno/md01/</loc>
          <lastmod>2024-04-18</lastmod>
          <changefreq>daily</changefreq>
@@ -22,6 +17,11 @@
     </url>
     <url>
          <loc>https://fablabbcn.github.io/efdi-template/proyecto/proyecto/</loc>
+         <lastmod>2024-04-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fablabbcn.github.io/efdi-template/sobre%20m%C3%AD/me/</loc>
          <lastmod>2024-04-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
