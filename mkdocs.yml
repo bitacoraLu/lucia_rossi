@@ -9,7 +9,7 @@ repo_url: https://github.com/fablabbcn/efdi-template
 
 
 nav:
-  - Home: index.md
+  - Inicio: index.md
   - Sobre mí: about/me.md
   - Modulos Técnicos :
     - MT01: tecnicos/mt01.md
