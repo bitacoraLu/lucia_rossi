@@ -1,5 +1,5 @@
-##Bienvenides a mi bitácora!
+## Bienvenides a mi bitácora
 
-En esta plataforma encontrarán mi documentación del proceso como estudiante de la _Especialización en Fabricación digital e Innovación_ [(EFDI - UTEC & FAB LAB BARCELONA)](https://utec.edu.uy/uploads/plan/aae9141ec11a54d8a37697a357b1e167f51bf041.pdf)
+En esta plataforma encontrarán la documentación mi proceso de aprendizaje como estudiante de la _Especialización en Fabricación digital e Innovación_ [(EFDI - UTEC & FAB LAB BARCELONA)](https://utec.edu.uy/uploads/plan/aae9141ec11a54d8a37697a357b1e167f51bf041.pdf)
 
-**¡Estoy muy emocionada de comenzar mi bitácora!**
+**Estoy muy emocionada de comenzar!**
