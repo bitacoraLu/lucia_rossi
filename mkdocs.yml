@@ -1,8 +1,8 @@
 # Replace the text below to customize your site
 site_name: Lucía Rossi - UTEC & Fab Lab Barcelona
 site_description: Master in Design for Emergent Futures
-site_author: Nombre Estudiante
-copyright: Copyleft 2024 "Nombre Estudiante" - GNU Free Documentation License
+site_author: Lucía Rossi
+copyright: Copyleft 2024 "Lucía Rossi" - GNU Free Documentation License
 repo_name: 'Name : Github Repo'
 site_url: https://fablabbcn.github.io/efdi-template/
 repo_url: https://github.com/fablabbcn/efdi-template
@@ -10,7 +10,7 @@ repo_url: https://github.com/fablabbcn/efdi-template
 
 nav:
   - Home: index.md
-  - About: about/me.md
+  - Sobre mí: about/me.md
   - Modulos Técnicos :
     - MT01: tecnicos/mt01.md
     - MT02: tecnicos/mt02.md
