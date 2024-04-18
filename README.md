@@ -1,13 +1,5 @@
- Hola! Mi nombre es Lucía Rossi 
- <p style="color:blue;">Probando</p>
+ <p style="color:orange;">P##Bienvenides!</p> 
 
-En esta plataforma estaré documentando mi proceso de la Especialización en Fabricación Digital e Innovación (EFDI - UTEC & FAB LAB BARCELONA).
+En esta plataforma documentaré mi proceso como estudiante de la _Especialización en Fabricación digital e Innovación_ [(EFDI - UTEC & FAB LAB BARCELONA)](https://utec.edu.uy/uploads/plan/aae9141ec11a54d8a37697a357b1e167f51bf041.pdf)
 
-
-
-```
-git clone git@github.com:fablabbcn/efdi-template.git
-```
-
-Puedes visitar la demo del template aquí: https://fablabbcn.github.io/efdi-template/
-
+**¡Estoy muy emocionada de comenzar mi bitácora!**
