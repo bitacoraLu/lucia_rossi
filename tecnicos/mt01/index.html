@@ -297,14 +297,14 @@
         
           <li class="md-nav__item">
   <a href="#documentacion-del-proceso" class="md-nav__link">
-    **Documentación del proceso
+    Documentación del proceso
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#reflexiones" class="md-nav__link">
-    **Reflexiones
+    Reflexiones
   </a>
   
 </li>
@@ -511,14 +511,14 @@
         
           <li class="md-nav__item">
   <a href="#documentacion-del-proceso" class="md-nav__link">
-    **Documentación del proceso
+    Documentación del proceso
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#reflexiones" class="md-nav__link">
-    **Reflexiones
+    Reflexiones
   </a>
   
 </li>
@@ -575,44 +575,24 @@ EDITAR TEXTOS <br>
 * cursiva y negrita entre dos asteríscos y guiones bajos ** _ ejemplo _ ** (sin espacios es igual a) <strong><em>ejemplo</em></strong> <br>
 * encabezado al comienzo con numeral, la cantidad depende del tamaño # ejemplo ## ejemplo (sin espacios es igual a) #ejemplo ##ejemplo  <br></p>
 <p>EDITAR ENLACES <br>
-* enlace a otros sitios entre corcheas <a href="https://markdown.es/"> Marckdown </a> (sin espacios es igual a) <a href="https://markdown.es/">Marckdown</a> <br>
+* enlace a otros sitios entre corcheas <a href="link"> Nombre </a> (sin espacios es igual a) <a href="https://markdown.es/">Marckdown</a> <br>
 * se pueden generar referencias también </p>
 <p>EDITAR IMÁGENES <br>
-* para subir una imagen al comienzo es con un signo de exclamación, se agrega una descripción de la imagen entre corcheas y entre paréntesis la ruta del enlace. <br> Aclaración: antes hay que subir la imagen a la carpeta de la computadora, sincronizar los cambios en VS. ! <a href="link"> ejemplo imagen </a> 
+* para subir una imagen al comienzo es con un signo de exclamación, se agrega una descripción de la imagen entre corcheas y entre paréntesis la ruta del enlace. <br> Aclaración: antes hay que subir la imagen a la carpeta de la computadora, sincronizar los cambios en VS. ! <a href="link"> nombre </a> <br>
 * se puede generar referencias también</p>
-<h4 id="documentacion-del-proceso">**Documentación del proceso<a class="headerlink" href="#documentacion-del-proceso" title="Permanent link">&para;</a></h4>
+<h4 id="documentacion-del-proceso"><strong>Documentación del proceso</strong><a class="headerlink" href="#documentacion-del-proceso" title="Permanent link">&para;</a></h4>
 <p>En la siguiente documentación intenté transmitir una sistematización ordenada y sencilla, a pesar de la variedad de pasos y opciones disponibles para crear una página web. <br>
 Pasos para crear una página web utilizando github como hosting y git como control de versiones:</p>
 <ul>
-<li>
-<ol>
 <li>Crear una cuenta en <a href="https://docs.github.com">Github</a> <br>
 Aclaración: El username quedará visible en el link de la página web, ejemplo de esta página es: lucia_rossi <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Instalar <a href="https://git-scm.com/">Git</a> en la computadora <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Setear Git (<br>)
 Aclaración: Para este paso, es necesario abrir la Terminal de la computadora. Allí, escribir o copiar: <font color='orange'>git config –global user.name “username”</font> y <font color='orange'>git config –global user.name “tu_mail”</font>. Para verificar la configuración escribir en la Terminal <font color='orange'>git config –global –list</font> <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Generar una <a href="https://docs.github.com/es/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">SSH</a> key <br>
 Aclaración: Una clave SSH es un protocolo de red que permite a los usuarios a acceder de forma segura entre la computadora y Github (en caso de usar más de una computadora, generar una ssh key por cada equipo. Para verificar si ya hay una SSH escribir en la Terminal <font color='orange'>cat ~/.ssh/id_rsa.pub”</font> <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Generar la public Key <br>
 <font color='orange'>ssh-keygen -t rsa -C “<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#108;&#117;&#114;&#111;&#115;&#115;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#109;&#108;&#117;&#114;&#111;&#115;&#115;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>”</font> <br></li>
-</ol>
-</li>
 <li>
 <ol>
 <li>Volver a escribir cat ~/.ssh/id_rsa.pub para ver la SSH key <br>
@@ -620,77 +600,25 @@ Copiar el texto de la Terminal  <br>
 Volver a Github, en nuestro perfil abrir setting y luego ssh and gpg keys y ahí Add new SSH ley y pegar la public key que generó la terminal. <br></li>
 </ol>
 </li>
-<li>
-<ol>
 <li>Fork template, al realizar fork de un template se crea un repositorio remoto en Github. Realicé un fork template de <a href="https://fablabbcn.github.io/efdi-template/">https://fablabbcn.github.io/efdi-template/</a> <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Abrir el efdi-template y dirigirse a Name: Github Repo <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Abrir Github y presionar fork y crear un nuevo fork <br>
 owner es el nombre del usuario, ejemplo de esta página es bitacoraLu y respository es el nombre y apellido, ejemplo en esta página es lucia_rossi <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Luego de crear el fork, se crea un repositorio remoto con un template del sitio web listo para editar. <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Clonar el repositorio remoto para crear el repositorio local en la computadora <br> </li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Crear una carpeta en la computadora (recomendado en desktop para menor ruta de acceso) <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Abrir Terminal, hay dos opciones: una es abrir la terminal e ir a la carpeta creada con el comando list y cd y la otra es abrir directamente desde la carpeta creada “nuevo terminal en la carpeta” <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Abrir Github e ir a Visual Studio Code, ahí se encontrará en la pestaña SSH el link del repositorio remoto de Github. Para clonarlo hay que copiarlo e ir a la terminal y escribir git clone pegar la ssh key, ejemplo: <font color='orange'>git clone <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#103;&#105;&#116;&#64;&#104;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;">&#103;&#105;&#116;&#64;&#104;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;</a>:edi-docs/efdi-repo.git</font> comenzar a descargar los archivos en la carpeta creada <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Descargar visual studio code <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> <br>
 Visual Studio Code (VS) nos muestra los mismos archivos que aparecen en la carpeta que descargamos del repositorio para realizar el clon. <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Para que éstos archivos los veamos en VS, tenemos que abrir la carpeta donde están los archivos de la página web y agregarlos al VS: File /Add Folder to workspace…/elegir la carpeta creada en Desktop <br>
 Aclaración: Acá se encuentra toda la información y es donde se edita para que sea visualizado en la página web. Existen varios comandos como Markdown que nos permiten editar el estilo de tipografía, adjuntar enlaces e imágenes. <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Para realizar un cambio y que se vea en la página web, hay que salvar y guardarlos en VS. Esto hay que hacerlo cada vez que se quiera actualizar la página web. En la pestaña de cambios escribir el comando change readme (o donde se haya editado) y darle Commit (es un comando utilizado para confirmar los cambios realizados en un repositorio). <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Luego de sincronizar los cambios. Revisar la página de Github que aparecerán todos los commit a la vista, y cuando tenga tic verde se podrá ver la actualización reflejada. <br></li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Activar el link del sitio web en Github y activar la rama en gh-pages.</li>
-</ol>
-</li>
 </ul>
 <p>Aclaración general: este paso a paso es con sistema OS, sé que varía levemente para sistema Linux o Windows. Además de tener varias opciones de cómo realizar los procedimientos. </p>
-<h4 id="reflexiones">**Reflexiones<a class="headerlink" href="#reflexiones" title="Permanent link">&para;</a></h4>
+<h4 id="reflexiones"><strong>Reflexiones</strong><a class="headerlink" href="#reflexiones" title="Permanent link">&para;</a></h4>
 <p>Todo este proceso me tomó más tiempo del esperado para este módulo. Durante el tutorial en clase y posteriormente al revisar las diapositivas, me encontré con numerosos errores que lamentablemente no registré para compartir, y ahora no recuerdo específicamente cuáles fueron. <br> 
 Esta situación me resultó bastante frustrante, ya que mi progreso se vio obstaculizado por estos errores recurrentes. Finalmente, decidí eliminar la carpeta que había clonado y comenzar de nuevo. Después de reinstalar todo y comprobar que funcionaba correctamente, puede empezar a disfrutar y documentar todo el proceso. </p>
                 
