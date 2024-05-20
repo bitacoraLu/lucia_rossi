@@ -587,19 +587,14 @@ Pasos para crear una página web utilizando github como hosting y git como contr
 <li>Crear una cuenta en <a href="https://docs.github.com">Github</a> <br>
 Aclaración: El username quedará visible en el link de la página web, ejemplo de esta página es: lucia_rossi <br></li>
 <li>Instalar <a href="https://git-scm.com/">Git</a> en la computadora <br></li>
-<li>Setear Git (<br>)
+<li>Setear Git <br>
 Aclaración: Para este paso, es necesario abrir la Terminal de la computadora. Allí, escribir o copiar: <font color='orange'>git config –global user.name “username”</font> y <font color='orange'>git config –global user.name “tu_mail”</font>. Para verificar la configuración escribir en la Terminal <font color='orange'>git config –global –list</font> <br></li>
 <li>Generar una <a href="https://docs.github.com/es/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">SSH</a> key <br>
 Aclaración: Una clave SSH es un protocolo de red que permite a los usuarios a acceder de forma segura entre la computadora y Github (en caso de usar más de una computadora, generar una ssh key por cada equipo. Para verificar si ya hay una SSH escribir en la Terminal <font color='orange'>cat ~/.ssh/id_rsa.pub”</font> <br></li>
-<li>Generar la public Key <br>
-<font color='orange'>ssh-keygen -t rsa -C “<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#108;&#117;&#114;&#111;&#115;&#115;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#109;&#108;&#117;&#114;&#111;&#115;&#115;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>”</font> <br></li>
-<li>
-<ol>
-<li>Volver a escribir cat ~/.ssh/id_rsa.pub para ver la SSH key <br>
+<li>Generar la public Key <font color='orange'>ssh-keygen -t rsa -C “<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#108;&#117;&#114;&#111;&#115;&#115;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#109;&#108;&#117;&#114;&#111;&#115;&#115;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>”</font> <br>
+Volver a escribir cat ~/.ssh/id_rsa.pub para ver la SSH key <br>
 Copiar el texto de la Terminal  <br>
 Volver a Github, en nuestro perfil abrir setting y luego ssh and gpg keys y ahí Add new SSH ley y pegar la public key que generó la terminal. <br></li>
-</ol>
-</li>
 <li>Fork template, al realizar fork de un template se crea un repositorio remoto en Github. Realicé un fork template de <a href="https://fablabbcn.github.io/efdi-template/">https://fablabbcn.github.io/efdi-template/</a> <br></li>
 <li>Abrir el efdi-template y dirigirse a Name: Github Repo <br></li>
 <li>Abrir Github y presionar fork y crear un nuevo fork <br>
