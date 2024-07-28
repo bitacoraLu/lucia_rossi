@@ -323,10 +323,10 @@
       
         <li class="md-nav__item">
   <a href="#introduccion-a-la-electronica-y-programacion-arduino-ide" class="md-nav__link">
-    **Introducción a la electrónica y programación (Arduino IDE) **
+    Introducción a la electrónica y programación (Arduino IDE)
   </a>
   
-    <nav class="md-nav" aria-label="**Introducción a la electrónica y programación (Arduino IDE) **">
+    <nav class="md-nav" aria-label="Introducción a la electrónica y programación (Arduino IDE)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -504,10 +504,10 @@
       
         <li class="md-nav__item">
   <a href="#introduccion-a-la-electronica-y-programacion-arduino-ide" class="md-nav__link">
-    **Introducción a la electrónica y programación (Arduino IDE) **
+    Introducción a la electrónica y programación (Arduino IDE)
   </a>
   
-    <nav class="md-nav" aria-label="**Introducción a la electrónica y programación (Arduino IDE) **">
+    <nav class="md-nav" aria-label="Introducción a la electrónica y programación (Arduino IDE)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -543,7 +543,7 @@
                 
                 
                 <h1 id="mt04-tecnologia-y-fabricacion">MT04 Tecnología y Fabricación<a class="headerlink" href="#mt04-tecnologia-y-fabricacion" title="Permanent link">&para;</a></h1>
-<h2 id="introduccion-a-la-electronica-y-programacion-arduino-ide">**Introducción a la electrónica y programación (Arduino IDE) **<a class="headerlink" href="#introduccion-a-la-electronica-y-programacion-arduino-ide" title="Permanent link">&para;</a></h2>
+<h2 id="introduccion-a-la-electronica-y-programacion-arduino-ide"><strong>Introducción a la electrónica y programación (Arduino IDE)</strong><a class="headerlink" href="#introduccion-a-la-electronica-y-programacion-arduino-ide" title="Permanent link">&para;</a></h2>
 <h4 id="introduccion"><strong>Introducción</strong><a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h4>
 <h1 id="mt05-tecnologia-y-fabricacion">MT05 Tecnología y Fabricación<a class="headerlink" href="#mt05-tecnologia-y-fabricacion" title="Permanent link">&para;</a></h1>
 <h2 id="impresion-y-escaneo-3d"><strong>Impresión y escaneo 3D</strong><a class="headerlink" href="#impresion-y-escaneo-3d" title="Permanent link">&para;</a></h2>
@@ -654,6 +654,68 @@ Enlace: <a href="https://www.prusa3d.com/es/pagina/prusaslicer_424/">PrusaSlicer
 Descripción: Software diseñado para impresoras Raise3D, aunque se adapta a otras impresoras. <br>
 Características: Capacidad de incorporar texturas en las impresiones, facilitando la personalización y el marcado de piezas. <br>
 Enlace: <a href="https://www.raise3d.eu/?my_region=Spain">IdeaMaker</a></p>
+<p><strong>Perfiles de impresión FDM</strong> <br>
+Los perfiles de impresión se utilizan para asegurar que la impresora 3D produzca piezas de alta calidad y con una precisión adecuada. Los programas de laminado (slicer) son software que controlan y coordinan la impresión de objetos 3D. Para utilizar un perfil de impresión, se debe cargar el archivo en la impresora 3D y luego seleccionarlo desde la interfaz de la impresora o el software de impresión. La impresora utiliza estas configuraciones específicas para realizar la impresión.</p>
+<p>Los perfiles de impresión son específicos de cada impresora y de cada material.</p>
+<ul>
+<li>Ultra alta resolución: Altura de capa 0,05 mm <br></li>
+<li>Alta resolución: Altura de capa 0,1 mm <br></li>
+<li>Estándar: Altura de capa 0,2 mm <br></li>
+<li>Speed: Altura de capa 0,25 mm <br></li>
+</ul>
+<p><strong>Configuración del material</strong> <br>
+La temperatura de impresión es crucial para lograr una impresión 3D de calidad. Generalmente, el filamento ya trae las especificaciones de rango de temperatura a utilizar por la impresora. Sin embargo, hay factores que pueden modificar estas especificaciones, como la condición climática, la velocidad de impresión y el modelo de impresora.</p>
+<p><strong>ABS</strong> <br>
+Temperatura del filamento: 210º a 260ºC
+Cama caliente: 80º a 110ºC
+<strong>PLA</strong> <br>
+Temperatura del filamento: 190º a 230ºC
+Cama caliente: 30º a 60ºC
+<strong>PETG</strong> <br>
+Temperatura del filamento: 230º a 260ºC
+Cama caliente: 70º a 80ºC</p>
+<p><strong>Pasos Generales</strong> <br>
+1. Archivo STL del modelo a imprimir en 3D: El primer paso es tener un modelo 3D en formato STL, que es el estándar para impresión 3D. <br>
+2. Transformarlo en láminas usando Slicer: Utilizar un software slicer para dividir el modelo en capas (láminas). <br>
+3. Grabarlo y exportarlo en G-code: El slicer generará un archivo G-code a partir del modelo dividido en capas. <br>
+4. Imprimir y controlar la impresión 3D usando un Host: El archivo G-code se carga en la impresora 3D para controlar y realizar la impresión.</p>
+<p><strong>Código G</strong> <br>
+El código G es un lenguaje utilizado para indicar a la máquina qué hacer. En la impresión 3D, el código G contiene comandos para mover las piezas dentro de la impresora. Estos comandos se dividen en dos tipos principales:</p>
+<ul>
+<li>Comandos G: Instrucciones de movimiento (por ejemplo, mover a una posición específica). <br></li>
+<li>Comandos M: Instrucciones de acción (por ejemplo, iniciar o detener la extrusión de filamento).</li>
+</ul>
+<p><strong>Proceso de preparación de un modelo 3D</strong> <br>
+1. Crear el modelo 3D en software de diseño (CAD) y exportarlo en formato STL. <br>
+2. Abrir el archivo STL en un software Slicer y configurarlo según las especificaciones de la impresora y el material. <br>
+3. Realizar los ajustes necesarios en el modelo (mover, rotar, escalar) y configurar los parámetros de impresión. <br>
+4. Generar el archivo G-code desde el software Slicer. <br>
+5. Cargar el archivo G-code en la impresora 3D RAISE Pro2 Plus y comenzar la impresión.</p>
+<h4 id="documentacion-del-proceso"><strong>Documentación del Proceso</strong><a class="headerlink" href="#documentacion-del-proceso" title="Permanent link">&para;</a></h4>
+<p>En los laboratorios de la UTEC, se cuenta con impresoras 3D del tipo RAISE, modelo PRO2 PLUS. Para estas impresoras, utilizaremos el software IdeaMaker para generar los códigos G necesarios para la impresión. </p>
+<p><strong>Generación de Código G</strong> <br>
+El proceso de preparación de archivos para la impresión 3D implica varias etapas desde el diseño inicial hasta la impresión final. A continuación, se describe el proceso general y específico para las impresoras RAISE Pro2 Plus de los LAB-A UTEC.</p>
+<p><strong>Pasos para la Generación de Código G</strong>
+1. Obtener el archivo de diseño 3D: zbr
+Desde la especialización nos proporcionaron el archivo de diseño 3D en Fusion 360. Descargué y abrí el software para exportarlo como archivo .STL. <br>
+2. Descargar y configurar IdeaMaker: <br>
+<a href="https://www.raise3d.com/download/">Descargué IdeaMaker</a> y configuré la impresora Raise Pro2 Plus para importar el archivo .STL generado por Fusion 360. <br>
+3. Importar y ajustar el archivo en IdeaMaker: <br>
+Después de importar el archivo en IdeaMaker, probé mover, rotar y escalar la pieza para decidir su posición final y el tamaño solicitado (escalado a un 150%) para la fabricación en impresoras FDM. <br>
+4. Configurar los parámetros de impresión: <br>
+En la sección de inicio de laminado, edité los siguientes parámetros: <br>
+- Altura de capa: 0,2 mm <br>
+- Grosor de la carcasa: 2,0 mm <br>
+- Relleno: 15% <br>
+- Soporte: En todo <br>
+- Plataforma: Solo balsa <br>
+5. Previsualizar y exportar el archivo G-code: <br>
+Previsualicé todas las capas de la construcción capa por capa para asegurarme de la correcta configuración. <br>
+Exporté el archivo en formato G-code (g-code).</p>
+<h4 id="reflexiones"><strong>Reflexiones</strong><a class="headerlink" href="#reflexiones" title="Permanent link">&para;</a></h4>
+<p>Ver la película &ldquo;Print the Legend&rdquo; fue una buena experiencia para comprender mejor la historia de la impresión 3D y la creación de empresas relacionadas con esta tecnología. La película destaca la importancia del open source en la evolución tecnológica y cómo este enfoque puede contribuir a un futuro más ecológico y sustentable.</p>
+<p>Durante mi proceso, esperaba encontrarme con un software más complejo y difícil de entender. Sin embargo, gracias a que estudié previamente toda la información sobre las impresoras 3D, la actividad me resultó bastante sencilla. Esto me da esperanza para aventurarme próximamente en el modelado 3D e imprimir mis propios diseños. Estoy emocionada por experimentar con distintas configuraciones y observar cómo varían los resultados, aunque el modelo 3D sea el mismo. Puedo modificar parámetros como la altura de las capas, el grosor de las paredes, entre otros, para explorar todas las posibilidades y aprender a través del método de prueba y error.</p>
+<p>Este módulo me dio las herramientas para asegurarme que un modelo 3D se imprima con alta calidad y precisión, utilizando configuraciones optimizadas para cada impresora y material específico. Estoy entusiasmada por continuar aprendiendo y aplicando estos conocimientos en futuros proyectos.</p>
                 
                   
                     
