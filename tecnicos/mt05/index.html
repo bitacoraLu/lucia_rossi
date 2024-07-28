@@ -696,22 +696,35 @@ El código G es un lenguaje utilizado para indicar a la máquina qué hacer. En 
 <p><strong>Generación de Código G</strong> <br>
 El proceso de preparación de archivos para la impresión 3D implica varias etapas desde el diseño inicial hasta la impresión final. A continuación, se describe el proceso general y específico para las impresoras RAISE Pro2 Plus de los LAB-A UTEC.</p>
 <p><strong>Pasos para la Generación de Código G</strong>
-1. Obtener el archivo de diseño 3D: zbr
-Desde la especialización nos proporcionaron el archivo de diseño 3D en Fusion 360. Descargué y abrí el software para exportarlo como archivo .STL. <br>
-2. Descargar y configurar IdeaMaker: <br>
-<a href="https://www.raise3d.com/download/">Descargué IdeaMaker</a> y configuré la impresora Raise Pro2 Plus para importar el archivo .STL generado por Fusion 360. <br>
-3. Importar y ajustar el archivo en IdeaMaker: <br>
-Después de importar el archivo en IdeaMaker, probé mover, rotar y escalar la pieza para decidir su posición final y el tamaño solicitado (escalado a un 150%) para la fabricación en impresoras FDM. <br>
-4. Configurar los parámetros de impresión: <br>
-En la sección de inicio de laminado, edité los siguientes parámetros: <br>
-- Altura de capa: 0,2 mm <br>
-- Grosor de la carcasa: 2,0 mm <br>
-- Relleno: 15% <br>
-- Soporte: En todo <br>
-- Plataforma: Solo balsa <br>
-5. Previsualizar y exportar el archivo G-code: <br>
+1. Obtener el archivo de diseño 3D: <br>
+Desde la especialización nos proporcionaron el archivo de diseño 3D en Fusion 360. Descargué y abrí el software para exportarlo como archivo .STL. </p>
+<p><img alt="Fusion" src="../../images/MT05/fusion.png" /></p>
+<ol>
+<li>Descargar y configurar IdeaMaker: <br>
+<a href="https://www.raise3d.com/download/">Descargué IdeaMaker</a> y configuré la impresora Raise Pro2 Plus para importar el archivo .STL generado por Fusion 360. </li>
+</ol>
+<p><img alt="IdeaMaker" src="../../images/MT05/ideamaker.png" /></p>
+<ol>
+<li>
+<p>Importar y ajustar el archivo en IdeaMaker: <br>
+Después de importar el archivo en IdeaMaker, probé mover, rotar y escalar la pieza para decidir su posición final y el tamaño solicitado (escalado a un 150%) para la fabricación en impresoras FDM. </p>
+</li>
+<li>
+<p>Configurar los parámetros de impresión: <br>
+En la sección de inicio de laminado, edité los siguientes parámetros: <br></p>
+</li>
+<li>Altura de capa: 0,2 mm <br></li>
+<li>Grosor de la carcasa: 2,0 mm <br></li>
+<li>Relleno: 15% <br></li>
+<li>Soporte: En todo <br></li>
+<li>Plataforma: Solo balsa </li>
+</ol>
+<p><img alt="Parámetros" src="../../images/MT05/config.png" /></p>
+<ol>
+<li>Previsualizar y exportar el archivo G-code: <br>
 Previsualicé todas las capas de la construcción capa por capa para asegurarme de la correcta configuración. <br>
-Exporté el archivo en formato G-code (g-code).</p>
+Exporté el archivo en formato G-code (g-code).</li>
+</ol>
 <p>{:download=”lucia_rossi.gcode”}</p>
 <h4 id="reflexiones"><strong>Reflexiones</strong><a class="headerlink" href="#reflexiones" title="Permanent link">&para;</a></h4>
 <p>Ver la película &ldquo;Print the Legend&rdquo; fue una buena experiencia para comprender mejor la historia de la impresión 3D y la creación de empresas relacionadas con esta tecnología. La película destaca la importancia del open source en la evolución tecnológica y cómo este enfoque puede contribuir a un futuro más ecológico y sustentable.</p>
