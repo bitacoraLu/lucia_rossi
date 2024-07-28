@@ -705,19 +705,19 @@ Los perfiles de impresión se utilizan para asegurar que la impresora 3D produzc
 <p><strong>Configuración del material</strong> <br>
 La temperatura de impresión es crucial para lograr una impresión 3D de calidad. Generalmente, el filamento ya trae las especificaciones de rango de temperatura a utilizar por la impresora. Sin embargo, hay factores que pueden modificar estas especificaciones, como la condición climática, la velocidad de impresión y el modelo de impresora.</p>
 <p><strong>ABS</strong> <br>
-Temperatura del filamento: 210º a 260ºC
-Cama caliente: 80º a 110ºC
+Temperatura del filamento: 210º a 260ºC <br>
+Cama caliente: 80º a 110ºC <br>
 <strong>PLA</strong> <br>
-Temperatura del filamento: 190º a 230ºC
-Cama caliente: 30º a 60ºC
+Temperatura del filamento: 190º a 230ºC <br>
+Cama caliente: 30º a 60ºC <br>
 <strong>PETG</strong> <br>
-Temperatura del filamento: 230º a 260ºC
-Cama caliente: 70º a 80ºC</p>
+Temperatura del filamento: 230º a 260ºC <br>
+Cama caliente: 70º a 80ºC <br></p>
 <p><strong>Pasos Generales</strong> <br>
-1. Archivo STL del modelo a imprimir en 3D: El primer paso es tener un modelo 3D en formato STL, que es el estándar para impresión 3D. <br>
-2. Transformarlo en láminas usando Slicer: Utilizar un software slicer para dividir el modelo en capas (láminas). <br>
-3. Grabarlo y exportarlo en G-code: El slicer generará un archivo G-code a partir del modelo dividido en capas. <br>
-4. Imprimir y controlar la impresión 3D usando un Host: El archivo G-code se carga en la impresora 3D para controlar y realizar la impresión.</p>
+<strong>1.</strong> Archivo STL del modelo a imprimir en 3D: El primer paso es tener un modelo 3D en formato STL, que es el estándar para impresión 3D. <br>
+<strong>2.</strong> Transformarlo en láminas usando Slicer: Utilizar un software slicer para dividir el modelo en capas (láminas). <br>
+<strong>3.</strong> Grabarlo y exportarlo en G-code: El slicer generará un archivo G-code a partir del modelo dividido en capas. <br>
+<strong>4.</strong> Imprimir y controlar la impresión 3D usando un Host: El archivo G-code se carga en la impresora 3D para controlar y realizar la impresión.</p>
 <p><strong>Código G</strong> <br>
 El código G es un lenguaje utilizado para indicar a la máquina qué hacer. En la impresión 3D, el código G contiene comandos para mover las piezas dentro de la impresora. Estos comandos se dividen en dos tipos principales:</p>
 <ul>
@@ -734,44 +734,35 @@ El código G es un lenguaje utilizado para indicar a la máquina qué hacer. En 
 <p>En los laboratorios de la UTEC, se cuenta con impresoras 3D del tipo RAISE, modelo PRO2 PLUS. Para estas impresoras, utilizaremos el software IdeaMaker para generar los códigos G necesarios para la impresión. </p>
 <p><strong>Generación de Código G</strong> <br>
 El proceso de preparación de archivos para la impresión 3D implica varias etapas desde el diseño inicial hasta la impresión final. A continuación, se describe el proceso general y específico para las impresoras RAISE Pro2 Plus de los LAB-A UTEC.</p>
-<p><strong>Pasos para la Generación de Código G</strong>
-1. Obtener el archivo de diseño 3D: <br>
+<p><strong>Pasos para la Generación de Código G</strong> <br>
+<strong>1.</strong> Obtener el archivo de diseño 3D: <br>
 Desde la especialización nos proporcionaron el archivo de diseño 3D en Fusion 360. Descargué y abrí el software para exportarlo como archivo .STL. </p>
 <p><img alt="Fusion" src="../../images/MT05/fusion.png" /></p>
-<ol>
-<li>Descargar y configurar IdeaMaker: <br>
-<a href="https://www.raise3d.com/download/">Descargué IdeaMaker</a> y configuré la impresora Raise Pro2 Plus para importar el archivo .STL generado por Fusion 360. </li>
-</ol>
+<p><strong>2.</strong> Descargar y configurar IdeaMaker: <br>
+<a href="https://www.raise3d.com/download/">Descargué IdeaMaker</a> y configuré la impresora Raise Pro2 Plus para importar el archivo .STL generado por Fusion 360. </p>
 <p><img alt="IdeaMaker" src="../../images/MT05/ideamaker.png" /></p>
-<ol>
-<li>Importar y ajustar el archivo en IdeaMaker: <br>
-Después de importar el archivo en IdeaMaker, probé mover, rotar y escalar la pieza para decidir su posición final y el tamaño solicitado (escalado a un 150%) para la fabricación en impresoras FDM. </li>
-</ol>
+<p><strong>3.</strong> Importar y ajustar el archivo en IdeaMaker: <br>
+Después de importar el archivo en IdeaMaker, probé mover, rotar y escalar la pieza para decidir su posición final y el tamaño solicitado (escalado a un 150%) para la fabricación en impresoras FDM. </p>
 <p>Mover
 <img alt="Mover" src="../../images/MT05/mover.mov" /></p>
 <p>Rotar
 <img alt="Rotar" src="../../images/MT05/rotar.mov" /></p>
 <p>Escalar
 <img alt="Rotar" src="../../images/MT05/escalar.mov" /></p>
-<ol>
-<li>Configurar los parámetros de impresión: <br>
-En la sección de inicio de laminado, edité los siguientes parámetros: <br></li>
-<li>Altura de capa: 0,2 mm <br></li>
-<li>Grosor de la carcasa: 2,0 mm <br></li>
-<li>Relleno: 15% <br></li>
-<li>Soporte: En todo <br></li>
-<li>Plataforma: Solo balsa </li>
-</ol>
+<p><strong>4.</strong> Configurar los parámetros de impresión: <br>
+En la sección de inicio de laminado, edité los siguientes parámetros: <br>
+- Altura de capa: 0,2 mm <br>
+- Grosor de la carcasa: 2,0 mm <br>
+- Relleno: 15% <br>
+- Soporte: En todo <br>
+- Plataforma: Solo balsa </p>
 <p><img alt="Parámetros" src="../../images/MT05/config.png" /></p>
-<ol>
-<li>Previsualizar y exportar el archivo G-code: <br>
-Previsualicé todas las capas de la construcción capa por capa para asegurarme de la correcta configuración. </li>
-</ol>
+<p><strong>5.</strong> Previsualizar y exportar el archivo G-code: <br>
+Previsualicé todas las capas de la construcción capa por capa para asegurarme de la correcta configuración. </p>
 <p><img alt="Capas" src="../../images/MT05/capas.png" /></p>
 <p>Laminar
 <img alt="Laminar" src="../../images/MT05/laminar.mov" /></p>
 <p>Exporté el archivo en formato G-code (g-code).</p>
-<p>{:download=”lucia_rossi.gcode”}</p>
 <p><a href="https://github.com/bitacoraLu/lucia_rossi/raw/main/docs/images/MT05/lucia_rossi.gcode">Descargar Código G</a></p>
 <h4 id="reflexiones"><strong>Reflexiones</strong><a class="headerlink" href="#reflexiones" title="Permanent link">&para;</a></h4>
 <p>Ver la película &ldquo;Print the Legend&rdquo; fue una buena experiencia para comprender mejor la historia de la impresión 3D y la creación de empresas relacionadas con esta tecnología. La película destaca la importancia del open source en la evolución tecnológica y cómo este enfoque puede contribuir a un futuro más ecológico y sustentable.</p>
