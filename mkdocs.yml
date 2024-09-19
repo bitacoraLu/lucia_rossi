@@ -18,10 +18,11 @@ nav:
     - MT04: tecnicos/mt04.md
     - MT05: tecnicos/mt05.md
 
-
   - Modulos Diseño :
     - MD01: diseno/md01.md
     - MD02: diseno/md02.md
+    - MD03: diseno/md03.md
+
   - Modulos Innovación :
     - MI01: innovacion/mi01.md
     - MI03: innovacion/mi03.md
