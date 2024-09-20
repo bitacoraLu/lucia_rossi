@@ -17,6 +17,8 @@ nav:
     - MT03: tecnicos/mt03.md
     - MT04: tecnicos/mt04.md
     - MT05: tecnicos/mt05.md
+    - MT08: tecnicos/mt08.md
+    - MT06: tecnicos/mt06.md
 
   - Modulos Diseño :
     - MD01: diseno/md01.md
@@ -26,6 +28,8 @@ nav:
   - Modulos Innovación :
     - MI01: innovacion/mi01.md
     - MI03: innovacion/mi03.md
+    - MI02: innovacion/mi02.md
+
   - Proyecto Integrador:
     - Ideas Iniciales: proyecto/proyecto.md
 
