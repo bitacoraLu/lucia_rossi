@@ -360,6 +360,20 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#glosario" class="md-nav__link">
+    Glosario
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentacion-del-proceso" class="md-nav__link">
+    Documentación del proceso
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -577,6 +591,20 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#glosario" class="md-nav__link">
+    Glosario
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentacion-del-proceso" class="md-nav__link">
+    Documentación del proceso
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -604,7 +632,244 @@
                 
                 <h1 id="mt06">MT06<a class="headerlink" href="#mt06" title="Permanent link">&para;</a></h1>
 <h2 id="networking"><strong>Networking</strong><a class="headerlink" href="#networking" title="Permanent link">&para;</a></h2>
-<h4 id="introduccion"><strong>Introducción</strong><a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h4>
+<h4 id="introduccion"><strong>Introducción</strong> <br><a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h4>
+<p>En este módulo revisamos el MT04 de Arduino, pero con la particularidad de que podemos programar de manera colaborativa con otras personas, incluso si no están en el mismo lugar físico, aprovechando el uso de redes.</p>
+<h4 id="glosario"><strong>Glosario</strong><a class="headerlink" href="#glosario" title="Permanent link">&para;</a></h4>
+<p><strong>Redes</strong><br />
+El uso de redes y protocolos de comunicación se basa en distribuir y conectar sistemas para:
+- <strong>Ubicación</strong>: Permite realizar tareas de procesamiento o gestión de hardware desde distintos lugares.
+- <strong>Paralelismo</strong>: Posibilita la ejecución de tareas en simultáneo.
+- <strong>Modularidad</strong>: Facilita el desarrollo de módulos con funciones específicas, haciéndolo escalable y más fácil de reparar.
+- <strong>Interferencia</strong>: Evita que los sistemas interfieran entre sí.</p>
+<p><strong>Protocolo vs Red</strong><br />
+Una red es un conjunto de ordenadores conectados mediante líneas de comunicación. Los protocolos son normas que definen cómo los dispositivos intercambian información.</p>
+<p><strong>Redes por cable</strong><br />
+El protocolo RX/TX es uno de los más conocidos.<br />
+En vehículos se utiliza CAN o LIN, en iluminación DMX, y en instrumentos electrónicos MIDI.</p>
+<p><strong>Protocolos</strong><br />
+- <strong>Radiofrecuencia</strong>: WiFi, ZigBee, Bluetooth, BLE, RFID, NFC.
+- <strong>Óptico</strong>: Infrarrojo, LiFi.
+- <strong>Acústico</strong>: AFSK.</p>
+<p><strong>ESP32</strong><br />
+Los dispositivos conectados a una red WiFi se llaman estaciones (STA), y un punto de acceso (PA) actúa como concentrador para estas estaciones. El PA se conecta a una red cableada, y suele estar integrado en un router, que a su vez permite el acceso a internet a través de la red WiFi. El nombre de la red es identificado por su SSID (Service Set Identifier).</p>
+<p><strong>MQTT</strong><br />
+MQTT es un protocolo de mensajería basado en eventos que utiliza un modelo de publicación/suscripción. Los mensajes son gestionados por un broker, que los distribuye entre emisores y receptores. Los clientes se suscriben a temas (topics) para recibir mensajes específicos, sin necesidad de conocerse entre ellos.</p>
+<h4 id="documentacion-del-proceso"><strong>Documentación del proceso</strong><a class="headerlink" href="#documentacion-del-proceso" title="Permanent link">&para;</a></h4>
+<p><strong>Ejercicio 1. Comunicación Serial</strong><br />
+Conectar la placa al ordenador mediante USB utilizando un código.</p>
+<p>Primero armé la placa de prueba con un controlador WiFi/Bluetooth, un LED con resistencia de 1K, un pulsador con resistencia de 10K y cables. </p>
+<p><img alt="Placa" src="../../images/MT06/placa.png" />
+<img alt="Foto placa" src="../images/MT06/.png" /></p>
+<p>Después de montar la placa, la conectamos al IDE de Arduino con un cable de datos.</p>
+<p>Antes de iniciar, instalamos la placa ESP32 para poder programarla y comunicarla con Arduino. Añadimos el siguiente enlace en preferencias:<br />
+<a href="https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json">https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json</a>. Además descargamos la librería de pubsubclient que permite utilizar MQTT. </p>
+<p><img alt="ESP32" src="../../images/MT06/esp.png" />
+<img alt="Libreria" src="../../images/MT06/pubsub.png" /></p>
+<p>Una vez instalada, la seleccionamos para programar. Cuando verifiqué y cargué el código me aparecía un error, estuve investigando y probando varias soluciones y la resolución fue elegir el puerto que estaba conectado a la placa, modificando en Herramientas/Puerto y ahí seleccioné la que estaba usando. <br>
+Luego volví a probar utilizando el mismo código, y la luz permanece encendida y se apagó cuando se presiona el pulsador. </p>
+<p><img alt="Arduino" src="../../images/MT06/arduino.png" />
+<img alt="Placa" src="../../images/MT06/placa.png" /></p>
+<p>VIDEO FUNCIONANDO</p>
+<p><strong>Ejercicio 2. Conectarse con unx compañerx</strong>  </p>
+<p>Después de probar con éxito la placa física, comenzamos a utilizar la plataforma Wokwi para enviar comandos desde la computadora y reflejar la interacción en la placa, sin necesidad de tocarla físicamente.</p>
+<p>Pasos a seguir:</p>
+<p><strong>1. Copiar el código a IDE Arduino</strong>
+Cambiar algunos datos como el nombre y la contraseña del WiFi, así como los &ldquo;topics&rdquo; y el nombre del cliente, para personalizarlo.</p>
+<p><strong>2. Código para IDE Arduino</strong></p>
+<h1 id="include">include <WiFi.h><a class="headerlink" href="#include" title="Permanent link">&para;</a></h1>
+<h1 id="include_1">include <PubSubClient.h><a class="headerlink" href="#include_1" title="Permanent link">&para;</a></h1>
+<p>const char* ssid = &ldquo;Maria&rdquo;;
+const char* password = &ldquo;29001929&rdquo;;
+WiFiClient wifiClient;</p>
+<p>const char* mqttBroker = &ldquo;broker.hivemq.com&rdquo;;
+const char* mqttClientName = &ldquo;lu&rdquo;; //CAMBIAR EL USUARIO
+const char* mqttUser = &ldquo;&rdquo;;
+const char* mqttPass = &ldquo;&rdquo;;
+const char* name_topic = &ldquo;efdi/led/luplaca&rdquo;; //CAMBIAR EL TOPICO
+const char* send_topic = &ldquo;efdi/led/lupWokwi&rdquo;; //CAMBIAR EL TOPICO
+PubSubClient mqttClient(wifiClient);</p>
+<p>bool state = false;
+int LED = 2;
+int BUT = 4;</p>
+<p>void setup() {
+  Serial.begin(115200);</p>
+<p>pinMode(LED, OUTPUT);
+ pinMode(BUT, INPUT);</p>
+<p>// Connect to wifi
+ WiFi.mode(WIFI_STA);
+ WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+   delay(500);
+   Serial.print(&ldquo;.&rdquo;);
+ }
+  Serial.print(&ldquo;Connected to &ldquo;);
+ Serial.println(ssid);
+ Serial.print(&ldquo;IP address: &ldquo;);
+ Serial.println(WiFi.localIP());
+  // MQTT setup
+ mqttClient.setServer(mqttBroker, 1883);
+ mqttClient.setCallback(callback);
+}</p>
+<p>void loop() {
+ // Check if we are still connected to the MQTT broker
+ if (!mqttClient.connected()) {
+   mqttConnect();
+ }</p>
+<p>// Let PubSubClient library do his magic
+ mqttClient.loop();</p>
+<p>// Add your publish code here --------------------
+ if (!digitalRead(BUT)) {
+   publishMessage(send_topic, &ldquo;on&rdquo;, true);
+ }</p>
+<p>else{
+   publishMessage(send_topic, &ldquo;off&rdquo;, true);
+ }
+ delay(1000);
+}</p>
+<p>void mqttConnect() {
+  while (!mqttClient.connected()) {
+    Serial.print(&ldquo;Attempting MQTT connection&hellip;&rdquo;);
+    if (mqttClient.connect(mqttClientName, mqttUser, mqttPass)) {
+      Serial.println(&ldquo;connected&rdquo;);
+     mqttClient.publish(&ldquo;hello&rdquo;, mqttClientName);</p>
+<div class="codehilite"><pre><span></span><code> // Topic(s) subscription
+ //mqttClient.subscribe(send_topic);
+ mqttClient.subscribe(name_topic);
+} else {
+
+ Serial.print(&quot;failed, rc=&quot;);
+ Serial.print(mqttClient.state());
+ Serial.println(&quot; try again in 5 seconds&quot;);
+ delay(5000);
+</code></pre></div>
+
+<p>}
+ }
+}</p>
+<p>void callback(char* topic, byte* payload, unsigned int length) {
+ String incommingMessage = &ldquo;&rdquo;;
+ for (int i = 0; i &lt; length; i++){
+   incommingMessage += (char)payload[i];
+ }
+ Serial.println(&ldquo;Message arrived[&rdquo; + String(topic) + &ldquo;]&rdquo; + incommingMessage);
+ if(incommingMessage == &ldquo;on&rdquo;){
+   digitalWrite(2, HIGH);
+   Serial.println(&ldquo;LED ON&rdquo;);
+ }
+ else if(incommingMessage == &ldquo;off&rdquo;){
+   digitalWrite(2, LOW);
+   Serial.println(&ldquo;LED OFF&rdquo;);
+ }
+}</p>
+<p>//======================================= publising as string
+void publishMessage(const char* topic, String payload, boolean retained) {
+ if (mqttClient.publish(topic, payload.c_str(), true))
+   Serial.println(&ldquo;Message publised [&rdquo; + String(topic) + &ldquo;]: &rdquo; + payload);
+}</p>
+<p><strong>3. Invertir los &ldquo;topics&rdquo; en Wokwi y Arduino</strong> <br>
+Para que ambos sistemas interactúen, se deben intercambiar los &ldquo;topics&rdquo;. En Arduino:</p>
+<p>IDE arduino <br>
+onst char* name_topic = &ldquo;efdi/led/luplacai&rdquo;; //CAMBIAR EL TOPICO
+const char* send_topic = &ldquo;efdi/led/luwokwi&rdquo;; //CAMBIAR EL TOPICO
+wokwi 
+onst char* name_topic = &ldquo;efdi/led/luwokwi&rdquo;; //CAMBIAR EL TOPICO
+const char* send_topic = &ldquo;efdi/led/luplaca&rdquo;; //CAMBIAR EL TOPICO</p>
+<p><strong>4. Código en Wokwi</strong> <br>
+Similar al anterior, pero con el SSID &ldquo;Wokwi-GUEST&rdquo; y sin contraseña:</p>
+<h1 id="include_2">include <WiFi.h><a class="headerlink" href="#include_2" title="Permanent link">&para;</a></h1>
+<h1 id="include_3">include <PubSubClient.h><a class="headerlink" href="#include_3" title="Permanent link">&para;</a></h1>
+<p>const char* ssid = &ldquo;Wokwi-GUEST&rdquo;;
+const char* password = &ldquo;&rdquo;;
+WiFiClient wifiClient;</p>
+<p>const char* mqttBroker = &ldquo;broker.hivemq.com&rdquo;;
+const char* mqttClientName = &ldquo;Clientelu&rdquo;; //CAMBIAR EL USUARIO
+const char* mqttUser = &ldquo;&rdquo;;
+const char* mqttPass = &ldquo;&rdquo;;
+const char* name_topic = &ldquo;efdi/led/luWokwi&rdquo;; //CAMBIAR EL TOPICO
+const char* send_topic = &ldquo;efdi/led/luplaca&rdquo;; //CAMBIAR EL TOPICO
+PubSubClient mqttClient(wifiClient);</p>
+<p>bool state = false;
+int LED = 13;
+int BUT = 0;</p>
+<p>void setup() {
+  Serial.begin(115200);</p>
+<p>pinMode(LED, OUTPUT);
+ pinMode(BUT, INPUT);</p>
+<p>// Connect to wifi
+ WiFi.mode(WIFI_STA);
+ WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+   delay(500);
+   Serial.print(&ldquo;.&rdquo;);
+ }
+  Serial.print(&ldquo;Connected to &ldquo;);
+ Serial.println(ssid);
+ Serial.print(&ldquo;IP address: &ldquo;);
+ Serial.println(WiFi.localIP());
+  // MQTT setup
+ mqttClient.setServer(mqttBroker, 1883);
+ mqttClient.setCallback(callback);
+}</p>
+<p>void loop() {
+ // Check if we are still connected to the MQTT broker
+ if (!mqttClient.connected()) {
+   mqttConnect();
+ }</p>
+<p>// Let PubSubClient library do his magic
+ mqttClient.loop();</p>
+<p>// Add your publish code here --------------------
+ if (!digitalRead(BUT)) {
+   publishMessage(send_topic, &ldquo;on&rdquo;, true);
+ }</p>
+<p>else{
+   publishMessage(send_topic, &ldquo;off&rdquo;, true);
+ }
+ delay(1000);
+}</p>
+<p>void mqttConnect() {
+  while (!mqttClient.connected()) {
+    Serial.print(&ldquo;Attempting MQTT connection&hellip;&rdquo;);
+    if (mqttClient.connect(mqttClientName, mqttUser, mqttPass)) {
+      Serial.println(&ldquo;connected&rdquo;);
+     mqttClient.publish(&ldquo;hello&rdquo;, mqttClientName);</p>
+<div class="codehilite"><pre><span></span><code> // Topic(s) subscription
+ //mqttClient.subscribe(send_topic);
+ mqttClient.subscribe(name_topic);
+} else {
+
+ Serial.print(&quot;failed, rc=&quot;);
+ Serial.print(mqttClient.state());
+ Serial.println(&quot; try again in 5 seconds&quot;);
+ delay(5000);
+</code></pre></div>
+
+<p>}
+ }
+}</p>
+<p>void callback(char* topic, byte* payload, unsigned int length) {
+ String incommingMessage = &ldquo;&rdquo;;
+ for (int i = 0; i &lt; length; i++){
+   incommingMessage += (char)payload[i];
+ }
+ Serial.println(&ldquo;Message arrived[&rdquo; + String(topic) + &ldquo;]&rdquo; + incommingMessage);
+ if(incommingMessage == &ldquo;on&rdquo;){
+   digitalWrite(13, HIGH);
+   Serial.println(&ldquo;LED ON&rdquo;);
+ }
+ else if(incommingMessage == &ldquo;off&rdquo;){
+   digitalWrite(13, LOW);
+   Serial.println(&ldquo;LED OFF&rdquo;);
+ }
+}</p>
+<p>//======================================= publising as string
+void publishMessage(const char* topic, String payload, boolean retained) {
+ if (mqttClient.publish(topic, payload.c_str(), true))
+   Serial.println(&ldquo;Message publised [&rdquo; + String(topic) + &ldquo;]: &rdquo; + payload);
+}</p>
+<p><img alt="Wifi" src="../../images/MT06/wifi.png" /></p>
+<h3 id="reflexione"><strong>Reflexione</strong><a class="headerlink" href="#reflexione" title="Permanent link">&para;</a></h3>
+<p>Para este módulo, nos reunimos presencialmente con Victoria, Franco y Edgardo. Trabajar en red nos permitió programar y entender mejor los protocolos de comunicación. Durante el proceso, nos enfrentamos a errores que buscamos la forma de solucionar y probamos intercambiar placas y cables de datos entre computadoras para identificar fallos. 
+Finalmente, logramos que todas las placas funcionan con los códigos y realizar el ejercicio.</p>
                 
                   
                     
