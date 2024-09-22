@@ -632,24 +632,24 @@
                 
                 <h1 id="mt06">MT06<a class="headerlink" href="#mt06" title="Permanent link">&para;</a></h1>
 <h2 id="networking"><strong>Networking</strong><a class="headerlink" href="#networking" title="Permanent link">&para;</a></h2>
-<h4 id="introduccion"><strong>Introducción</strong> <br><a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h4>
+<h4 id="introduccion"><strong>Introducción</strong><a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h4>
 <p>En este módulo revisamos el MT04 de Arduino, pero con la particularidad de que podemos programar de manera colaborativa con otras personas, incluso si no están en el mismo lugar físico, aprovechando el uso de redes.</p>
 <h4 id="glosario"><strong>Glosario</strong><a class="headerlink" href="#glosario" title="Permanent link">&para;</a></h4>
 <p><strong>Redes</strong><br />
-El uso de redes y protocolos de comunicación se basa en distribuir y conectar sistemas para:
-- <strong>Ubicación</strong>: Permite realizar tareas de procesamiento o gestión de hardware desde distintos lugares.
-- <strong>Paralelismo</strong>: Posibilita la ejecución de tareas en simultáneo.
-- <strong>Modularidad</strong>: Facilita el desarrollo de módulos con funciones específicas, haciéndolo escalable y más fácil de reparar.
-- <strong>Interferencia</strong>: Evita que los sistemas interfieran entre sí.</p>
+El uso de redes y protocolos de comunicación se basa en distribuir y conectar sistemas para: <br>
+- Ubicación: Permite realizar tareas de procesamiento o gestión de hardware desde distintos lugares. <br>
+- Paralelismo: Posibilita la ejecución de tareas en simultáneo. <br>
+- Modularidad: Facilita el desarrollo de módulos con funciones específicas, haciéndolo escalable y más fácil de reparar.<br>
+- Interferencia: Evita que los sistemas interfieran entre sí.</p>
 <p><strong>Protocolo vs Red</strong><br />
 Una red es un conjunto de ordenadores conectados mediante líneas de comunicación. Los protocolos son normas que definen cómo los dispositivos intercambian información.</p>
 <p><strong>Redes por cable</strong><br />
 El protocolo RX/TX es uno de los más conocidos.<br />
 En vehículos se utiliza CAN o LIN, en iluminación DMX, y en instrumentos electrónicos MIDI.</p>
 <p><strong>Protocolos</strong><br />
-- <strong>Radiofrecuencia</strong>: WiFi, ZigBee, Bluetooth, BLE, RFID, NFC.
-- <strong>Óptico</strong>: Infrarrojo, LiFi.
-- <strong>Acústico</strong>: AFSK.</p>
+- Radiofrecuencia: WiFi, ZigBee, Bluetooth, BLE, RFID, NFC. <br>
+- Óptico: Infrarrojo, LiFi. <br>
+- Acústico: AFSK.</p>
 <p><strong>ESP32</strong><br />
 Los dispositivos conectados a una red WiFi se llaman estaciones (STA), y un punto de acceso (PA) actúa como concentrador para estas estaciones. El PA se conecta a una red cableada, y suele estar integrado en un router, que a su vez permite el acceso a internet a través de la red WiFi. El nombre de la red es identificado por su SSID (Service Set Identifier).</p>
 <p><strong>MQTT</strong><br />
@@ -867,7 +867,7 @@ void publishMessage(const char* topic, String payload, boolean retained) {
    Serial.println(&ldquo;Message publised [&rdquo; + String(topic) + &ldquo;]: &rdquo; + payload);
 }</p>
 <p><img alt="Wifi" src="../../images/MT06/wifi.png" /></p>
-<h3 id="reflexione"><strong>Reflexione</strong><a class="headerlink" href="#reflexione" title="Permanent link">&para;</a></h3>
+<h3 id="reflexiones"><strong>Reflexiones</strong><a class="headerlink" href="#reflexiones" title="Permanent link">&para;</a></h3>
 <p>Para este módulo, nos reunimos presencialmente con Victoria, Franco y Edgardo. Trabajar en red nos permitió programar y entender mejor los protocolos de comunicación. Durante el proceso, nos enfrentamos a errores que buscamos la forma de solucionar y probamos intercambiar placas y cables de datos entre computadoras para identificar fallos. 
 Finalmente, logramos que todas las placas funcionan con los códigos y realizar el ejercicio.</p>
                 
