@@ -16,3 +16,7 @@ Quiero comenzar describiendo mi proceso y metodología de estudio y aprendizaje.
 De esta forma, fui creando la documentación. Primero, escribo el glosario con la información más teórica, haciendo un resumen de lo más importante e intentando expresarlo de otra manera. Después, documento el proceso, describiendo paso a paso lo que fui haciendo. Muchas veces, al encontrar un error, me olvidaba de documentarlo por concentrarme en solucionarlo, por lo que algunos errores no están detallados. Posteriormente, escribo la introducción y las reflexiones de cada módulo.
 
 Todos los textos están escritos por mí y pasados por corrección de redacción con ChatGPT, para acelerar el proceso y asegurar una redacción clara.
+
+![CHAT](../images/PROYECTO/chat.png)
+![GPT](../images/PROYECTO/gpt.png)
+
