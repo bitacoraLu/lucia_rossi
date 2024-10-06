@@ -5,4 +5,11 @@ hide:
 
 # Ideas Iniciales
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+###**Introducción**
+
+Acá iré documentando el proceso de las ideas que me han sido surgiendo en el correr del tiempo. 
+
+Además de esta bitácora, llevo un documento paraleo con todas las actualizaciones de mi proceso real. En esta bitácora, intentaré ser más ordenada 
+para facilitar la comprensión de quien lo lea. 
+
+Mi metodología de estudio y aprendizaje, es a través de las clases sincrónicas, que voy sacando apuntes, después leo la documentación que suben a la plataforma edu, donde están las diapositivas con información, 
