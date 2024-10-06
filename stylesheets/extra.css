@@ -7,7 +7,7 @@
     --md-footer-fg-color--light:  rgb(32, 32, 32);
     --mdc-typography-headline6-font-family: 'Be Vietnam', sans-serif;
     --mdc-typography-font-family: 'Be Vietnam', sans-serif;
-    --md-typeset-a-color: #1ba478;
+    --md-typeset-a-color: #4b2573;
 
 }
 
@@ -42,7 +42,7 @@
 }
 
 :root {
-  --md-primary-fg-color:        #FDD835;
-  --md-primary-fg-color--light: #FDD835;
-  --md-primary-fg-color--dark:  #FDD835;
+  --md-primary-fg-color:        #cfe035;
+  --md-primary-fg-color--light: #cfe035;
+  --md-primary-fg-color--dark:  #cfe035;
 }
