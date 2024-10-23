@@ -3,6 +3,10 @@ hide:
     - toc
 ---
 
+# Proyecto Integrador 
+
+## **Ideas iniciales**
+
 # Ideas Iniciales
 
 ###**Introducción**
