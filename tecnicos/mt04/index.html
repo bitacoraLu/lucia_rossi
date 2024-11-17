@@ -324,6 +324,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#glosario" class="md-nav__link">
+    Glosario
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -601,6 +608,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#glosario" class="md-nav__link">
+    Glosario
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -626,9 +640,82 @@
                   
                 
                 
-                <h1 id="mt04-tecnologia-y-fabricacion">MT04 Tecnología y Fabricación<a class="headerlink" href="#mt04-tecnologia-y-fabricacion" title="Permanent link">&para;</a></h1>
+                <hr />
+<p>hide:
+    - toc</p>
+<hr />
+<h1 id="mt04-tecnologia-y-fabricacion">MT04 Tecnología y Fabricación<a class="headerlink" href="#mt04-tecnologia-y-fabricacion" title="Permanent link">&para;</a></h1>
 <h2 id="introduccion-a-la-electronica-y-programacion-arduino-ide">**Introducción a la electrónica y programación (Arduino IDE) **<a class="headerlink" href="#introduccion-a-la-electronica-y-programacion-arduino-ide" title="Permanent link">&para;</a></h2>
-<h4 id="introduccion"><strong>Introducción</strong><a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h4>
+<h3 id="introduccion"><strong>Introducción</strong><a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h3>
+<h3 id="glosario"><strong>Glosario</strong><a class="headerlink" href="#glosario" title="Permanent link">&para;</a></h3>
+<p><strong><a href="https://arduino.cl/que-es-arduino/">Placa Arduino</a></strong></p>
+<p>La placa Arduino es una plataforma de hardware libre que integra un microcontrolador programable y una serie de pines hembra. Estos pines permiten conectar la placa a diferentes dispositivos de entrada y salida, facilitando la creación de sistemas electrónicos interactivos. Arduino es una herramienta clave para desarrollar proyectos que combinan software y hardware de manera sencilla.</p>
+<p><strong>¿Para qué sirve?</strong> <br>
+La placa Arduino es capaz de leer entradas como la luz detectada por un sensor, la presión de un botón o mensajes digitales, y transformar esas entradas en acciones, como encender un LED, activar un motor o incluso publicar datos en línea. Para realizar estas acciones, se escribe un conjunto de instrucciones (un programa) que se carga en el microcontrolador. Este programa se desarrolla en el <strong><em>Arduino IDE</em></strong>, un software que utiliza un lenguaje de programación basado en C/C++, diseñado para ser fácil de aprender y aplicar.</p>
+<p><strong>¿Por qué elegir Arduino?</strong> <br>
+Aunque existen otros microcontroladores en el mercado, Arduino es preferido por muchas razones, como económico, accesible, multiplataforma, fácil de usar, es de código abierto y extensible. </p>
+<p><strong>¿Qué es diseño de interacción?</strong> <br>
+El diseño de interacción se refiere a la creación de experiencias que permiten la interacción entre seres humanos y objetos, ya sea a través de interfaces físicas o digitales. En el caso de Arduino, este diseño se traduce en cómo los usuarios interactúan con sistemas electrónicos a través de entradas (sensores, botones) y salidas (motores, luces).</p>
+<p><strong>¿Qué es informática física?</strong> <br>
+La informática física implica construir sistemas interactivos que respondan al entorno físico utilizando hardware y software. Esto puede incluir la captura de datos del mundo real mediante sensores, y la generación de respuestas físicas o digitales en consecuencia, como encender luces o activar mecanismos.</p>
+<p><strong>¿Qué es una placa electrónica?</strong> <br>
+Una placa electrónica es una placa de circuito impreso (PCB), que es la forma más eficiente y compacta de ensamblar un circuito electrónico. La placa Arduino es, esencialmente, una PCB con un diseño de circuitos predefinido, lo que permite a los usuarios concentrarse en la programación y el desarrollo de aplicaciones sin preocuparse por las conexiones eléctricas subyacentes.</p>
+<p><strong>Modelos de Arduino</strong> <br>
+Arduino ofrece una amplia gama de modelos, cada uno diseñado para diferentes aplicaciones y necesidades. Estos modelos varían en tamaño físico, número de pines, tipo de microcontrolador y otras características. Sin embargo, la mayoría comparte un conjunto común de librerías de software, arquitectura y documentación, lo que facilita el desarrollo y la compatibilidad entre diferentes placas.</p>
+<p><strong>¿Qué es un microcontrolador?</strong> <br>
+Un microcontrolador es un circuito integrado que contiene una unidad central de procesamiento (CPU), memoria y periféricos de entrada y salida. Es responsable de ejecutar las órdenes almacenadas en su memoria, permitiendo que el sistema realice las tareas programadas.</p>
+<p><strong>Conceptos básicos de electricidad</strong></p>
+<ul>
+<li>
+<p>Electrón (-), Protón (+) y Neutrón: Son las partículas fundamentales de los átomos que conforman los materiales.</p>
+</li>
+<li>
+<p>Voltaje (V): Es la diferencia de potencial entre dos puntos de un circuito, medida en voltios (V). Representa la energía disponible para mover los electrones a través de un circuito. El voltaje puede ser alterno (AC), como el que se encuentra en los enchufes, o continuo (DC), como el de una batería.</p>
+</li>
+<li>
+<p>Corriente (I): Es el flujo de electrones que se desplazan a través de un conductor debido a una diferencia de voltaje, y se mide en amperios (A). Cuantos más electrones se muevan, mayor será la corriente.</p>
+</li>
+<li>
+<p>Resistencia (R): Es la oposición al flujo de corriente en un circuito, medida en ohmios (Ω). La resistencia controla cuánta corriente puede fluir a través de un circuito.</p>
+</li>
+</ul>
+<p><strong>Ley de Ohm</strong> <br>
+La Ley de Ohm establece que <span class="arithmatex"><span class="MathJax_Preview"> V = I \times R </span><script type="math/tex"> V = I \times R </script></span>, es decir, el voltaje (V) es igual a la corriente (I) multiplicada por la resistencia (R). Esto significa que si la resistencia es alta, la corriente será baja, y viceversa. Si la resistencia es casi nula, la corriente puede ser excesiva, lo que podría causar un cortocircuito.</p>
+<ul>
+<li>Corto circuito: Ocurre cuando hay una resistencia muy baja, permitiendo que una gran cantidad de corriente fluya de manera descontrolada. Esto puede dañar el circuito. <br></li>
+<li>Circuito abierto: Ocurre cuando no hay flujo de corriente debido a una interrupción en el circuito.</li>
+</ul>
+<p><strong>Control de flujo eléctrico</strong> <br>
+En un circuito, se puede controlar el flujo de electrones usando un interruptor. Cuando el circuito está cerrado, los electrones fluyen, generando corriente. Al abrir el circuito, se interrumpe el flujo de electrones, deteniendo la corriente. Esto es esencial para diseñar sistemas que reaccionen o se apaguen cuando sea necesario.</p>
+<p><strong>Arduino uno</strong> </p>
+<p><strong>Kit Arduino Uno</strong> <br>
+El Kit Arduino Uno es una de las opciones más completas para quienes desean iniciarse en el mundo de la electrónica y la programación. Este kit incluye una placa Arduino Uno, acompañada de una variedad de componentes y accesorios que permiten realizar una amplia gama de proyectos electrónicos interactivos. Al adquirir un kit de Arduino, los usuarios tienen todo lo necesario para aprender los conceptos básicos de la informática física y desarrollar proyectos prácticos desde el principio.</p>
+<p><strong>Componentes del Kit Arduino Uno</strong> <br>
+El kit suele incluir varios componentes esenciales que permiten experimentar con las diferentes capacidades de Arduino. <br>
+Algunos de estos componentes son: <br>
+- Placa Arduino Uno: La placa principal del kit, equipada con un microcontrolador y pines de entrada y salida. <br>
+- Cables de conexión (Jumpers): Se utilizan para realizar conexiones rápidas entre los diferentes componentes y la placa. <br>
+- LEDs: Diodos emisores de luz que permiten realizar proyectos básicos de iluminación y señales visuales. <br>
+- Resistencias: Controlan la cantidad de corriente que pasa a través de un circuito. <br>
+- Pulsadores: Permiten activar o desactivar un circuito cuando se presionan. <br>
+- Sensores: Dispositivos que permiten captar información del entorno, como luz, temperatura, humedad, distancia (ultrasónico), movimiento, presión, gas, acelerómetro y micrófono. <br>
+- Actuadores: dispositivos que permiten convertir las señales eléctricas procesadas por arduino en acciones físicas, como leds, servomotores, motores DC, relés, buzzer o zumbador, pantalla LCD, vibrador, termistores. <br>
+- Potenciómetros: Resistencia variable utilizada para ajustar niveles de voltaje. </p>
+<p><strong>Entradas y Salidas en Arduino</strong> <br>
+Arduino se destaca por su capacidad para interactuar con el entorno mediante entradas y salidas programables. Estas entradas y salidas pueden ser de dos tipos: digitales o analógicas, y son fundamentales para controlar los dispositivos conectados a la placa.</p>
+<p>Pines Digitales <br>
+Los pines digitales en Arduino son capaces de trabajar con señales que solo pueden adoptar dos valores: alto (1) o bajo (0). Este tipo de señal es binaria y se utiliza en situaciones donde solo se requieren dos estados, como encender o apagar un LED, o detectar si un botón está presionado o no. Por ejemplo, un interruptor de luz es una entrada digital, ya que solo tiene dos estados posibles: encendido o apagado.</p>
+<p>Pines Analógicos <br>
+Por otro lado, los pines analógicos permiten trabajar con señales en las que el voltaje puede variar continuamente dentro de un rango específico. Las señales analógicas son útiles cuando es necesario medir niveles intermedios de voltaje, como al usar un sensor de temperatura o un potenciómetro. En el caso de la corriente alterna, la señal analógica fluctúa entre valores positivos y negativos en ciclos repetidos. Arduino convierte estas señales analógicas en valores digitales utilizables en los programas, a través de un proceso llamado conversión analógica-digital.</p>
+<p><strong>Arduino Software (IDE) y Bocetos (Sketches)</strong> <br>
+El Arduino Software (IDE) es el entorno donde se escribe y se carga el código que controla la placa Arduino. Dentro del IDE, los programas se llaman bocetos o sketches, y se guardan con la extensión .ino. <br>
+El IDE tiene varias herramientas clave: <br>
+- Editor de texto: Permite escribir y editar el código, con funciones como cortar, pegar, buscar y reemplazar texto.
+Área de mensajes: Muestra notificaciones, errores y comentarios sobre las acciones realizadas, como guardar o cargar el código. <br>
+- Consola de texto: Proporciona detalles de los procesos, incluidos los errores de compilación o carga. <br>
+- Barra de herramientas: Facilita acciones comunes como verificar, cargar, crear, abrir y guardar bocetos, además de abrir el monitor en serie para ver la comunicación entre la placa y la computadora. <br>
+- Esquina inferior derecha: Muestra la placa Arduino seleccionada y el puerto serie conectado. <br>
+- Los bocetos son las instrucciones que el Arduino sigue para controlar sus componentes y se cargan desde el IDE a la placa mediante un cable USB.</p>
                 
                   
                     
