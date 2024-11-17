@@ -15,6 +15,7 @@ Mi trabajo está profundamente influenciado por el transfeminismo, la teoría qu
 Con la Especialización en Fabricación Digital e Innovación, busco seguir formándome para expandir mis conocimientos y adquirir nuevas herramientas innovadoras, contribuyendo a la sociedad y la cultura desde una perspectiva de equidad.
 
 
-_Contacto:_
-mlurossi@gmail.com 
-+598 98973770
+
+_Contacto:_ <br>
+mlurossi@gmail.com <br> 
++598 98973770 
