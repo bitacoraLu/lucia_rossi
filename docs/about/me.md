@@ -14,3 +14,7 @@ He participado en la creación de vestuario para diversas obras de teatro y danz
 Mi trabajo está profundamente influenciado por el transfeminismo, la teoría queer y la diversidad. Me interesa que el diseño sea funcional y estético, reflejando la identidad de cada proyecto. <br>
 Con la Especialización en Fabricación Digital e Innovación, busco seguir formándome para expandir mis conocimientos y adquirir nuevas herramientas innovadoras, contribuyendo a la sociedad y la cultura desde una perspectiva de equidad.
 
+
+_Contacto:_
+mlurossi@gmail.com 
++598 98973770
