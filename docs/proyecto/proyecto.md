@@ -79,6 +79,7 @@ Con las mismas proporciones de resina, añadí retazos irregulares de 2x2 cm al 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wKuC34P97oA?si=n7anEU73CoDyBaIh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+![Pruebas](../images/PROYECTO/pruebas.jpeg)
 
 **Investigación sobre paneles acústicos**
 
