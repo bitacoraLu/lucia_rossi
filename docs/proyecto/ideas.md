@@ -33,17 +33,13 @@ En la siguiente pestaña, desarrollaré la idea que elegí y en la que estoy tra
 **Idea: PELUCHES**
 
 **¿Quiénes son mis usuarios? ¿Qué necesidades tienen?** <br>
-Mis usuarios son principalmente niñes y adultes. Tienen la necesidad de encontrar juguetes que fomenten el apego y la identificación, así como la inclusión de diversas identidades y expresiones de género. Los diseños de los peluches deben reflejar esta diversidad, promoviendo una relación afectiva más abierta y diversa.
-
+Mis usuarios son principalmente niñes y adultes. Tienen la necesidad de encontrar juguetes que fomenten el apego y la identificación, así como la inclusión de diversas identidades y expresiones de género. Los diseños de los peluches deben reflejar esta diversidad, promoviendo una relación afectiva más abierta y diversa. <br>
 **¿Cuál es el problema?** <br>
-El mercado actual ofrece una mayoría de juguetes de plástico que siguen normas heteronormativas y estereotipos de género. Esto limita la diversidad y la creatividad en la infancia y adultez. Mi objetivo es diseñar peluches que reflejen la diversidad e inclusión, promoviendo la creatividad y fomentando una elección sin desperdicio, creando un impacto positivo tanto en niñes como en adultes.
-
+El mercado actual ofrece una mayoría de juguetes de plástico que siguen normas heteronormativas y estereotipos de género. Esto limita la diversidad y la creatividad en la infancia y adultez. Mi objetivo es diseñar peluches que reflejen la diversidad e inclusión, promoviendo la creatividad y fomentando una elección sin desperdicio, creando un impacto positivo tanto en niñes como en adultes. <br>
 **¿Cuál es mi idea creativa?** <br>
-Desarrollar una plataforma accesible que permita a les usuaries diseñar sus propios peluches personalizados. Esta plataforma será inclusiva y permitirá que personas con diversas habilidades, gustos e identidades creen peluches que representen su individualidad. Además, se buscará que la producción de los peluches sea consciente y sostenible.
-
+Desarrollar una plataforma accesible que permita a les usuaries diseñar sus propios peluches personalizados. Esta plataforma será inclusiva y permitirá que personas con diversas habilidades, gustos e identidades creen peluches que representen su individualidad. Además, se buscará que la producción de los peluches sea consciente y sostenible. <br>
 **¿Cómo lo prototipo? ¿Qué materiales uso?** <br>
-Comenzaré creando moldes predeterminados que puedan adaptarse a diferentes estilos y preferencias, permitiendo su personalización. Los materiales principales serán textiles sostenibles, combinados con piezas hechas mediante impresión 3D para asegurar la adaptabilidad y la modularidad de los diseños.
-
+Comenzaré creando moldes predeterminados que puedan adaptarse a diferentes estilos y preferencias, permitiendo su personalización. Los materiales principales serán textiles sostenibles, combinados con piezas hechas mediante impresión 3D para asegurar la adaptabilidad y la modularidad de los diseños. <br>
 **¿En qué comunidad lo pongo a prueba?** <br>
 Mi comunidad de prueba inicial serán padres, madres y niñes, para evaluar la respuesta y recoger retroalimentación sobre los diseños y la funcionalidad de los peluches personalizados.
 
@@ -54,17 +50,13 @@ _Referencias_
 **Idea: ESI**: 
 
 **¿Quiénes son mis usuarios? ¿Qué necesidades tienen?** <br>
-Mis usuarios principales son educadores sexuales y familiares de niñeces. Tienen la necesidad de contar con herramientas lúdicas que permitan enseñar Educación Sexual Integral (ESI) de manera accesible y respetuosa, abordando la diversidad sexual y de género. A través del juego, se busca facilitar la enseñanza de ESI en un ambiente inclusivo y comprensible.
-
+Mis usuarios principales son educadores sexuales y familiares de niñeces. Tienen la necesidad de contar con herramientas lúdicas que permitan enseñar Educación Sexual Integral (ESI) de manera accesible y respetuosa, abordando la diversidad sexual y de género. A través del juego, se busca facilitar la enseñanza de ESI en un ambiente inclusivo y comprensible. <br>
 **¿Cuál es el problema? ¿Cuál es el objetivo?** <br>
-El problema es la falta de recursos tangibles y accesibles para la enseñanza de la ESI. El objetivo es desarrollar herramientas que promuevan la educación sexual integral, inclusiva y accesible para todes, facilitando la comprensión de temas relacionados con la sexualidad, el cuerpo y la diversidad.
-
+El problema es la falta de recursos tangibles y accesibles para la enseñanza de la ESI. El objetivo es desarrollar herramientas que promuevan la educación sexual integral, inclusiva y accesible para todes, facilitando la comprensión de temas relacionados con la sexualidad, el cuerpo y la diversidad. <br>
 **¿Cuál es mi idea creativa?** <br>
-La idea es crear juegos interactivos que representen temas como los ciclos menstruales, las vulvas y los penes, entre otros. Estos juegos funcionarían como una herramienta educativa accesible para diferentes grupos demográficos. Si se desarrollan en formato digital, podrían distribuirse como software educativo de código abierto (open source), ampliando su alcance y beneficiando a más personas.
-
+La idea es crear juegos interactivos que representen temas como los ciclos menstruales, las vulvas y los penes, entre otros. Estos juegos funcionarían como una herramienta educativa accesible para diferentes grupos demográficos. Si se desarrollan en formato digital, podrían distribuirse como software educativo de código abierto (open source), ampliando su alcance y beneficiando a más personas. <br>
 **¿Cómo lo prototipo? ¿Qué materiales uso?** <br>
-El prototipado inicial se realizará utilizando cartón. Posteriormente, se puede evolucionar el diseño empleando tecnologías como el corte láser o la impresión 3D. Además, se podrían incorporar luces u otros elementos interactivos para mejorar la experiencia educativa.
-
+El prototipado inicial se realizará utilizando cartón. Posteriormente, se puede evolucionar el diseño empleando tecnologías como el corte láser o la impresión 3D. Además, se podrían incorporar luces u otros elementos interactivos para mejorar la experiencia educativa. <br>
 **¿En qué comunidad lo pongo a prueba?** <br>
 La comunidad de prueba serán centros educativos que trabajen con infancias, donde se podrá evaluar la efectividad del recurso educativo y recoger retroalimentación de educadores y estudiantes.
 
@@ -74,17 +66,13 @@ _Referencias_ <br>
 **Idea: CONTENEDORES** 
 
 **¿Quiénes son mis usuarios? ¿Qué necesidades tienen?** <br>
-Mis usuarios son la ciudadanía en general, que necesita encontrar maneras de darle valor a los desechos encontrados en la calle y contribuir al reciclaje y al cuidado del entorno urbano.
-
+Mis usuarios son la ciudadanía en general, que necesita encontrar maneras de darle valor a los desechos encontrados en la calle y contribuir al reciclaje y al cuidado del entorno urbano. <br>
 **¿Cuál es el problema? ¿Cuál es el objetivo?** <br>
-El problema es que las personas arrojan papeles, plásticos y otros desechos al piso en lugar de reciclarlos. El objetivo es reducir la cantidad de basura en las calles, incentivando a las personas a no tirar desechos y a participar en el reciclaje mediante un sistema de intercambio que premie sus acciones.
-
+El problema es que las personas arrojan papeles, plásticos y otros desechos al piso en lugar de reciclarlos. El objetivo es reducir la cantidad de basura en las calles, incentivando a las personas a no tirar desechos y a participar en el reciclaje mediante un sistema de intercambio que premie sus acciones. <br>
 **¿Cuál es mi idea creativa?** <br>
-La idea es crear un contenedor de intercambio que asigne valor a los desechos reciclables. Al depositar papeles o plásticos, las personas podrán recibir algo a cambio, como un ticket con valor monetario, productos, comida, u otros incentivos. Este sistema buscará fomentar hábitos de reciclaje en la comunidad.
-
+La idea es crear un contenedor de intercambio que asigne valor a los desechos reciclables. Al depositar papeles o plásticos, las personas podrán recibir algo a cambio, como un ticket con valor monetario, productos, comida, u otros incentivos. Este sistema buscará fomentar hábitos de reciclaje en la comunidad. <br>
 **¿Cómo lo prototipo? ¿Qué materiales uso?** <br>
-El prototipo se realizará utilizando MDF cortado con láser para la estructura del contenedor, y se integrará un sistema controlado por Arduino para gestionar el reconocimiento de los materiales depositados y la entrega de recompensas.
-
+El prototipo se realizará utilizando MDF cortado con láser para la estructura del contenedor, y se integrará un sistema controlado por Arduino para gestionar el reconocimiento de los materiales depositados y la entrega de recompensas. <br>
 **¿En qué comunidad lo pongo a prueba?** <br>
 La comunidad de prueba será el barrio, donde se podrá evaluar la respuesta de la ciudadanía al sistema de intercambio y su impacto en la reducción de desechos en las calles.
 
@@ -95,17 +83,13 @@ _Referencias_ <br>
 **Idea: LUMINARIAS** 
 
 **¿Quiénes son mis usuarios? ¿Qué necesidades tienen?** <br>
-Mis usuarios son productores de eventos, quienes necesitan luminarias portátiles y económicas que puedan utilizar en lugares donde no siempre hay acceso a electricidad cercana.
-
+Mis usuarios son productores de eventos, quienes necesitan luminarias portátiles y económicas que puedan utilizar en lugares donde no siempre hay acceso a electricidad cercana. <br>
 **¿Cuál es el problema? ¿Cuál es el objetivo?** <br>
-El problema es la falta de acceso a electricidad en ciertos lugares durante la realización de eventos, lo que dificulta la iluminación adecuada. El objetivo es desarrollar soluciones de iluminación inalámbrica y móvil, que sean fáciles de transportar e instalar, sin depender de la red eléctrica.
-
+El problema es la falta de acceso a electricidad en ciertos lugares durante la realización de eventos, lo que dificulta la iluminación adecuada. El objetivo es desarrollar soluciones de iluminación inalámbrica y móvil, que sean fáciles de transportar e instalar, sin depender de la red eléctrica. <br>
 **¿Cuál es mi idea creativa?** <br>
-Mi idea es crear luminarias inalámbricas y móviles que puedan utilizarse en distintos tipos de eventos. Estas luminarias serían recargables, fáciles de mover y de instalar en diferentes configuraciones, proporcionando flexibilidad a los productores de eventos.
-
+Mi idea es crear luminarias inalámbricas y móviles que puedan utilizarse en distintos tipos de eventos. Estas luminarias serían recargables, fáciles de mover y de instalar en diferentes configuraciones, proporcionando flexibilidad a los productores de eventos. <br>
 **¿Cómo lo prototipo? ¿Qué materiales uso?** <br>
-El prototipo se desarrollará utilizando Arduino para el control de la iluminación, corte láser para las estructuras, impresión 3D para componentes específicos y telas iluminadas. También se incorporarán elementos inflables hechos de tela, con luz interior, para crear efectos visuales atractivos y únicos.
-
+El prototipo se desarrollará utilizando Arduino para el control de la iluminación, corte láser para las estructuras, impresión 3D para componentes específicos y telas iluminadas. También se incorporarán elementos inflables hechos de tela, con luz interior, para crear efectos visuales atractivos y únicos. <br>
 **¿En qué comunidad lo pongo a prueba?** <br>
 La comunidad de prueba serán distintos eventos, donde se podrá evaluar la funcionalidad, eficiencia y recepción de las luminarias por parte de los productores y el público.
 
@@ -116,17 +100,13 @@ _Referencia_
 **Idea: TEXTILES**
 
 **¿Quiénes son mis usuarios? ¿Qué necesidades tienen?** <br>
-Mis usuarios son diseñadores y otres profesionales que buscan innovar en la moda sostenible. Necesitan soluciones que permitan modificar las telas para hacer las prendas más adaptables y sostenibles. Además, buscan facilitar ropa accesible para personas de diferentes tamaños y formas corporales, promoviendo la inclusión en el diseño de indumentaria.
-
+Mis usuarios son diseñadores y otres profesionales que buscan innovar en la moda sostenible. Necesitan soluciones que permitan modificar las telas para hacer las prendas más adaptables y sostenibles. Además, buscan facilitar ropa accesible para personas de diferentes tamaños y formas corporales, promoviendo la inclusión en el diseño de indumentaria. <br>
 **¿Cuál es el problema? ¿Cuál es el objetivo?** <br>
-El problema es el desperdicio de prendas y la limitada adaptabilidad de la ropa a diferentes tipos de cuerpos. El objetivo es salir del concepto de "second hand" y favorecer la inclusividad en la moda, creando prendas que se ajusten dinámicamente a las necesidades de cada persona, adaptándose a distintos cuerpos y estilos de vida.
-
+El problema es el desperdicio de prendas y la limitada adaptabilidad de la ropa a diferentes tipos de cuerpos. El objetivo es salir del concepto de "second hand" y favorecer la inclusividad en la moda, creando prendas que se ajusten dinámicamente a las necesidades de cada persona, adaptándose a distintos cuerpos y estilos de vida. <br>
 **¿Cuál es mi idea creativa?** <br>
-La idea es desarrollar prendas que puedan ajustarse automáticamente, encogiéndose o expandiéndose según el tamaño y la forma del cuerpo de la persona. Este enfoque permitiría crear ropa más funcional y duradera, con una mayor adaptabilidad a diferentes contextos. Además, los diseños podrían compartirse como open source, abriendo nuevas oportunidades comerciales y fomentando la innovación colaborativa.
-
+La idea es desarrollar prendas que puedan ajustarse automáticamente, encogiéndose o expandiéndose según el tamaño y la forma del cuerpo de la persona. Este enfoque permitiría crear ropa más funcional y duradera, con una mayor adaptabilidad a diferentes contextos. Además, los diseños podrían compartirse como open source, abriendo nuevas oportunidades comerciales y fomentando la innovación colaborativa. <br>
 **¿Cómo lo prototipo? ¿Qué materiales uso?** <br>
-El prototipo se desarrollará utilizando impresión 3D para crear elementos ajustables en las prendas. Además, se investigarán nuevos materiales y técnicas que sean cómodos, adaptables y respetuosos con el medio ambiente. Estos materiales deberán ser inclusivos, adecuados para diferentes géneros, orientaciones sexuales y tipos de cuerpos, promoviendo la moda como un espacio de diversidad.
-
+El prototipo se desarrollará utilizando impresión 3D para crear elementos ajustables en las prendas. Además, se investigarán nuevos materiales y técnicas que sean cómodos, adaptables y respetuosos con el medio ambiente. Estos materiales deberán ser inclusivos, adecuados para diferentes géneros, orientaciones sexuales y tipos de cuerpos, promoviendo la moda como un espacio de diversidad. <br>
 **¿En qué comunidad lo pongo a prueba?** <br>
 El proyecto se pondrá a prueba en mi propia comunidad, para evaluar la funcionalidad de las prendas y su recepción por parte de diferentes usuarios.
 
