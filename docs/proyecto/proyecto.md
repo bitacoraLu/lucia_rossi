@@ -19,6 +19,10 @@ Metodología de Bruno Munari compartida por [Edgardo](https://edg-saracho.github
 
 ### **Documentación del proceso**
 
+
+![Boceto](../images/PROYECTO/boceto.png.png)
+
+
 **Recolección de Materiales**
 
 Comencé recolectando telas en desuso de prendas que ya no utilizaba.
