@@ -20,7 +20,7 @@ Metodología de Bruno Munari compartida por [Edgardo](https://edg-saracho.github
 ### **Documentación del proceso**
 
 
-![Boceto](../images/PROYECTO/boceto.png.png)
+![Boceto](../images/PROYECTO/boceto.png)
 
 
 **Recolección de Materiales**
