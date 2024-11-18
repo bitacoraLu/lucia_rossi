@@ -44,7 +44,7 @@ Construí un molde de 11x11 cm y 5 cm de altura, suficiente para acomodar las ca
 Materiales preparados: <br>
 Olla, papel manteca, molde, resina de pino, cera, alcohol, jeringa, balanza, recipiente, cuchara, nylon para cubrir la superficie de trabajo.
 
-![materiales](../images/PROYECTO/materiales.png
+![materiales](../images/PROYECTO/materiales.png)
 
 
 **Proceso de Fabricación**
@@ -81,7 +81,7 @@ Absorben las ondas sonoras para evitar que reboten y vuelvan al ambiente, mejora
 Paneles difusores:<br>
 Dispersan las ondas sonoras para distribuirlas de manera uniforme en el espacio, evitando ecos y concentraciones de ruido.
 
-_Referencias_
+_Referencias_ <br>
 [Materiales reciclados aislántes](https://www.lowes.com/pd/UltraTouch-R-13-Recycled-Denim-Batt-Insulation-with-Sound-Barrier-15-in-W-x-93-in-L/3731875) <br> 
 [Paneles acústicos Akoomi](https://drive.google.com/file/d/10_VzfLcdcONdSLz5rLfXs6bQGcGkz-Q0/view) <br> 
 [Patrones de paneles acústicos](https://www.etsy.com/shop/Ecosounds?ref=simple-shop-header-name&listing_id=1266783071&sort_order=price_desc&page=1&epik=dj0yJnU9eF9BTl9tQ0hOa0QtSjdHTWNjSWY4WEszM2pyd1dsX3ImcD0wJm49NEdiWUJ2NUduaU96VDRhZk1JOWs3USZ0PUFBQUFBR2NvQXFr#items/?) <br> 
