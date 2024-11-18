@@ -67,8 +67,8 @@ A diferencia de la primera, volqué el líquido de la receta directamente sobre 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ntugpAMKMEA?si=tqD15RpgWiwpyQ2r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**3. Segunda Prueba** <br>
-Ajusté las proporciones: 100 g de resina, 50 ml de alcohol y 8 g de cera. <br>
+**3. Tercera Prueba** <br>
+Ajusté las proporciones y las multipliqué: 100 g de resina, 50 ml de alcohol y 8 g de cera. <br>
 Utilicé la mezcla directamente desde la olla, aplicándola entre las capas. Dejé secar 30 minutos. El resultado mejoró, aunque no se logró cubrir todas las capas de tela.
 
 **4. Cuarta Prueba** <br>
@@ -77,12 +77,18 @@ Colocaba las capas de tela en pares, esta vez seleccionando un material con mezc
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qCLFxvdYhIA?si=qzFv_C4Jx5lw7RdX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+**5. Quinta Prueba** <br>
+Utilicé las mismas proporciones que la prueba anterior. <br>
+Colocaba las capas de tela en pares, esta vez seleccionando un material con mezcla de fibras naturales y sintéticas de mayor espesor. Dejé secar una hora. <br>
+
 **6. Sexta Prueba** <br>
 Con las mismas proporciones de resina, añadí retazos irregulares de 2x2 cm al molde. <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wKuC34P97oA?si=n7anEU73CoDyBaIh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ![Pruebas](../images/PROYECTO/pruebas.jpeg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Eo0C06jTDBA?si=TbOQtqwoq26Tnlje" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Investigación sobre paneles acústicos**
 
@@ -111,3 +117,6 @@ PASOS A SEGUIR:
 **Evaluación del material:** Medir la resistencia, flexibilidad y durabilidad de las placas fabricadas.
 Realizar pruebas acústicas para determinar su capacidad como absorbente o difusor de sonido.<br>
 **Prueba de sensores:** Integrar un sensor de ruido para evaluar su funcionamiento en combinación con las placas acústicas
+
+
+
