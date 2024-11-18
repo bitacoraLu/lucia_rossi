@@ -43,7 +43,7 @@ Comenzaré creando moldes predeterminados que puedan adaptarse a diferentes esti
 **¿En qué comunidad lo pongo a prueba?** <br>
 Mi comunidad de prueba inicial serán padres, madres y niñes, para evaluar la respuesta y recoger retroalimentación sobre los diseños y la funcionalidad de los peluches personalizados.
 
-_Referencias_
+_Referencias_ <br>
 [Peluche personalizado](https://piccoloartista.com/es/peluche-personalizado/) <br>
 [Bloques que forman personajes](https://distributeddesign.eu/talent/kuti-kuti/)
 
@@ -93,7 +93,7 @@ El prototipo se desarrollará utilizando Arduino para el control de la iluminaci
 **¿En qué comunidad lo pongo a prueba?** <br>
 La comunidad de prueba serán distintos eventos, donde se podrá evaluar la funcionalidad, eficiencia y recepción de las luminarias por parte de los productores y el público.
 
-_Referencia_ 
+_Referencia_ <br>
 [Impresión 3D con distintos materiales](https://lamaquina.io/sustainability/)
 
 
