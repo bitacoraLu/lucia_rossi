@@ -10,7 +10,7 @@ hide:
 ### **Introducción**
 
 Acá documentaré el proceso de este proyecto integrador final que fui haciendo hasta el momento. <br>
-Subiré la presentación luedo del 19 de diciembre. 
+Subiré la presentación luego del 19 de diciembre. 
 
 
 ### **Documentación del proceso**
@@ -19,8 +19,8 @@ Subiré la presentación luedo del 19 de diciembre.
 
 Comencé recolectando telas en desuso de prendas que ya no utilizaba.
 
-**1. Selección y Clasificación de Telas**
-Paso 1: Seleccioné distintos tipos de telas y realicé una muestra para determinar su composición mediante la técnica del quemado. Las clasifiqué como tejidos de punto y tejidos planos. (Tiempo: 30 minutos) <br>
+**1. Selección y Clasificación de Telas** <br>
+Seleccioné distintos tipos de telas y realicé una muestra para determinar su composición mediante la técnica del quemado. Las clasifiqué como tejidos de punto y tejidos planos. (Tiempo: 30 minutos) <br>
 
 ![COMPOSICION](../images/PROYECTO/composicion.png)
 
@@ -30,6 +30,7 @@ Creé un molde de cartón tamaño A4 para cortar las telas en esa medida. Por ca
 ![tijera](../images/PROYECTO/previa.png)
 
 Luego, recorté las telas en piezas de aproximadamente 10x10 cm. Cada tela resultó en 12 capas debido a las diferencias de espesor. (Tiempo: 1 hora)
+
 ![textiles](../images/PROYECTO/textiles.png)
 
 
@@ -43,7 +44,7 @@ Construí un molde de 11x11 cm y 5 cm de altura, suficiente para acomodar las ca
 Materiales preparados: <br>
 Olla, papel manteca, molde, resina de pino, cera, alcohol, jeringa, balanza, recipiente, cuchara, nylon para cubrir la superficie de trabajo.
 
-![materiales](../images/PROYECTO/materiales.png)
+![materiales](../images/PROYECTO/materiales.png
 
 
 **Proceso de Fabricación**
