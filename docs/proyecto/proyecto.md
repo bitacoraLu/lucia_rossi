@@ -68,13 +68,13 @@ Intenté unir las capas con un pincel, pero la mezcla se secó demasiado rápido
 Ajusté las proporciones: 100 g de resina, 50 ml de alcohol y 8 g de cera. <br>
 Utilicé la mezcla directamente desde la olla, aplicándola entre las capas. Dejé secar 30 minutos. El resultado mejoró, aunque no se logró cubrir todas las capas de tela.
 
-**3. Tercera Prueba** <br>
+**4. Cuarta Prueba** <br>
 Utilicé las mismas proporciones que la prueba anterior. <br>
 Colocaba las capas de tela en pares, esta vez seleccionando un material con mezcla de fibras naturales y sintéticas de mayor espesor. Dejé secar una hora. <br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qCLFxvdYhIA?si=qzFv_C4Jx5lw7RdX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**4. Cuarta Prueba** <br>
+**6. Sexta Prueba** <br>
 Con las mismas proporciones de resina, añadí retazos irregulares de 2x2 cm al molde. <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wKuC34P97oA?si=n7anEU73CoDyBaIh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
