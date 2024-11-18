@@ -3,11 +3,9 @@ hide:
     - toc
 ---
 
-# Proyecto Integrador 
+# PF01-02 IDEAS INICIALES
 
 ## **Ideas iniciales**
-
-# Ideas Iniciales
 
 ### **Introducción**
 

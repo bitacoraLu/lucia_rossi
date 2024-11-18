@@ -3,9 +3,9 @@ hide:
     - toc
 ---
 
-# PF01-02 IDEAS INICIALES
+# PF01-02 PROYECTO FINAL
 
-## **Ideas iniciales**
+## **Proyecto final**
 
 ### **Introducción**
 
