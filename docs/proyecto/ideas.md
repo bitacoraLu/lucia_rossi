@@ -26,7 +26,6 @@ Todos los textos están escritos por mí y pasados por corrección de redacción
 ### **Documentación del proceso**
 
 Aquí compartiré las ideas iniciales de los proyectos que se me han ocurrido este año, inspirados en los módulos de fabricación digital y metodologías de diseño, y que me gustaría ejecutar en el futuro. <br>
-En la siguiente pestaña, desarrollaré la idea que elegí y en la que estoy trabajando e investigando actualmente.
 
 **Idea: PELUCHES**
 
@@ -45,7 +44,7 @@ _Referencias_ <br>
 [Peluche personalizado](https://piccoloartista.com/es/peluche-personalizado/) <br>
 [Bloques que forman personajes](https://distributeddesign.eu/talent/kuti-kuti/)
 
-**Idea: ESI**: 
+**Idea: ESI**
 
 **¿Quiénes son mis usuarios? ¿Qué necesidades tienen?** <br>
 Mis usuarios principales son educadores sexuales y familiares de niñeces. Tienen la necesidad de contar con herramientas lúdicas que permitan enseñar Educación Sexual Integral (ESI) de manera accesible y respetuosa, abordando la diversidad sexual y de género. A través del juego, se busca facilitar la enseñanza de ESI en un ambiente inclusivo y comprensible. <br>
@@ -124,3 +123,33 @@ _Referencias_ <br>
 [Textiles activos con luz](https://selfassemblylab.mit.edu/active-textile/) <br>
 [Textiles activos cambian de forma con el calor y humedad](https://selfassemblylab.mit.edu/active-textile-tailoring/) <br>
 [Vestido de punto 4D](https://selfassemblylab.mit.edu/4d-knit-dress) <br>
+
+
+**Idea: PANELES** <br>
+Paneles acústicos con textiles en desuso 
+
+**¿Quiénes son mis usuarios? ¿Qué necesidades tienen?** <br>
+Mis usuarios son arquitectos, diseñadores de interiores, constructores y desarrolladores de proyectos sostenibles, así como particulares interesados en mejorar la eficiencia de sus espacios. Tienen la necesidad de encontrar materiales de construcción ecológicos, sostenibles y eficientes, que además proporcionen propiedades de aislamiento acústico, sin comprometer la seguridad frente a incendios o la resistencia a la humedad. Estos usuarios buscan soluciones que sean respetuosas con el medio ambiente y contribuyan a la creación de espacios más confortables y amenos. <br>
+**¿Cuál es el problema? ¿Cuál es el objetivo?** <br>
+El problema es la dependencia de materiales de construcción convencionales que son altamente contaminantes, no renovables y a menudo no cuentan con propiedades de absorción de sonido. Esto crea una falta de opciones sostenibles para aquellos que buscan reducir el impacto ambiental de sus construcciones y mejorar el rendimiento de sus espacios. El objetivo es desarrollar placas de tela reciclada que ofrezcan una solución sostenible y funcional, al mismo tiempo que proporcionen aislamiento acústico y ofrezcan un alto rendimiento en distintas aplicaciones de construcción y diseño.  <br>
+**¿Cuál es mi idea creativa?** <br>
+La idea es crear placas hechas de tela reciclada que tengan propiedades de aislamiento acústico. Estas placas ofrecerían una alternativa sostenible a los materiales convencionales de construcción y diseño. Al estar fabricadas con materiales reciclados, ayudarían a reducir el desperdicio textil, promoviendo la economía circular en el sector de la construcción y el diseño de interiores.  <br>
+**¿Cómo lo prototipo? ¿Qué materiales uso?**  <br>
+El prototipo se desarrollará utilizando telas recicladas. Estas telas se compactarán en placas mediante un proceso de unión capa por capa con aglomerante con biomaterial. El proceso de fabricación podría incluir técnicas de reciclaje textil y de compresión avanzada para garantizar la durabilidad y funcionalidad de las placas.  <br>
+**¿En qué comunidad lo pongo a prueba?**  <br>
+El proyecto se pondrá a prueba en comunidades de construcción y diseño sostenible y en lugares que tengan mucho ruido ambiente. También se podría testear en proyectos de vivienda social o en espacios de uso público que necesiten soluciones de bajo costo, ecológicas y seguras, como centros comunitarios, escuelas o espacios de trabajo colaborativo. Estos entornos proporcionarían retroalimentación valiosa sobre la funcionalidad y el impacto de las placas en distintas aplicaciones.
+
+_Referencias_  <br> 
+[Ladrillos de tela reciclada](https://www.fab-brick.com/)  <br> 
+[Tesis](https://www.colibri.udelar.edu.uy/jspui/handle/20.500.12008/4747)  <br>
+[Placas textil reciclado](https://arqa.com/comunidad/obras/placatex-placas-de-textil-recilcado/) <br>
+[Placas de plástico](http://www.uruplac.com.uy/inicio/es) <br>
+[Tesis de reciclaje textil con placas](https://www.colibri.udelar.edu.uy/jspui/handle/20.500.12008/20271) <br>
+[Tesis Lucia](https://www.colibri.udelar.edu.uy/jspui/handle/20.500.12008/42398) <br>
+[Textil triturado para productos](https://www.archdaily.cl/cl/02-280022/demode-muebles-de-material-textil-bernardita-marambio-design-studio) <br>
+[Tesis con arduino y sensor de calor](https://www.colibri.udelar.edu.uy/jspui/handle/20.500.12008/21001) <br>
+[Tesis con info de clasificación textil en uy](https://www.colibri.udelar.edu.uy/jspui/handle/20.500.12008/27163) <br>
+[Economía circular](https://staticcl1.fidelizador.com/uchilectec/octubre-2020/Boletin%20Economia%20Circular%2C%20aislantes%20de%20contruccion%20a%20partir%20de%20textil%20reciclado.pdf) <br>
+
+
+En la siguiente pestaña, documentaré la idea final que elegí para desarrollar y en la que estoy trabajando e investigando actualmente. 
