@@ -61,10 +61,13 @@ Olla, papel manteca, molde, resina de pino, cera, alcohol, jeringa, balanza, rec
 Medí 50 g de resina y 15 ml de alcohol, llevé la mezcla al fuego y añadí 5 g de cera. <br>
 Intenté unir las capas con un pincel, pero la mezcla se secó demasiado rápido y la resina se quebró. <br>
 
+**2. Segunda Prueba** <br>
+Medí 50 g de resina y 15 ml de alcohol, llevé la mezcla al fuego y añadí 5 g de cera. <br>
+A diferencia de la primera, volqué el líquido de la receta directamente sobre la tela. Mejoró pero se quebraba. 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ntugpAMKMEA?si=tqD15RpgWiwpyQ2r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-**2. Segunda Prueba** <br>
+**3. Segunda Prueba** <br>
 Ajusté las proporciones: 100 g de resina, 50 ml de alcohol y 8 g de cera. <br>
 Utilicé la mezcla directamente desde la olla, aplicándola entre las capas. Dejé secar 30 minutos. El resultado mejoró, aunque no se logró cubrir todas las capas de tela.
 
