@@ -348,6 +348,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#glosario" class="md-nav__link">
+    Glosario
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -601,6 +608,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#glosario" class="md-nav__link">
+    Glosario
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -633,6 +647,54 @@
 <h1 id="mt08-tecnologia-y-fabricacion">MT08 Tecnología y Fabricación<a class="headerlink" href="#mt08-tecnologia-y-fabricacion" title="Permanent link">&para;</a></h1>
 <h2 id="control-numerico-computarizado-cnc"><strong>Control numérico computarizado (CNC)</strong><a class="headerlink" href="#control-numerico-computarizado-cnc" title="Permanent link">&para;</a></h2>
 <h3 id="introduccion"><strong>Introducción</strong><a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h3>
+<p>Este módulo consistió en conocer la máquina CNC y preparar una pieza en Fusion360 para mecanizar en la máquina CNC. </p>
+<h3 id="glosario"><strong>Glosario</strong><a class="headerlink" href="#glosario" title="Permanent link">&para;</a></h3>
+<p><strong>Control numérico computarizado (CNC)</strong> <br>
+Es todo aquel dispositivo que posee la capacidad de controlar la posición y velocidad de los motores que accionan los ejes de la máquina para realizar movimientos que no se pueden lograr manualmente como círculos, líneas diagonales y figuras complejas tridimensionales. </p>
+<p>Componentes principales: sistema de conducción, movimiento y un sistema de retroalimentación </p>
+<p>Funcionamiento: <br>
+- Incrementar la productividad  <br>
+- Disminuir el uso de talento humano  <br>
+- Generar una mayor autonomía para el uso de máquinas y herramientas</p>
+<p>El CNC es el uso de una computadora para controlar y monitorear los movimientos de una máquina herramienta. 
+El controlador CNC trabaja en conjunto con una serie de motores (servomotores y/o motores paso a paso), así como componentes de accionamiento para desplazar los ejes de la máquina de manera controlada y ejecutar los movimientos programados. </p>
+<p>FOTO FUNCIONAMIENTO</p>
+<p>El código G describe las funciones de movimiento de la máquina (movimientos rápidos, avances, avances radiales, pausas, ciclos) y el código M describe las funciones misceláneas que se requieren para el mecanizado de la pieza (arranque y detención del husillo, cambio de herramienta, refrigerante, detención del programa). </p>
+<p><strong>Fabricación sustractiva</strong> <br>
+Es una técnica utilizada en la fabricación de piezas, donde dichas piezas se consiguen a partir de un bloque sólido al que se le va eliminando el material sobrante, hasta conseguir el resultado deseado. </p>
+<p>Formas: tornos, sierras, fresadoras, cortadoras, taladros, etcétera. </p>
+<p>Fresadora: es una máquina herramienta diseñada para realizar trabajos de mecanizado por arranque de viruta, mediante el movimiento de una herramienta rotativa de varios filos de corte, denominada fresa. <br>
+Se usa para materiales como la madera, acero, fundición de hierro, metales no férricos y materiales sintéticos, superficies planas o curvas, de entalladura, de ranuras, de dentado, etcétera. </p>
+<p>Hay varios tipos de router CNC que dependen de la cantidad de ejes, se encuentran de varios ejes: <br>
+<a href="https://www.youtube.com/watch?v=lcWn4VEjaio">3 ejes</a> <br>
+<a href="https://www.youtube.com/watch?time_continue=64&amp;v=QC90mruG-bY&amp;embeds_referring_euri=https%3A%2F%2Fedu2.utec.edu.uy%2F&amp;embeds_referring_origin=https%3A%2F%2Fedu2.utec.edu.uy&amp;source_ve_path=NzY3NTg">4 ejes</a> <br>
+<a href="https://www.youtube.com/watch?v=3VzSk1iOE8Q">5 ejes</a></p>
+<p><strong>Fresas</strong> <br>
+A veces se confunde mechas con fresas. Las mechas están diseñadas para sumergirse directamente en el material, cortando axialmente y creando agujeros cilíndricos. Las Fresas se utilizan para tallar horizontalmente y cortar lateralmente.  <br>
+Hay <a href="https://www.youtube.com/watch?v=MJhGBDVPnQc">fresas planas</a> que se utilizan para hacer ranuras y cortes planos en madera, <a href="https://www.youtube.com/watch?v=FFJyN3hzcSk">fresas de bolilla</a> que se utilizan para ranurado o relieve 3D y se usan para tallar y grabar y <a href="https://www.youtube.com/watch?v=zFCzYww1Cj0">fresas en V</a> para hacer ranuras y grabados con gran precisión y también se usan para tallar y grabar. </p>
+<p>Mecanizado  <br>
+El proceso de mecanizado es aquel en el que a través de una serie de operaciones de torno mediante la eliminación de viruta o abrasión conseguimos el moldeado de una pieza destinada a una función específica. </p>
+<p><strong>Router CNC X Carve</strong> <br>
+Hay que tener en cuenta varios factores al utilizar el router: <br>
+- Mesa de trabajo: eje X 750 mm, eje Y 750 mm, eje Z 114 mm.  <br>
+Tener en cuenta la altura máxima del modelo y la dimensión total. <br>
+La posición de los sujetadores, el área mínima es de 10 mm.  <br> El área para mecanizar es desde el vértice (0) 20 mm. en sentido horizontal (x) y vertical (y).  <br>
+- Corte 2D: estratégia de corte sobre vectores  <br>
+Mecanizar por dentro (la pieza va a quedar más pequeña al igual que el diámetro de la fresa), por fuera (se respetan las dimensiones de la pieza), y por sobre la pieza (la mitad del diámetro de la fresa por dentro y por fuera). La fresa siempre va a tener un diámetro, por ende hay que tener en cuenta para los encastres por ejemplo. <br>
+- Tolerancia: calibrar las tolerancias de las fresas con pruebas.<br>
+- Encastres: las fresas son herramientas circulares que al trabajar dejan siempre un
+radio, eso depende del diámetro de la fresa. Al producirse esto, debemos realizar un espacio extra en el corte interno que permita ingresar la otra pieza, de manera tal que el encastre se produzca de forma exacta.  <br>
+Encastre de en tipo T (herramienta de 6 mm de cada lado) o tipo H (prolongar en sentido vertical).  <br>
+- Altura: el largo de la herramienta que estamos utilizando tiene que ser mayor a la profundidad del diseño a mecanizar. <br>
+- Anidado (nesting): software que optimice y organice la placa para cortar. <br>
+- Toolpath: la ruta de la herramienta, son representadas por líneas.</p>
+<p><strong>Mecanizado</strong>
+Es aquel que a través de una serie de operaciones de torno mediante la eliminación de viruta o abrasión, conseguimos un modelado de una pieza.
+Existe varios mecanizados en una CNC de 3 ejes: <br>
+Estrategias 2D: mecanizado de cara, mecanizado de contorno, mecanizado por ranura, taladro.<br></p>
+<p>Estrategias 3D: mecanizado por relieve de planos, mecanizado de relieve en paralelo, mecanizado de relieve en espiral, mecanizado por relieve en espiral transformada. </p>
+<p><strong>Fusion360</strong>
+Mecanizado en Fusion 360 nos permite realizar todo tipo de operaciones de mecanizado y guardarlas en un código G (.nc) para mecanizado CNC. </p>
                 
                   
                     
