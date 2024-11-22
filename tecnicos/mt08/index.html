@@ -355,6 +355,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#documentacion-del-proceso" class="md-nav__link">
+    Documentación del proceso
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -615,6 +622,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#documentacion-del-proceso" class="md-nav__link">
+    Documentación del proceso
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -658,7 +672,7 @@ Es todo aquel dispositivo que posee la capacidad de controlar la posición y vel
 - Generar una mayor autonomía para el uso de máquinas y herramientas</p>
 <p>El CNC es el uso de una computadora para controlar y monitorear los movimientos de una máquina herramienta. 
 El controlador CNC trabaja en conjunto con una serie de motores (servomotores y/o motores paso a paso), así como componentes de accionamiento para desplazar los ejes de la máquina de manera controlada y ejecutar los movimientos programados. </p>
-<p>FOTO FUNCIONAMIENTO</p>
+<p><img alt="Funcionamiento" src="../../images/MT08/funcionamiento.png" /></p>
 <p>El código G describe las funciones de movimiento de la máquina (movimientos rápidos, avances, avances radiales, pausas, ciclos) y el código M describe las funciones misceláneas que se requieren para el mecanizado de la pieza (arranque y detención del husillo, cambio de herramienta, refrigerante, detención del programa). </p>
 <p><strong>Fabricación sustractiva</strong> <br>
 Es una técnica utilizada en la fabricación de piezas, donde dichas piezas se consiguen a partir de un bloque sólido al que se le va eliminando el material sobrante, hasta conseguir el resultado deseado. </p>
@@ -695,6 +709,141 @@ Estrategias 2D: mecanizado de cara, mecanizado de contorno, mecanizado por ranur
 <p>Estrategias 3D: mecanizado por relieve de planos, mecanizado de relieve en paralelo, mecanizado de relieve en espiral, mecanizado por relieve en espiral transformada. </p>
 <p><strong>Fusion360</strong>
 Mecanizado en Fusion 360 nos permite realizar todo tipo de operaciones de mecanizado y guardarlas en un código G (.nc) para mecanizado CNC. </p>
+<h3 id="documentacion-del-proceso"><strong>Documentación del proceso</strong><a class="headerlink" href="#documentacion-del-proceso" title="Permanent link">&para;</a></h3>
+<p>Después de ver los tutoriales, descargué el archivo brindado por la EFDI para empezar a trabajar en Fusion360. <br>
+Abrir el archivo e ir al módulo de Fabricación. </p>
+<p><strong>Configurar la máquina a utilizar como fresadora en Autodesk generic 3-axis Router</strong></p>
+<p>Administrar/ Biblioteca de máquina / Seleccionar Autodesk Generic 3-axis Router <br>
+Configuración/ Nueva configuración <br>
+Configuración: <br>
+- Máquina/ Seleccionar Autodesk Generic 3-axis Router <br>
+- Configuración/ Tipo de operación/ Seleccionar Fresado <br>
+- Orientación/ Eje/plano Z y eje X <br>
+- Punto del material/ Punto del cuadro <br></p>
+<p><img alt="Confirguración" src="../../images/MT08/configuracion.png" /></p>
+<p>Para realizar las operaciones de mecanizado, se parte de tabla de 200x200x10mm de madera multilaminada, y para darle forma hay que utilizar:</p>
+<p><strong>1. Las perforaciones se ejecutan con el Taladrado</strong></p>
+<p><strong><em>2D/ Taladro</em></strong> <br>
+Herramienta: <br>
+- Herramienta/ Seleccionar la fresa #1 - &#8539;” plano (⅛” Flat Endmill) <br>
+- Refrigerante/ Desactivada <br>
+Geometría: <br>
+- Modo de selección/ Caras seleccionadas  <br>
+- Selecciones de cara circular/ 8 Caras  <br>
+- Marcar Orientación de la herramienta  <br>
+- Orientación de la herramienta/ Seleccionar Eje/plano Z y eje X <br>
+- Origen/ Punto del bloque de material  <br>
+- Punto del cuadro/ Seleccionar  <br></p>
+<p><img alt="Taladro" src="../../images/MT08/ochocaras.png" /></p>
+<p>Altura: <br>
+- Altura del espacio libre/ Seleccionar Altura superior 10mm  <br>
+- Altura de retracción/ Altura superior 5mm  <br>
+- Altura superior/ Altura superior del augero 0mm <br>
+- Altura inferior/ Altura inferior del agujero 0mm <br></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h5UnY33Lszo?si=5cqUWB1v_5RgbJIv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p><strong><em>2. Para el desbaste se usa 2D cajera que realiza el desbaste inicial</em></strong></p>
+<p>2D/ 2D Cajera para círculo central </p>
+<p>Herramienta:  <br>
+- Herramienta/ Seleccionar la fresa #1 - &#8539;” plano (⅛” Flat Endmill)  <br>
+- Refrigerante/ Desactivada <br></p>
+<p>Geometría: <br>
+- Selecciones de Cadena cerrada 1 (círculo central)  <br>
+- Orientación de la herramienta/ Seleccionar Eje/plano Z y eje X <br>
+- Origen/ Punto del bloque de material  <br>
+- Punto del cuadro/ Seleccionar  <br></p>
+<p>Altura: <br>
+- Altura del espacio libre/ Seleccionar Altura superior 10mm  <br>
+- Altura de retracción/ Altura superior 5mm  <br>
+- Altura superior/ Más alto de la selección/ Parte superior del material 0mm <br>
+- Altura inferior/ Más bajo de la selección/ Parte inferior del material y Parte inferior del modelo 0mm <br></p>
+<p>Pasadas: <br>
+- Tolerancia 0.1 mm <br>
+- Compensación de lado a lado/ Derechav
+- Varias profundidades/ Reducción de desbaste máxima 1mm v</p>
+<p>Eje: <br>
+- 3 ejes  <br></p>
+<p>Conexiones: <br>
+- Sin modificar <br></p>
+<p><img alt="2cajera pasadas" src="../../images/MT08/pasadas.png" /></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iQZlxgZbDP8?si=2rUgZ5kUl3Abu3Lx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>2D/ 2D Cajera para cruz central </p>
+<p>Herramienta: <br>
+- Herramienta/ Seleccionar la fresa #1 - &#8539;” plano (⅛” Flat Endmill) <br> 
+- Refrigerante/ Desactivada <br></p>
+<p>Geometría: <br>
+- Selecciones de Cadena cerrada 1 (cruz central)  <br>
+- Orientación de la herramienta/ Seleccionar Eje/plano Z y eje X <br>
+- Origen/ Punto del bloque de material v
+- Punto del cuadro/ Seleccionar  <br></p>
+<p>Altura: <br>
+- Altura del espacio libre/ Seleccionar Altura superior 10mm  <br>
+- Altura de retracción/ Altura superior 5mm  <br>
+- Altura superior/ Más alto de la selección/ Parte superior del material 0mm <br>
+- Altura inferior/ Contorneados seleccionados <br></p>
+<p>Pasadas: <br>
+- Tolerancia 0.1 mm <br>
+- Compensación de lado a lado/ Izquierdav <br>
+- Varias profundidades/ Reducción de desbaste máxima 1mm  <br>
+- Sobrematerial 0.5mm radial y axial  <br></p>
+<p>Eje: <br>
+- 3 ejes  <br></p>
+<p>Conexiones: <br>
+- Sin modificar <br></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O72skLSe3KQ?si=RSc9AgKg9Q0l_lNj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>2D/ 2D Cajera para perforaciones de la herramienta taladro </p>
+<p>Herramienta: <br>
+- Herramienta/ Seleccionar la fresa #1 - &#8539;” plano (⅛” Flat Endmill) <br>
+- Refrigerante/ Desactivada </p>
+<p>Geometría:
+- Selecciones de cajera/ Seleccionar las cuatro perforaciones <br>
+- Orientación de la herramienta/ Seleccionar Eje/plano Z y eje X <br>
+- Origen/ Punto del bloque de material  <br>
+- Punto del cuadro/ Seleccionar </p>
+<p>Altura:  <br>
+- Altura del espacio libre/ Seleccionar Altura superior 10mm  <br>
+- Altura de retracción/ Altura superior 5mm  <br>
+- Altura superior/ Más alto de la selección/ Parte superior del material 0mm <br>
+- Altura inferior/ Más bajo de la selección  <br></p>
+<p>Pasadas:
+- Tolerancia 0.1 mm <br>
+- Compensación de lado a lado/ Izquierda <br>
+- Varias profundidades/ Reducción de desbaste máxima 1mm  </p>
+<p>Eje: <br>
+- 3 ejes </p>
+<p>Conexiones: <br>
+- Sin modificar</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fPO7G1VTl1w?si=eFf-dUF3HiT-VQGz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p><strong>3. Contornos para contornear la pieza final de la tabla inicial</strong></p>
+<p>2D/ 2D Contorneado para delimitar la pieza </p>
+<p>Herramienta: <br>
+- Herramienta/ Seleccionar la fresa #1 - &#8539;” plano (⅛” Flat Endmill) <br>
+- Refrigerante/ Desactivada</p>
+<p>Geometría: <br>
+- Selecciones de cajera/ Seleccionar las cuatro perforaciones <br>
+- Orientación de la herramienta/ Seleccionar Eje/plano Z y eje X <br>
+- Origen/ Punto del bloque de material  <br>
+- Punto del cuadro/ Seleccionar </p>
+<p>Altura: <br>
+- Altura del espacio libre/ Seleccionar Altura superior 10mm  <br>
+- Altura superior 5mm  <br>
+- Altura superior/ Más alto de la selección/ Parte superior del - material 0mm <br>
+- Altura inferior/ Contorneados seleccionados</p>
+<p>Pasadas: <br>
+- Tolerancia 0.1 mm <br>
+- Compensación de lado a lado/ Izquierda <br>
+- Varias profundidades/ Reducción de desbaste máxima 1mm </p>
+<p>Eje <br>
+- 3 ejes </p>
+<p>Conexiones <br>
+- Sin modificar</p>
+<p>Después de setear las operaciones de mecanizado, realicé la simulación para confirmar las operaciones. </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0__3t9T2k5Q?si=SFLCl-t_3KzzIlCq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>[Código G (en formato .nc) para descargar]</p>
                 
                   
                     
