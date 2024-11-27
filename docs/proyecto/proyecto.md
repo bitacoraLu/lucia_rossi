@@ -121,6 +121,56 @@ Realizar pruebas acústicas para determinar su capacidad como absorbente o difus
 
 
 
+### **PRE-ENTREGA** <br>
+Miércoles 27 de noviembre
+
+
+**¿Por qué?** <br>
+
+_Problemática_ <br>
+La industria de la moda genera un exceso de producción y desperdicio, fabricando prendas sin una demanda real. Esto resulta en una acumulación significativa de textiles que no son utilizados, lo que contribuye a la contaminación y al uso insostenible de recursos. 
+
+_Comunidad/contexto_ <br>
+Existen iniciativas en el mundo que trituran textiles en desuso para fabricar nuevos materiales, como ladrillos o placas. El proyecto busca contribuir a este movimiento, pero sin triturar, laminando textiles capa por capa. Esto tiene aplicaciones en la construcción y el diseño sostenible, especialmente en espacios con problemas acústicos, como viviendas sociales, espacios públicos o entornos con ruido excesivo.  
+
+_Explica de qué manera has considerado los aspectos sociales, económicos y ambientales para dar respuesta a problemáticas locales:_
+
+- Aspectos sociales: Fomentar la concientización sobre el impacto del desperdicio textil y la necesidad de su reutilización. Se busca inspirar a la comunidad a adoptar prácticas sostenibles y a colaborar en soluciones locales. <br>
+- Aspectos económicos: Proponer un modelo de economía circular, donde los textiles desechados se convierten en nuevos productos útiles, reduciendo costos y generando valor a partir de residuos. <br>
+- Aspectos ambientales: Reducir el impacto ecológico al evitar que los textiles terminen en vertederos y contribuir a la reducción de emisiones asociadas con la producción textil tradicional. Además, el uso de biomateriales biodegradables minimiza el impacto ambiental del proceso. 
+
+_Explica cómo has incorporado un enfoque de diseño abierto, distribuido y sostenible_ <br>
+El proyecto se enmarca en un enfoque de diseño abierto y distribuido, al compartir el proceso y las recetas del biomaterial, fomentando que otras personas y comunidades puedan replicar y adaptar las placas para sus necesidades locales. <br>
+- Distribuido: Se puede fabricar localmente con herramientas accesibles como carte láser, CNC o impresión 3D. <br>
+- Sostenible: Usa materiales reciclados y biodegradables, alineándose con los principios de economía circular.
+
+![Porque](../images/PROYECTO/porque.png)
+
+**¿Qué?** 
+
+_Nombre_ <br>
+Mutex (unión de _mu_ tar con _tex_ til)
+
+_Descripción del proyecto_ <br>
+Creación de placas laminadas usando textiles en desuso, unidas con aglomerantes de biomaterial. 
+
+_Propuesta de valor_ <br>
+Dar una segunda vida a textiles desechados, transformándolos en placas que pueden ser utilizadas en aplicaciones funcionales como paneles acústicos. Esto fomenta el reciclaje y contribuye a la reducción del desperdicio textil. 
+
+![Que](../images/PROYECTO/que.png)
+
+**¿Cómo?**
+
+_Describe cómo es tu prototipo, funcional y cómo integraste diseño 2D y 3D, procesos aditivos y/o sustractivos, electrónica y programación en tu propuesta_ <br>
+El prototipo consiste en placas textiles laminadas mediante textiles reciclados, en su mayoría telas sintéticas en desuso, utilizando Biomateriales como la resina de pino como aglomerante, y la fabricación mediante diseño 2D y 3D para diseñar el molde y fresado con CNC, y se incorporará la electrónica y programación con un sensor de ruido conectado a un sistema Arduino, para medir el impacto acústico. 
+
+_Proceso de diseño y cocreación_ <br>
+Primero comencé con la investigación y exploración de diferentes recetas para encontrar el mejor aglomerante biodegradable que uniera las capas textiles. Luego fue el diseño del molde para facilitar el prensado de las capas y transferir texturas al material final. Por último el prototipado para realizar las pruebas con distintos textiles y biomateriales para optimizar adherencia y funcionalidad. 
+
+
+![Como](../images/PROYECTO/como.png)
+
+
 
 
 ### **Anexos**
