@@ -171,6 +171,23 @@ Primero comencé con la investigación y exploración de diferentes recetas para
 ![Como](../images/PROYECTO/como.png)
 
 
+Nuevas pruebas 
+
+Resultado de receta con gelatina 
+![Como](../images/PROYECTO/gelatina.png)
+
+
+Resultado de receta con agaragar 
+![Como](../images/PROYECTO/agar.png)
+![Como](../images/PROYECTO/agaragar.png)
+
+Resultado de receta con resina de pino
+![Como](../images/PROYECTO/resina2.png)
+
+Nuevas formas
+
+![Como](../images/PROYECTO/pet.png)
+![Como](../images/PROYECTO/sintetico.png)
 
 
 ### **Anexos**
