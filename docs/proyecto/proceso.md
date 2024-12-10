@@ -3,9 +3,9 @@ hide:
     - toc
 ---
 
-# PF01-02 PROYECTO FINAL
+# PF01-02 PROCESO DE DISEÑO
 
-## **Proyecto final**
+## **Proceso de diseño**
 
 ### **Introducción**
 
