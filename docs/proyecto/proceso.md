@@ -12,12 +12,12 @@ hide:
 Acá documentaré el proceso de este proyecto integrador final que fui haciendo hasta el momento. <br>
 Subiré la presentación luego del 19 de diciembre. 
 
+### **Documentación del proceso**
+
 ¿cómo nacen los objetos? 
 Metodología de Bruno Munari compartida por [Edgardo](https://edg-saracho.github.io/Edgardo_Saracho/) 
 
 ![Metodologia](../images/PROYECTO/metodologia.png)
-
-### **Documentación del proceso**
 
 
 ![Boceto](../images/PROYECTO/boceto.png)
