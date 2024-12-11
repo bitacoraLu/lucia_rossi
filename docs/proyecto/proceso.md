@@ -3,7 +3,7 @@ hide:
     - toc
 ---
 
-# PF01-02 PROCESO DE DISEÑO
+# PF01-02  PROYECTO INTEGRADOR
 
 ## **Proceso de diseño**
 

@@ -3,7 +3,7 @@ hide:
     - toc
 ---
 
-# PF01-02 PROYECTO FINAL
+# PF01-02  PROYECTO INTEGRADOR
 
 ## **Proyecto final**
 

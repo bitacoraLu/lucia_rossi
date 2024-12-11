@@ -3,7 +3,7 @@ hide:
     - toc
 ---
 
-# PF01-02 IDEAS INICIALES
+# PF01-02 PROYECTO INTEGRADOR
 
 ## **Ideas iniciales**
 
