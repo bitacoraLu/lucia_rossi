@@ -244,22 +244,22 @@ Los plásticos que utilicé se llaman Polietileno, ya que son polímeros derivad
 Diferencias entre HDPE y LDPE
 
 HDPE (polietileno de alta densidad) <br>
-- Estructura molecular: tiene cadenas lineales y compactas, lo que otorga densidad y rigidez. 
-- Propiedades: resistente a impactos, impermeable, duradero y soporta temperaturas más altas que el LDPE.
+- Estructura molecular: tiene cadenas lineales y compactas, lo que otorga densidad y rigidez. <br>
+- Propiedades: resistente a impactos, impermeable, duradero y soporta temperaturas más altas que el LDPE. <br>
 - Aplicaciones: botellas rígidas, envases para productos químicos, tuberías, contenedores, entre otros. 
 
 LDPE (polietileno de baja densidad) <br>
-- Estructura molecular: tiene cadenas ramificadas, lo que lo hace más flexible y menos denso. 
-- Propiedades: flexible, resistente a la humedad, pero menos resistente a la tracción y temperaturas altas en comparación con el HDPE.
+- Estructura molecular: tiene cadenas ramificadas, lo que lo hace más flexible y menos denso. <br>
+- Propiedades: flexible, resistente a la humedad, pero menos resistente a la tracción y temperaturas altas en comparación con el HDPE. <br>
 - Aplicaciones: bolsas de plástico, láminas, envoltorios, botellas flexibles, entre otros.
 
 
 Realicé múltiples pruebas, variando: <br>
-- Cantidades de capas de telas.
-- Tipos de bolsas plásticas.
-- Cantidad de plástico triturado.
-- Formas de posición del triturado.
-- Temperaturas y tiempos de prensado.
+- Cantidades de capas de telas. <br>
+- Tipos de bolsas plásticas. <br>
+- Cantidad de plástico triturado. <br>
+- Formas de posición del triturado. <br>
+- Temperaturas y tiempos de prensado. <br>
 
 
 Esto me permitió generar láminas con diferentes resultados en resistencia y cohesión.
