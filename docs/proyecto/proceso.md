@@ -292,6 +292,7 @@ La máquina es una corte láser de diodo de 40w de potencia óptica.
 ![Como](../images/PROYECTO/grosoresmuestra.png)
 
 
+*IMPORTANTE*: El corte láser es fundamental para trabajar con telas sintéticas, ya que el calor del láser sella los bordes y evita que se deshilachen. Este efecto es especialmente eficiente en tejidos planos, aunque también funciona en tejidos de punto. Sin embargo, al cortar con tijera, los bordes tienden a deshilacharse. Afortunadamente, un encendedor puede ser una solución rápida y práctica para sellar los bordes con calor. 
 
 
 
