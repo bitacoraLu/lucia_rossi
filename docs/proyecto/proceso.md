@@ -226,11 +226,10 @@ En Uruguay no encontré específicamente iniciativas que trabajen con reciclaje 
 
 Sin acceso a una trituradora, corté los textiles y plásticos en trozos pequeños usando tijeras de cable. Luego realicé pruebas de fusión con una plancha común (sin agujeros y sin vapor), aplicando presión durante 10 minutos. Aunque fue un método rudimentario, me permitió evaluar las posibilidades de unir estos materiales.
 
-FOTO DE P1 + p2 + p3 + p4 
-
-![Como](../images/PROYECTO/pet.png)
-![Como](../images/PROYECTO/sintetico.png)
-
+![Como](../images/PROYECTO/p1.png)
+![Como](../images/PROYECTO/p2.png)
+![Como](../images/PROYECTO/p3.png)
+![Como](../images/PROYECTO/p4.png)
 
 **Colaboración con Precious Plastic**
 
@@ -274,23 +273,23 @@ Para probar cómo reaccionaban a corte láser, diseñe un modelo con kerfing uti
 Preparación del modelado 3D en Fusion360
 1. Definí los parámetros iniciales (dimensiones de la placa y grosor estándar de 3 mm).
 
-FOTO parametros
+![Como](../images/PROYECTO/parametros.png)
 
 2. Creé un boceto para el tamaño de la placa y lo extrui.
 
-FOTO PLACA 
+![Como](../images/PROYECTO/placa.png)
 
 3. Diseñe los cortes de kerfing:
 Dibujé el primer agujero con las medidas paramétricas y lo distribuí utilizando el patrón rectangular.
 
-FOTO kerfing
-FOTO modelado
+![Como](../images/PROYECTO/kerfing.png)
+![Como](../images/PROYECTO/modelado.png)
 
 Igualmente cuando fui al taller de Agustín de Rincón Maker, ya que no llegué a ir al laboratorio de Durazno, primero realicé pruebas para definir velocidad y potencia para calcular cuál sería el corte según el grosor de cada lámina.
 
 La máquina es una corte láser de diodo de 40w de potencia óptica.
 
-FOTO DE grosoresmuestra
+![Como](../images/PROYECTO/grosoresmuestra.png)
 
 
 
