@@ -188,6 +188,7 @@ Inspirada por esta idea, realicé otras pruebas combinando textiles con biomater
 Por un lado, las propiedades de los biomateriales no son lo suficientemente resistentes, ni impermeables, ni tolerantes a altas temperaturas. Por ejemplo, la resina, al secarse rápidamente, dificulta el proceso de creación de un composite. <br>
 Además, a nivel conceptual, no encontraba sentido a combinar textiles sintéticos, que son difíciles de reciclar, con biomateriales biodegradables, ya que esta mezcla parece ir en direcciones opuestas en términos de sostenibilidad. 
 
+![Como](../images/PROYECTO/posentrega.png)
 
 Resultado de receta con gelatina 
 ![Como](../images/PROYECTO/gelatina.png)
@@ -230,6 +231,12 @@ Sin acceso a una trituradora, corté los textiles y plásticos en trozos pequeñ
 ![Como](../images/PROYECTO/p2.png)
 ![Como](../images/PROYECTO/p3.png)
 ![Como](../images/PROYECTO/p4.png)
+
+A partir de esta experiencia, me imaginé la posibilidad de crear una prensa térmica casera que pudiera ser utilizada por cualquier persona interesada. Comencé a diseñar un prototipo que incluyera un sistema con Arduino y un sensor de temperatura para mayor precisión. Sin embargo, no contaba con las herramientas necesarias para realizar cortes láser en metal, dado que este proceso implica altas temperaturas, ni con el tiempo suficiente para desarrollarlo por completo. Así, el proyecto quedó como una idea en etapa inicial, una simple ilusión por ahora.
+
+![Como](../images/PROYECTO/prensa.png)
+![Como](../images/PROYECTO/prensahogareña.png)
+
 
 **Colaboración con Precious Plastic**
 
