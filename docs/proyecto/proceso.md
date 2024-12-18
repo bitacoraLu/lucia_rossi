@@ -209,7 +209,7 @@ Preparación: <br>
 Resultado de receta con Gelatina
 ![Como](../images/PROYECTO/gelatina.png)
 
-VIDEOO!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VQPeu6vBUuc?si=1_Fo9YhmZySj9LzH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 **Receta con Agar Agar** 
@@ -234,6 +234,8 @@ Resultado de receta con Agar agar
 ![Como](../images/PROYECTO/agar.png)
 ![Como](../images/PROYECTO/agaragar.png)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KWfdsLD4G_g?si=jTzJTkzvumQoj4-C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **Receta con Resina de Pino**
 
 Ingredientes: 100 gr. de resina de pino, 5 gr. de cera carnauba, 15 ml. alcohol.  
@@ -255,7 +257,7 @@ Para limpiar: volver a poner alcohol en la olla, dejar hervir. Retirar la resina
 Resultado de receta con resina de pino
 ![Como](../images/PROYECTO/resina2.png)
 
-VIDEO!!
+
 
 
 Entendí que, aunque los textiles sintéticos son complicados de reutilizar, representan un desafío interesante porque en Uruguay no hay empresas que trabajen específicamente en su reciclaje. Esto me hizo replantear mi enfoque hacia aplicaciones más prácticas y directas para este tipo de materiales, sin depender de tecnologías complejas como la trituración.
@@ -371,15 +373,15 @@ SOPORTE BOTELLA
 
 1. Inicié definiendo los parámetros iniciales basándome en un prototipo básico que había realizado previamente.
 
-FOTO: Prototipo Soporte Botella
+![Como](../images/PROYECTO/
 
 2. Luego, creé un boceto dibujando las dimensiones y formas del prototipo.
 
-FOTO: Boceto Soporte
+![Como](../images/PROYECTO/bocetosoporte.png)
 
 3. A continuación, extruí el boceto en Fusion 360 para generar el modelo tridimensional.
 
-FOTO: Modelado Soporte
+![Como](../images/PROYECTO/modeladosoporte.png
 
 
 **Prueba con ROUTER CNC** <br>
