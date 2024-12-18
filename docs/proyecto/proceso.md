@@ -381,7 +381,7 @@ SOPORTE BOTELLA
 
 3. A continuación, extruí el boceto en Fusion 360 para generar el modelo tridimensional.
 
-![Como](../images/PROYECTO/modeladosoporte.png
+![Como](../images/PROYECTO/modeladosoporte.png)
 
 
 **Prueba con ROUTER CNC** <br>
