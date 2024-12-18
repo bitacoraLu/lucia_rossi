@@ -365,12 +365,15 @@ Cuando fui al taller de Agustín en Rincón Maker, ya que no logré ir al labora
 
 Resultados con textiles y LDPE
 
-
-![Como](../images/PROYECTO FOTO DE 
+![Como](../images/PROYECTO/cortelaserverde.png)
+![Como](../images/PROYECTO/detallelpde.png)
+![Como](../images/PROYECTO/cortelaseranimal.png)
 
 Resultados con textiles y HDPE 
 
-![Como](../images/PROYECTO 
+![Como](../images/PROYECTO/maquinacorte.png)
+![Como](../images/PROYECTO/cortelaserhdpe.png)
+![Como](../images/PROYECTO/detallehdpe.png)
 
 Durante las pruebas, concluí que las telas con LDPE funcionan correctamente para corte láser, pero las que incluyen triturado de HDPE no son adecuadas, ya que tienden a fundirse y expandirse.
 
