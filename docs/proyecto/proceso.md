@@ -437,7 +437,7 @@ En la segunda prueba, cortamos directamente a 2 mm, obteniendo mejores resultado
 
 Luego, probamos el diseño que había modelado en Fusion 360 para el soporte de una botella. Como no había diseñado el modelo con líneas completamente rectas, proyecté el modelado en el programa para exportarlo en formato DXF. Esto permitió que el software de la CNC reconociera el diseño en vectores y configurara correctamente el recorrido de corte.
 
-FOTO gdodesoporte
+![Como](../images/PROYECTO/gcodesoporte.png)
 
 Resultados y aprendizajes
 
@@ -445,19 +445,19 @@ Realizamos tres pruebas con este diseño:
 
 - 1. Primera prueba: La pieza se quebró porque no incluía suficientes tabs.  <br>
 
-FOTO primer soporte 
-Detalle primer
+![Como](../images/PROYECTO/primersoporte.png)
+![Como](../images/PROYECTO/detalleprimer.png)
 
 
 - 2. Segunda prueba: Se quebró nuevamente, indicando un problema con la estabilidad o el diseño del material. <br>
 
-FOTO rputerdos
-FOTO soportebotella animal 
+![Como](../images/PROYECTO/rputerdos.png)
+![Como](../images/PROYECTO/soportebotellaanimal.png)
 
 - 3. Tercera prueba: Utilizamos una placa diferente para evaluar si el problema era del material o del diseño. Aunque el corte funcionó, fue evidente que había necesidad de mejorar tanto el diseño como la colocación de los tabs.
 
-FOTO hdpesolo
-FOTO plástico
+![Como](../images/PROYECTO/hdpesolo.png)
+![Como](../images/PROYECTO/soportefunciona.png) 
 
 VIDEO BOTELLA
 
