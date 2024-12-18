@@ -272,6 +272,11 @@ Referencias adicionales sobre reciclaje textil y biomateriales
 [Biomateriales](https://drive.google.com/file/d/1Lm147nvWkxxmPf5Oh2wU5a8eonpqHCVc/view) <br>
 [Receta biomateriales Nike Journal](https://www.nike.com/pdf/nike-journal-innovation-make-your-own-bio-materials.pdf)
 
+## **Muestras con BIOMATERIALES**
+
+![Como](../images/PROYECTO/muestrasbiomateriales.png)
+
+
 ## **Exploración con nuevos aglomerantes**
 
 Ante los desafíos de combinar textiles con biomateriales y las limitaciones prácticas y conceptuales que esto presentaba, decidí explorar una alternativa más coherente: utilizar plásticos como aglomerante. Esta opción resuelve la contradicción entre materiales sintéticos y biodegradables, ya que los plásticos, al igual que los textiles seleccionados, es un material sintético.
