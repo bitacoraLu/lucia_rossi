@@ -257,7 +257,7 @@ Para limpiar: volver a poner alcohol en la olla, dejar hervir. Retirar la resina
 Resultado de receta con resina de pino
 ![Como](../images/PROYECTO/resina2.png)
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sOrUhl1pfv8?si=onQVEIB_cLMSRG5G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 Entendí que, aunque los textiles sintéticos son complicados de reutilizar, representan un desafío interesante porque en Uruguay no hay empresas que trabajen específicamente en su reciclaje. Esto me hizo replantear mi enfoque hacia aplicaciones más prácticas y directas para este tipo de materiales, sin depender de tecnologías complejas como la trituración.
@@ -373,7 +373,7 @@ SOPORTE BOTELLA
 
 1. Inicié definiendo los parámetros iniciales basándome en un prototipo básico que había realizado previamente.
 
-![Como](../images/PROYECTO/
+![Como](../images/PROYECTO/prototiposoporte.png)
 
 2. Luego, creé un boceto dibujando las dimensiones y formas del prototipo.
 
