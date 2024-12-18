@@ -379,7 +379,7 @@ Tampoco apliqué el diseño de kerfing porque las láminas de textiles con bolsa
 ![Detalle](../images/PROYECTO/detallelpde.png)
 ![Cortelaser](../images/PROYECTO/cortelaseranimal.png)
 
-IMPORTANTE: El corte láser es esencial al trabajar con telas sintéticas porque el calor del láser sella los bordes, evitando que se deshilachen. Este efecto es especialmente eficiente en tejidos planos, aunque también es útil en tejidos de punto. Sin embargo, al cortar con tijera, los bordes suelen deshilacharse. Una solución práctica para esto es sellar los bordes con calor usando un encendedor.
+**IMPORTANTE:** El corte láser es esencial al trabajar con telas sintéticas porque el calor del láser sella los bordes, evitando que se deshilachen. Este efecto es especialmente eficiente en tejidos planos, aunque también es útil en tejidos de punto. Sin embargo, al cortar con tijera, los bordes suelen deshilacharse. Una solución práctica para esto es sellar los bordes con calor usando un encendedor.
 
 
 **Resultados con textiles y HDPE** 
@@ -465,9 +465,30 @@ Realizamos tres pruebas con este diseño:
 ![CNC](../images/PROYECTO/hdpesolo.png)
 ![CNC](../images/PROYECTO/soportefunciona.png) 
 
-VIDEO BOTELLA
 
-El comportamiento del material podría estar influenciado por su falta de planitud o por la propia composición de la tela.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed YouTube Short</title>
+</head>
+<body>
+    <h1>Embedded YouTube Short</h1>
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/NtZBVgkTKCk" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
+
+
+**IMPORTANTE:** El comportamiento del material podría estar influenciado por su falta de planitud o por la propia composición de la tela.
 
 FOTO: Comparativa de pruebas y resultado final
 
