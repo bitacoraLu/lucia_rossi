@@ -407,6 +407,9 @@ En el taller de la fábrica, esta vez con la guía de Federico, probé cortar la
 
 Primero, trabajamos con un diseño que ya tenía disponible en el sofware de gcode. 
 
+
+![Como](../images/PROYECTO/gcoded.png)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SgABqAl3eFs?si=ZWaYidBN67quN0N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
  La placa utilizada tenía un espesor aproximado de 2 mm ± 0,5 mm. Como la muestra no estaba completamente plana, experimentamos con diferentes profundidades en la bajada de la fresa:
@@ -415,32 +418,48 @@ Primero, trabajamos con un diseño que ya tenía disponible en el sofware de gco
 2. Segunda prueba: 0,5 mm. <br>
 3. Tercera prueba: Nuevamente 1 mm, logrando finalmente cortar todo el diseño.
 
-
+![Como](../images/PROYECTO/corted.png)
+![Como](../images/PROYECTO/detalled.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q5HsXdP6iEc?si=-crBdC9MWFRMQDiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 Para evitar que la pieza se moviera durante el proceso, se colocaron tabs específicos en el diseño, los cuales resultaron fundamentales para el éxito del corte. Además, previamente fijamos la placa a la cama de la máquina utilizando tornillos.
 
-FOTO TABS 
+![Como](../images/PROYECTO/tabs.png)
 
 En la segunda prueba, cortamos directamente a 2 mm, obteniendo mejores resultados desde el inicio.
 
-FOTO: Resultado segunda prueba de la D
+
+![Como](../images/PROYECTO/d)
 
 **Prueba con diseño de soporte de botella modelado en Fusion 360**
 
 Luego, probamos el diseño que había modelado en Fusion 360 para el soporte de una botella. Como no había diseñado el modelo con líneas completamente rectas, proyecté el modelado en el programa para exportarlo en formato DXF. Esto permitió que el software de la CNC reconociera el diseño en vectores y configurara correctamente el recorrido de corte.
 
-FOTO: Configuración en CNC
+FOTO gdodesoporte
 
 Resultados y aprendizajes
 
 Realizamos tres pruebas con este diseño:
 
-1. Primera prueba: La pieza se quebró porque no incluía suficientes tabs.  <br>
-2. Segunda prueba: Se quebró nuevamente, indicando un problema con la estabilidad o el diseño del material. <br>
-3. Tercera prueba: Utilizamos una placa diferente para evaluar si el problema era del material o del diseño. Aunque el corte funcionó, fue evidente que había necesidad de mejorar tanto el diseño como la colocación de los tabs.
+- 1. Primera prueba: La pieza se quebró porque no incluía suficientes tabs.  <br>
+
+FOTO primer soporte 
+Detalle primer
+
+
+- 2. Segunda prueba: Se quebró nuevamente, indicando un problema con la estabilidad o el diseño del material. <br>
+
+FOTO rputerdos
+FOTO soportebotella animal 
+
+- 3. Tercera prueba: Utilizamos una placa diferente para evaluar si el problema era del material o del diseño. Aunque el corte funcionó, fue evidente que había necesidad de mejorar tanto el diseño como la colocación de los tabs.
+
+FOTO hdpesolo
+FOTO plástico
+
+VIDEO BOTELLA
 
 El comportamiento del material podría estar influenciado por su falta de planitud o por la propia composición de la tela.
 
