@@ -335,7 +335,7 @@ Esto me permitió generar láminas con diferentes resultados en resistencia y co
 ![Procesoprensado](../images/PROYECTO/muestrasldpe.png)
 
 **Muestras de textiles con HDPE** 
-![Procesoprensado](../images/PROYECTO/
+![Procesoprensado](../images/PROYECTO/muestrashdpe.png)
 
 ## **Proceso de fabricación**
 
