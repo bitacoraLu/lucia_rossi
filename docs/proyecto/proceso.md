@@ -206,7 +206,7 @@ Preparación: <br>
 7. Verter en el molde con los textiles.  <br>
 8. Dejar enfriar y desmoldar  <br>
 
-Resultado de receta con Gelatina
+**Resultado de receta con Gelatina**
 ![Gelatina](../images/PROYECTO/gelatina.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VQPeu6vBUuc?si=1_Fo9YhmZySj9LzH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -230,7 +230,7 @@ Preparación:  <br>
 Aclaración: Esta muestra del molde se llenó de hongos a los días, seguramente porque me faltó más vinagre o hace una reacción con los textiles. 
 
 
-Resultado de receta con Agar agar 
+**Resultado de receta con Agar agar**
 ![Agar](../images/PROYECTO/agar.png)
 ![Agaragar](../images/PROYECTO/agaragar.png)
 
@@ -254,7 +254,7 @@ Preparación: <br>
 
 Para limpiar: volver a poner alcohol en la olla, dejar hervir. Retirar la resina de pino con papel de cocina, repitiendo la operación cuantas veces sean necesarias. 
 
-Resultado de receta con resina de pino
+**Resultado de receta con resina de pino**
 ![Resina](../images/PROYECTO/resina2.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sOrUhl1pfv8?si=onQVEIB_cLMSRG5G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -263,6 +263,7 @@ Resultado de receta con resina de pino
 Entendí que, aunque los textiles sintéticos son complicados de reutilizar, representan un desafío interesante porque en Uruguay no hay empresas que trabajen específicamente en su reciclaje. Esto me hizo replantear mi enfoque hacia aplicaciones más prácticas y directas para este tipo de materiales, sin depender de tecnologías complejas como la trituración.
 
 A pesar de los resultados limitados con los biomateriales, creo que hay un potencial importante en seguir explorando cómo reutilizar textiles desechados para crear productos útiles, incluso considerando otras alternativas de aglomerantes. Esta investigación me permitió profundizar en el concepto de los composites, pero también me dejó preguntas abiertas sobre cómo optimizar procesos accesibles para el reciclaje textil en un contexto como el de Uruguay.
+
 
 Referencias adicionales sobre reciclaje textil y biomateriales
 
@@ -307,20 +308,20 @@ Es importante aclarar que en la página de Precious Plastic está toda la inform
 
 Los plásticos que utilicé son Polietileno, ya que son polímeros derivados del etileno. Podemos encontrar dos tipos: HDPE (polietileno de alta densidad) y LDPE (polietileno de baja densidad), ambos son reciclables, aunque su proceso requiere diferentes puntos de fusión. La diferencia es su estructura molecular que determinan sus propiedades físicas y aplicaciones. 
 
-Diferencias entre HDPE y LDPE
+**Diferencias entre HDPE y LDPE**
 
-HDPE (polietileno de alta densidad) <br>
+**HDPE** (polietileno de alta densidad) <br>
 - Estructura molecular: tiene cadenas lineales y compactas, lo que otorga densidad y rigidez. <br>
 - Propiedades: resistente a impactos, impermeable, duradero y soporta temperaturas más altas que el LDPE. <br>
 - Aplicaciones: botellas rígidas, envases para productos químicos, tuberías, contenedores, entre otros. 
 
-LDPE (polietileno de baja densidad) <br>
+**LDPE** (polietileno de baja densidad) <br>
 - Estructura molecular: tiene cadenas ramificadas, lo que lo hace más flexible y menos denso. <br>
 - Propiedades: flexible, resistente a la humedad, pero menos resistente a la tracción y temperaturas altas en comparación con el HDPE. <br>
 - Aplicaciones: bolsas de plástico, láminas, envoltorios, botellas flexibles, entre otros.
 
 
-Realicé múltiples pruebas, variando: <br>
+**Realicé múltiples pruebas, variando:** <br>
 - Cantidades de capas de telas. <br>
 - Tipos de bolsas plásticas. <br>
 - Cantidad de plástico triturado. <br>
@@ -343,17 +344,15 @@ Con la creación de éstas láminas, generé modelados 3D para aplicar con las h
 **Diseño y modelado en Fusion 360** <br>
 Para probar cómo reaccionaban a corte láser, diseñe un modelo con kerfing utilizando diseño paramétrico en Fusion 360.
 
-Preparación del modelado 3D en Fusion360
-
-- 1. Definí los parámetros iniciales (dimensiones de la placa y grosor estándar de 3 mm).
+**1.** Definí los parámetros iniciales (dimensiones de la placa y grosor estándar de 3 mm).
 
 ![Parametros](../images/PROYECTO/parametros.png)
 
-- 2. Creé un boceto para el tamaño de la placa y lo extrui.
+**2.** Creé un boceto para el tamaño de la placa y lo extrui.
 
 ![Placa](../images/PROYECTO/placa.png)
 
-- 3. Diseñe los cortes de kerfing:
+**3.** Diseñe los cortes de kerfing:
 Dibujé el primer agujero con las medidas paramétricas y lo distribuí utilizando el patrón rectangular.
 
 ![Kerfing](../images/PROYECTO/kerfing.png)
@@ -361,58 +360,70 @@ Dibujé el primer agujero con las medidas paramétricas y lo distribuí utilizan
 
 **Prueba con CORTE LÁSER** <br>
 
-Cuando fui al taller de Agustín en Rincón Maker, ya que no logré ir al laboratorio de Durazno, realicé primero pruebas para definir la velocidad y potencia necesarias para cortar según el grosor de cada lámina. La máquina utilizada fue un láser de diodo con 40W de potencia óptica.
+Cuando fui al taller de Agustín en Rincón Maker, ya que no logré ir al laboratorio de Durazno, realicé primero pruebas para definir la velocidad y potencia necesarias para cortar según el grosor de cada lámina. <br>
+La máquina utilizada fue un láser de diodo con 40W de potencia óptica.
 
-Resultados con textiles y LDPE
+![Cortelaser](../images/PROYECTO/cortelaserlpde.png)
+
+Para realizar las pruebas de velocidad y potencia, se creó una planilla para saber el espesor de cada placa, porque todas tenían diferentes espesores al hacerlo de forma artesanal. Esto es una variable para seguir mejorando la forma de realización.  
+
+![Cortelaser](../images/PROYECTO/grosoresmuestra.png)
+
+
+**Resultados con textiles y LDPE** <br>
+El mejor resultado en términos de funcionalidad y terminación de la muestra es con Potencia al 100% y velocidad 20 mm/s. 
+
+Tampoco apliqué el diseño de kerfing porque las láminas de textiles con bolsas plásticas ya tiene la propiedad de ser flexible, cuando realicé el diseño no sabía cómo iban a quedar los resultados de las láminas. 
 
 ![Cortelaser](../images/PROYECTO/cortelaserverde.png)
 ![Detalle](../images/PROYECTO/detallelpde.png)
 ![Cortelaser](../images/PROYECTO/cortelaseranimal.png)
 
-Resultados con textiles y HDPE 
+IMPORTANTE: El corte láser es esencial al trabajar con telas sintéticas porque el calor del láser sella los bordes, evitando que se deshilachen. Este efecto es especialmente eficiente en tejidos planos, aunque también es útil en tejidos de punto. Sin embargo, al cortar con tijera, los bordes suelen deshilacharse. Una solución práctica para esto es sellar los bordes con calor usando un encendedor.
+
+
+**Resultados con textiles y HDPE** 
+
+Durante las pruebas, concluí que las telas con LDPE funcionan correctamente para corte láser, pero las que incluyen triturado de HDPE no son adecuadas, ya que tienden a fundirse y expandirse.
 
 ![CCortelaser](../images/PROYECTO/maquinacorte.png)
 ![Cortelaser](../images/PROYECTO/cortelaserhdpe.png)
 ![Cortelaser](../images/PROYECTO/detallehdpe.png)
-
-Durante las pruebas, concluí que las telas con LDPE funcionan correctamente para corte láser, pero las que incluyen triturado de HDPE no son adecuadas, ya que tienden a fundirse y expandirse.
-
-
-![Cortelaser](../images/PROYECTO/cortelaserlpde.png)
-![Cortelaser](../images/PROYECTO/grosoresmuestra.png)
-
-IMPORTANTE: El corte láser es esencial al trabajar con telas sintéticas porque el calor del láser sella los bordes, evitando que se deshilachen. Este efecto es especialmente eficiente en tejidos planos, aunque también es útil en tejidos de punto. Sin embargo, al cortar con tijera, los bordes suelen deshilacharse. Una solución práctica para esto es sellar los bordes con calor usando un encendedor.
 
 
 -SOPORTE BOTELLA-
 
 **Diseño y modelado en Fusion 360** <br>
 
-- 1. Inicié definiendo los parámetros iniciales basándome en un prototipo básico que había realizado previamente.
+**1.** Inicié definiendo los parámetros iniciales basándome en un prototipo básico que había realizado previamente.
 
 ![Prototipo](../images/PROYECTO/prototiposoporte.png)
 
-- 2. Luego, creé un boceto dibujando las dimensiones y formas del prototipo.
+**2.** Luego, creé un boceto dibujando las dimensiones y formas del prototipo.
 
 ![Boceto](../images/PROYECTO/bocetosoporte.png)
 
-- 3. A continuación, extruí el boceto en Fusion 360 para generar el modelo tridimensional.
+**3.** A continuación, extruí el boceto en Fusion 360 para generar el modelo tridimensional.
 
 ![Modelo](../images/PROYECTO/modeladosoporte.png)
 
 
 **Prueba con ROUTER CNC** <br>
 
-En el taller de la fábrica, esta vez con la guía de Federico, probé cortar las placas de telas que no funcionaron con el corte láser, para observar su comportamiento en la CNC. Ellxs usualmente utilizan el router para trabajar con placas exclusivamente de plástico, así que era interesante evaluar este material.
+En el taller de La Fábrica, esta vez con la guía de Federico, probé cortar las placas de telas que no funcionaron con el corte láser, para observar su comportamiento en la CNC. Ellxs usualmente utilizan el router para trabajar con placas exclusivamente de plástico, así que era interesante evaluar este material.
 
-Primero, trabajamos con un diseño que ya tenía disponible en el sofware de gcode. 
 
+Primero, para evitar que la pieza se moviera durante el proceso, se colocaron tabs específicos en el diseño, los cuales resultaron fundamentales para el éxito del corte. Además, previamente fijamos la placa a la cama de la máquina utilizando tornillos.
+
+![Tabs](../images/PROYECTO/tabs.png)
+
+Luego, trabajamos con un diseño que ya tenía disponible en el sofware de gcode. 
 
 ![Gcode](../images/PROYECTO/gcoded.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SgABqAl3eFs?si=ZWaYidBN67quN0N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
- La placa utilizada tenía un espesor aproximado de 2 mm ± 0,5 mm. Como la muestra no estaba completamente plana, experimentamos con diferentes profundidades en la bajada de la fresa:
+ La placa utilizada tiene un espesor aproximado de 2 mm ± 0,5 mm. Como la muestra no estaba completamente plana, experimentamos con diferentes profundidades en la bajada de la fresa:
 
 1. Primera prueba: 1 mm de bajada. <br>
 2. Segunda prueba: 0,5 mm. <br>
@@ -424,14 +435,9 @@ Primero, trabajamos con un diseño que ya tenía disponible en el sofware de gco
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q5HsXdP6iEc?si=-crBdC9MWFRMQDiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-Para evitar que la pieza se moviera durante el proceso, se colocaron tabs específicos en el diseño, los cuales resultaron fundamentales para el éxito del corte. Además, previamente fijamos la placa a la cama de la máquina utilizando tornillos.
-
-![Tabs](../images/PROYECTO/tabs.png)
-
 En la segunda prueba, cortamos directamente a 2 mm, obteniendo mejores resultados desde el inicio.
 
-
-![CNC](../images/PROYECTO/d)
+![CNC](../images/PROYECTO/D.png)
 
 **Prueba con diseño de soporte de botella modelado en Fusion 360**
 
@@ -439,22 +445,22 @@ Luego, probamos el diseño que había modelado en Fusion 360 para el soporte de 
 
 ![CNC](../images/PROYECTO/gcodesoporte.png)
 
-Resultados y aprendizajes
+**Resultados y aprendizajes**
 
 Realizamos tres pruebas con este diseño:
 
-- 1. Primera prueba: La pieza se quebró porque no incluía suficientes tabs.  <br>
+**1.** Primera prueba: La pieza se quebró porque no incluía suficientes tabs.  <br>
 
 ![CNC](../images/PROYECTO/primersoporte.png)
 ![CNC](../images/PROYECTO/detalleprimer.png)
 
 
-- 2. Segunda prueba: Se quebró nuevamente, indicando un problema con la estabilidad o el diseño del material. <br>
+**2.** Segunda prueba: Se quebró nuevamente, indicando un problema con la estabilidad o el diseño del material. <br>
 
 ![CNC](../images/PROYECTO/rputerdos.png)
 ![CNC](../images/PROYECTO/soportebotellaanimal.png)
 
-- 3. Tercera prueba: Utilizamos una placa diferente para evaluar si el problema era del material o del diseño. Aunque el corte funcionó, fue evidente que había necesidad de mejorar tanto el diseño como la colocación de los tabs.
+**3.** Tercera prueba: Utilizamos una placa diferente para evaluar si el problema era del material o del diseño. Aunque el corte funcionó, fue evidente que había necesidad de mejorar tanto el diseño como la colocación de los tabs.
 
 ![CNC](../images/PROYECTO/hdpesolo.png)
 ![CNC](../images/PROYECTO/soportefunciona.png) 
