@@ -405,16 +405,24 @@ IMPORTANTE: El corte láser es esencial al trabajar con telas sintéticas porque
 
 En el taller de la fábrica, esta vez con la guía de Federico, probé cortar las placas de telas que no funcionaron con el corte láser, para observar su comportamiento en la CNC. Ellxs usualmente utilizan el router para trabajar con placas exclusivamente de plástico, así que era interesante evaluar este material.
 
-Primero, trabajamos con un diseño que ya tenía disponible. La placa utilizada tenía un espesor aproximado de 2 mm ± 0,5 mm. Como la muestra no estaba completamente plana, experimentamos con diferentes profundidades en la bajada de la fresa:
+Primero, trabajamos con un diseño que ya tenía disponible en el sofware de gcode. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SgABqAl3eFs?si=ZWaYidBN67quN0N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+ La placa utilizada tenía un espesor aproximado de 2 mm ± 0,5 mm. Como la muestra no estaba completamente plana, experimentamos con diferentes profundidades en la bajada de la fresa:
 
 1. Primera prueba: 1 mm de bajada. <br>
 2. Segunda prueba: 0,5 mm. <br>
 3. Tercera prueba: Nuevamente 1 mm, logrando finalmente cortar todo el diseño.
 
-FOTO: Proceso de corte
-VIDEO
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q5HsXdP6iEc?si=-crBdC9MWFRMQDiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 Para evitar que la pieza se moviera durante el proceso, se colocaron tabs específicos en el diseño, los cuales resultaron fundamentales para el éxito del corte. Además, previamente fijamos la placa a la cama de la máquina utilizando tornillos.
+
+FOTO TABS 
 
 En la segunda prueba, cortamos directamente a 2 mm, obteniendo mejores resultados desde el inicio.
 
