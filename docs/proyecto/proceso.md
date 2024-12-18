@@ -334,25 +334,26 @@ Esto me permitió generar láminas con diferentes resultados en resistencia y co
 FOTOS:
 (Se incluirían aquí imágenes de las pruebas realizadas, nombradas según su técnica y resultados).
 
-# **Aplicación de Fabricación digital**
+## **Aplicación de Fabricación digital**
 
 Con la creación de éstas láminas, generé modelados 3D para aplicar con las herramientas de fabricación digital de corte láser y router cnc.
 
-KERFING 
+-KERFING- 
 
 **Diseño y modelado en Fusion 360** <br>
 Para probar cómo reaccionaban a corte láser, diseñe un modelo con kerfing utilizando diseño paramétrico en Fusion 360.
 
 Preparación del modelado 3D en Fusion360
-1. Definí los parámetros iniciales (dimensiones de la placa y grosor estándar de 3 mm).
+
+- 1. Definí los parámetros iniciales (dimensiones de la placa y grosor estándar de 3 mm).
 
 ![Como](../images/PROYECTO/parametros.png)
 
-2. Creé un boceto para el tamaño de la placa y lo extrui.
+- 2. Creé un boceto para el tamaño de la placa y lo extrui.
 
 ![Como](../images/PROYECTO/placa.png)
 
-3. Diseñe los cortes de kerfing:
+- 3. Diseñe los cortes de kerfing:
 Dibujé el primer agujero con las medidas paramétricas y lo distribuí utilizando el patrón rectangular.
 
 ![Como](../images/PROYECTO/kerfing.png)
@@ -362,29 +363,36 @@ Dibujé el primer agujero con las medidas paramétricas y lo distribuí utilizan
 
 Cuando fui al taller de Agustín en Rincón Maker, ya que no logré ir al laboratorio de Durazno, realicé primero pruebas para definir la velocidad y potencia necesarias para cortar según el grosor de cada lámina. La máquina utilizada fue un láser de diodo con 40W de potencia óptica.
 
-![Como](../images/PROYECTO/grosoresmuestra.png)
+Resultados con textiles y LDPE
+
+
+![Como](../images/PROYECTO FOTO DE 
+
+Resultados con textiles y HDPE 
+
+![Como](../images/PROYECTO 
 
 Durante las pruebas, concluí que las telas con LDPE funcionan correctamente para corte láser, pero las que incluyen triturado de HDPE no son adecuadas, ya que tienden a fundirse y expandirse.
 
-FOTO!!!!
 
+![Como](../images/PROYECTO/grosoresmuestra.png)
 
 IMPORTANTE: El corte láser es esencial al trabajar con telas sintéticas porque el calor del láser sella los bordes, evitando que se deshilachen. Este efecto es especialmente eficiente en tejidos planos, aunque también es útil en tejidos de punto. Sin embargo, al cortar con tijera, los bordes suelen deshilacharse. Una solución práctica para esto es sellar los bordes con calor usando un encendedor.
 
 
-SOPORTE BOTELLA 
+-SOPORTE BOTELLA-
 
 **Diseño y modelado en Fusion 360** <br>
 
-1. Inicié definiendo los parámetros iniciales basándome en un prototipo básico que había realizado previamente.
+- 1. Inicié definiendo los parámetros iniciales basándome en un prototipo básico que había realizado previamente.
 
 ![Como](../images/PROYECTO/prototiposoporte.png)
 
-2. Luego, creé un boceto dibujando las dimensiones y formas del prototipo.
+- 2. Luego, creé un boceto dibujando las dimensiones y formas del prototipo.
 
 ![Como](../images/PROYECTO/bocetosoporte.png)
 
-3. A continuación, extruí el boceto en Fusion 360 para generar el modelo tridimensional.
+- 3. A continuación, extruí el boceto en Fusion 360 para generar el modelo tridimensional.
 
 ![Como](../images/PROYECTO/modeladosoporte.png)
 
