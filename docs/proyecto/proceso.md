@@ -331,8 +331,11 @@ Los plásticos que utilicé son Polietileno, ya que son polímeros derivados del
 
 Esto me permitió generar láminas con diferentes resultados en resistencia y cohesión.
 
-FOTO Muestras con HDPE Y LDPE
+**Muestras de textiles con LDPE** 
+![Procesoprensado](../images/PROYECTO/muestrasldpe.png)
 
+**Muestras de textiles con HDPE** 
+![Procesoprensado](../images/PROYECTO/
 
 ## **Proceso de fabricación**
 
