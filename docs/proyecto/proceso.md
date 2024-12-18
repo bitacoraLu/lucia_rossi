@@ -187,7 +187,7 @@ Inspirada por esta idea, realicé otras pruebas combinando textiles con biomater
 Por un lado, las propiedades de los biomateriales no son lo suficientemente resistentes, ni impermeables, ni tolerantes a altas temperaturas. Por ejemplo, la resina, al secarse rápidamente, dificulta el proceso de creación de un composite. <br>
 Además, a nivel conceptual, no encontraba sentido a combinar textiles sintéticos, que son difíciles de reciclar, con biomateriales biodegradables, ya que esta mezcla parece ir en direcciones opuestas en términos de sostenibilidad. 
 
-![Como](../images/PROYECTO/posentrega.png)
+![Posentrega](../images/PROYECTO/posentrega.png)
 
 **Preparación de cada receta**
 
@@ -207,7 +207,7 @@ Preparación: <br>
 8. Dejar enfriar y desmoldar  <br>
 
 Resultado de receta con Gelatina
-![Como](../images/PROYECTO/gelatina.png)
+![Gelatina](../images/PROYECTO/gelatina.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VQPeu6vBUuc?si=1_Fo9YhmZySj9LzH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -231,8 +231,8 @@ Aclaración: Esta muestra del molde se llenó de hongos a los días, seguramente
 
 
 Resultado de receta con Agar agar 
-![Como](../images/PROYECTO/agar.png)
-![Como](../images/PROYECTO/agaragar.png)
+![Agar](../images/PROYECTO/agar.png)
+![Agaragar](../images/PROYECTO/agaragar.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KWfdsLD4G_g?si=jTzJTkzvumQoj4-C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -255,7 +255,7 @@ Preparación: <br>
 Para limpiar: volver a poner alcohol en la olla, dejar hervir. Retirar la resina de pino con papel de cocina, repitiendo la operación cuantas veces sean necesarias. 
 
 Resultado de receta con resina de pino
-![Como](../images/PROYECTO/resina2.png)
+![Resina](../images/PROYECTO/resina2.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sOrUhl1pfv8?si=onQVEIB_cLMSRG5G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -274,7 +274,7 @@ Referencias adicionales sobre reciclaje textil y biomateriales
 
 ## **Muestras con BIOMATERIALES**
 
-![Como](../images/PROYECTO/muestrasbiomateriales.png)
+![Biomateriales](../images/PROYECTO/muestrasbiomateriales.png)
 
 
 ## **Exploración con nuevos aglomerantes**
@@ -287,15 +287,15 @@ En Uruguay no encontré específicamente iniciativas que trabajen con reciclaje 
 
 Sin acceso a una trituradora, corté los textiles y plásticos en trozos pequeños usando tijeras de cable. Luego realicé pruebas de fusión con una plancha común (sin agujeros y sin vapor), aplicando presión durante 10 minutos. Aunque fue un método rudimentario, me permitió evaluar las posibilidades de unir estos materiales.
 
-![Como](../images/PROYECTO/p1.png)
-![Como](../images/PROYECTO/p2.png)
-![Como](../images/PROYECTO/p3.png)
-![Como](../images/PROYECTO/p4.png)
+![Prueba1](../images/PROYECTO/p1.png)
+![Prueba2](../images/PROYECTO/p2.png)
+![Prueba3](../images/PROYECTO/p3.png)
+![Prueba4](../images/PROYECTO/p4.png)
 
 A partir de esta experiencia, me imaginé la posibilidad de crear una prensa térmica casera que pudiera ser utilizada por cualquier persona interesada. Comencé a diseñar un prototipo que incluyera un sistema con Arduino y un sensor de temperatura para mayor precisión. Sin embargo, no contaba con las herramientas necesarias para realizar cortes láser en metal, dado que este proceso implica altas temperaturas, ni con el tiempo suficiente para desarrollarlo por completo. Así, el proyecto quedó como una idea en etapa inicial, una simple ilusión por ahora.
 
-![Como](../images/PROYECTO/prensa.png)
-![Como](../images/PROYECTO/prensahogareña.png)
+![Prensa](../images/PROYECTO/prensa.png)
+![Prensahogareña](../images/PROYECTO/prensahogareña.png)
 
 
 **Colaboración con Precious Plastic**
@@ -347,17 +347,17 @@ Preparación del modelado 3D en Fusion360
 
 - 1. Definí los parámetros iniciales (dimensiones de la placa y grosor estándar de 3 mm).
 
-![Como](../images/PROYECTO/parametros.png)
+![Parametros](../images/PROYECTO/parametros.png)
 
 - 2. Creé un boceto para el tamaño de la placa y lo extrui.
 
-![Como](../images/PROYECTO/placa.png)
+![Placa](../images/PROYECTO/placa.png)
 
 - 3. Diseñe los cortes de kerfing:
 Dibujé el primer agujero con las medidas paramétricas y lo distribuí utilizando el patrón rectangular.
 
-![Como](../images/PROYECTO/kerfing.png)
-![Como](../images/PROYECTO/modelado.png)
+![Kerfing](../images/PROYECTO/kerfing.png)
+![Modelado](../images/PROYECTO/modelado.png)
 
 **Prueba con CORTE LÁSER** <br>
 
@@ -365,21 +365,21 @@ Cuando fui al taller de Agustín en Rincón Maker, ya que no logré ir al labora
 
 Resultados con textiles y LDPE
 
-![Como](../images/PROYECTO/cortelaserverde.png)
-![Como](../images/PROYECTO/detallelpde.png)
-![Como](../images/PROYECTO/cortelaseranimal.png)
+![Cortelaser](../images/PROYECTO/cortelaserverde.png)
+![Detalle](../images/PROYECTO/detallelpde.png)
+![Cortelaser](../images/PROYECTO/cortelaseranimal.png)
 
 Resultados con textiles y HDPE 
 
-![Como](../images/PROYECTO/maquinacorte.png)
-![Como](../images/PROYECTO/cortelaserhdpe.png)
-![Como](../images/PROYECTO/detallehdpe.png)
+![CCortelaser](../images/PROYECTO/maquinacorte.png)
+![Cortelaser](../images/PROYECTO/cortelaserhdpe.png)
+![Cortelaser](../images/PROYECTO/detallehdpe.png)
 
 Durante las pruebas, concluí que las telas con LDPE funcionan correctamente para corte láser, pero las que incluyen triturado de HDPE no son adecuadas, ya que tienden a fundirse y expandirse.
 
 
-![Como](../images/PROYECTO/cortelaserlpde.png)
-![Como](../images/PROYECTO/grosoresmuestra.png)
+![Cortelaser](../images/PROYECTO/cortelaserlpde.png)
+![Cortelaser](../images/PROYECTO/grosoresmuestra.png)
 
 IMPORTANTE: El corte láser es esencial al trabajar con telas sintéticas porque el calor del láser sella los bordes, evitando que se deshilachen. Este efecto es especialmente eficiente en tejidos planos, aunque también es útil en tejidos de punto. Sin embargo, al cortar con tijera, los bordes suelen deshilacharse. Una solución práctica para esto es sellar los bordes con calor usando un encendedor.
 
@@ -390,15 +390,15 @@ IMPORTANTE: El corte láser es esencial al trabajar con telas sintéticas porque
 
 - 1. Inicié definiendo los parámetros iniciales basándome en un prototipo básico que había realizado previamente.
 
-![Como](../images/PROYECTO/prototiposoporte.png)
+![Prototipo](../images/PROYECTO/prototiposoporte.png)
 
 - 2. Luego, creé un boceto dibujando las dimensiones y formas del prototipo.
 
-![Como](../images/PROYECTO/bocetosoporte.png)
+![Boceto](../images/PROYECTO/bocetosoporte.png)
 
 - 3. A continuación, extruí el boceto en Fusion 360 para generar el modelo tridimensional.
 
-![Como](../images/PROYECTO/modeladosoporte.png)
+![Modelo](../images/PROYECTO/modeladosoporte.png)
 
 
 **Prueba con ROUTER CNC** <br>
@@ -408,7 +408,7 @@ En el taller de la fábrica, esta vez con la guía de Federico, probé cortar la
 Primero, trabajamos con un diseño que ya tenía disponible en el sofware de gcode. 
 
 
-![Como](../images/PROYECTO/gcoded.png)
+![Gcode](../images/PROYECTO/gcoded.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SgABqAl3eFs?si=ZWaYidBN67quN0N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -418,26 +418,26 @@ Primero, trabajamos con un diseño que ya tenía disponible en el sofware de gco
 2. Segunda prueba: 0,5 mm. <br>
 3. Tercera prueba: Nuevamente 1 mm, logrando finalmente cortar todo el diseño.
 
-![Como](../images/PROYECTO/corted.png)
-![Como](../images/PROYECTO/detalled.png)
+![CNC](../images/PROYECTO/corted.png)
+![CNC](../images/PROYECTO/detalled.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q5HsXdP6iEc?si=-crBdC9MWFRMQDiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 Para evitar que la pieza se moviera durante el proceso, se colocaron tabs específicos en el diseño, los cuales resultaron fundamentales para el éxito del corte. Además, previamente fijamos la placa a la cama de la máquina utilizando tornillos.
 
-![Como](../images/PROYECTO/tabs.png)
+![Tabs](../images/PROYECTO/tabs.png)
 
 En la segunda prueba, cortamos directamente a 2 mm, obteniendo mejores resultados desde el inicio.
 
 
-![Como](../images/PROYECTO/d)
+![CNC](../images/PROYECTO/d)
 
 **Prueba con diseño de soporte de botella modelado en Fusion 360**
 
 Luego, probamos el diseño que había modelado en Fusion 360 para el soporte de una botella. Como no había diseñado el modelo con líneas completamente rectas, proyecté el modelado en el programa para exportarlo en formato DXF. Esto permitió que el software de la CNC reconociera el diseño en vectores y configurara correctamente el recorrido de corte.
 
-![Como](../images/PROYECTO/gcodesoporte.png)
+![CNC](../images/PROYECTO/gcodesoporte.png)
 
 Resultados y aprendizajes
 
@@ -445,19 +445,19 @@ Realizamos tres pruebas con este diseño:
 
 - 1. Primera prueba: La pieza se quebró porque no incluía suficientes tabs.  <br>
 
-![Como](../images/PROYECTO/primersoporte.png)
-![Como](../images/PROYECTO/detalleprimer.png)
+![CNC](../images/PROYECTO/primersoporte.png)
+![CNC](../images/PROYECTO/detalleprimer.png)
 
 
 - 2. Segunda prueba: Se quebró nuevamente, indicando un problema con la estabilidad o el diseño del material. <br>
 
-![Como](../images/PROYECTO/rputerdos.png)
-![Como](../images/PROYECTO/soportebotellaanimal.png)
+![CNC](../images/PROYECTO/rputerdos.png)
+![CNC](../images/PROYECTO/soportebotellaanimal.png)
 
 - 3. Tercera prueba: Utilizamos una placa diferente para evaluar si el problema era del material o del diseño. Aunque el corte funcionó, fue evidente que había necesidad de mejorar tanto el diseño como la colocación de los tabs.
 
-![Como](../images/PROYECTO/hdpesolo.png)
-![Como](../images/PROYECTO/soportefunciona.png) 
+![CNC](../images/PROYECTO/hdpesolo.png)
+![CNC](../images/PROYECTO/soportefunciona.png) 
 
 VIDEO BOTELLA
 
