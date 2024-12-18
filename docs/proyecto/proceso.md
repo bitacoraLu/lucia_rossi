@@ -331,9 +331,99 @@ Los plásticos que utilicé son Polietileno, ya que son polímeros derivados del
 
 Esto me permitió generar láminas con diferentes resultados en resistencia y cohesión.
 
-### HACER ESTA SISTEMATIZACIÓN con las fotos de las muestras. 
-FOTOS:
-(Se incluirían aquí imágenes de las pruebas realizadas, nombradas según su técnica y resultados).
+FOTO Muestras con HDPE Y LDPE
+
+
+## **Proceso de fabricación**
+
+**1. Recolección de Materiales** <br>
+Seleccioné prendas que ya no usaba debido a que estaban rotas, me quedaban grandes, eran antiguas o tenían un valor sentimental, como una calza de animal print y flores que usaba cuando tenía 18 años.
+
+![Procesoprensado](../images/PROYECTO/prendasendesecho.png)
+
+**2. Selección y Clasificación de Telas** <br>
+Identifiqué prendas con composición mayoritariamente sintética y retazos de telas guardados de mis años en diseño textil.
+
+![Procesoprensado](../images/PROYECTO/etiquetas.png)
+
+**3. Preparación de Textiles** <br>
+Recorté varias capas de cada tela en un tamaño promedio de 20x20 cm para llevar al taller y realizar pruebas. Dejando costuras pero eliminando cierre y accesorios. 
+
+![Procesoprensado](../images/PROYECTO/preparaciontextiles.png)
+
+**4.  Recolección y Preparación de LDPE** <br>
+Utilicé bolsas plásticas que tenía en casa desde hace años, ya que prefiero no desecharlas. Algunas tienen referencias de fechas. 
+
+![Procesoprensado](../images/PROYECTO/bolsasrecicladas.png)
+
+**5. Preparación de HDPE** <br>
+Las tapitas plásticas trituradas fueron provistas por Victoria en la fábrica. El proceso utiliza una trituradora con cuchillas que reducen las tapas a partículas de 3-4 mm de forma irregular. <br>
+También recolectan desechos del router CNC mediante aspiradoras y los reutilizan.
+
+![Procesoprensado](../images/PROYECTO/trituradora.png)
+![Procesoprensado](../images/PROYECTO/tapita.png)
+![Procesoprensado](../images/PROYECTO/triturado.png)
+
+También recolectan el desecho del router cnc con una aspiradora y al reuitilizan también.
+
+![Procesoprensado](../images/PROYECTO/grosortriturado.png)
+
+Comparto un video que le hice al compañero Franco con su proyecto cuando fuimos a La Fábrica. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-9zorYPvyBE?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**6. Preparación de LDPE** <br>
+Preparé las prendas de LDPE para la prensa térmica, asegurándome de recortar y organizar las capas.
+
+![Procesoprensado](../images/PROYECTO/prendaldpe.png)
+
+
+**7. Prensa térmica** <br>
+Materiales utilizados: <br>
+- Colocación de teflón en la prensa para evitar que los plásticos se adhieran. <br>
+- Diferentes temperaturas y tiempos según el tipo de plástico (HDPE o LDPE).
+
+![Procesoprensado](../images/PROYECTO/prensa.png)
+![Procesoprensado](../images/PROYECTO/detall)
+
+Proceso: 
+
+**Paso 1.** Preparar los materiales y colocarlos en la prensa. 
+
+**Paso 2.** Ajustar la temperatura y el tiempo (diferente para LDPE y HDPE).
+
+![Procesoprensado](../images/PROYECTO/prensaldpe.png)
+![Procesoprensado](../images/PROYECTO/resultadoprensaldpe.png)
+![Procesoprensado](../images/PROYECTO/prensahdpe.png)
+![Procesoprensado](../images/PROYECTO
+
+FOTO RESULTADOPRENSAHDPE
+
+**Paso 3.** Bajar la prensa para iniciar el proceso de prensado.
+
+![Procesoprensado](../images/PROYECTO/prensatemperatura.png)
+
+**Paso 4.** Esperar a que el material esté listo.
+
+**Paso 5.** Retirar el material y colocarlo en la prensa fría.
+
+**8.** Prensado en frío <br>
+Para asegurar que las placas queden planas, las coloqué en una prensa fría para su enfriamiento.
+
+![Procesoprensado](../images/PROYECTO/prensaenfrio.png)
+
+También probé con una prensa rudimentaria hecha con vidrios y pinzas de presión.
+
+![Procesoprensado](../images/PROYECTO/prensaenfriorudimentaria.png)
+
+**9. Resultados** <br>
+Resultado final del prensado, mostrando la transformación de los materiales iniciales. 
+
+
+**SEGURIDAD:** <br>
+Trabajé en un ambiente ventilado y, siempre que fue posible, utilicé mascarilla por precaución, ya que al superar el punto de fusión del plástico podrían liberarse componentes perjudiciales. <br>
+Usé guantes de goma para proteger mis manos durante la manipulación de los materiales y muestras.
+
 
 ## **Aplicación de Fabricación digital**
 
