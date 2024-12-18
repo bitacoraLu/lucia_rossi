@@ -9,8 +9,7 @@ hide:
 
 ### **Introducción**
 
-Acá documentaré el proceso de este proyecto integrador final que fui haciendo hasta el momento. <br>
-Subiré la presentación luego del 19 de diciembre. 
+Acá documentaré el proceso de diseño del proyecto integrador final. <br>
 
 ### **Documentación del proceso**
 
@@ -190,20 +189,65 @@ Además, a nivel conceptual, no encontraba sentido a combinar textiles sintétic
 
 ![Como](../images/PROYECTO/posentrega.png)
 
-Resultado de receta con gelatina 
+**Preparación de cada receta**
+
+**Resultado de receta con gelatina**
+
+Ingredientes: 30 gr. de gelatina, 200 ml. agua, 15 ml. de glicerina, 1 cucharada de vinagre.
+
+Materiales: Olla, hornalla, papel manteca, molde, jeringa, balanza, recipientes, cuchara, nylon para cubrir superficie. 
+
+Preparación: <br>
+1. Preparar el molde con papel manteca. <br>
+2. En la olla, agregar el agua, vinagre y glicerina en la olla en frío. <br>
+3. Revolver para que se incorpore bien y encender el fuego medio. <br>
+4. Agregar de a poco la gelatina y revolver para disolver hasta que hierva.  <br>
+5. Apagar el fuego y dejar reposar hasta que se entibie.  <br>
+7. Verter en el molde con los textiles.  <br>
+8. Dejar enfriar y desmoldar  <br>
+
 ![Como](../images/PROYECTO/gelatina.png)
 
-Resultado de receta con agaragar 
+**Resultado de receta con Agar Agar** 
+
+Ingredientes: 7,5 gr. de Agar Agar, 200 ml. de agua, 12 ml. glicerina. 
+
+Materiales: Olla, hornalla, papel manteca, molde, jeringa, balanza, recipientes, cuchara, nylon para cubrir superficie. 
+
+Preparación:  <br>
+1. Preparar el molde con papel manteca.  <br>
+2. En la olla, agregar el agua y el agar agar en la olla en frío y disolver.  <br>
+3. Agregar la glicerina y encender a fuego bajo revolviendo siempre.  <br>
+4. Subir el fuego paulatinamente hasta que la mezcla cambie de textura.  <br>
+5. Apagar el fuego y verter en el molde. <br>
+7. Sumergir en la olla y escurrir capa por capa.  <br>
+8. Dejar enfriar y desmoldar  <br>
+
+
 ![Como](../images/PROYECTO/agar.png)
 ![Como](../images/PROYECTO/agaragar.png)
+
+**Resultado de receta con Resina de Pino**
+
+Ingredientes: 100 gr. de resina de pino, 5 gr. de cera carnauba, 15 ml. alcohol.  
+
+Materiales: Olla, hornalla, papel manteca, molde, jeringa, balanza, recipientes, cuchara, nylon para cubrir superficie. 
+
+Preparación: <br>
+1. Preparar el molde con papel manteca.  <br>
+2. En la olla, agregar la resina de pino y el alcohol medido con jeringa en frío.  <br>
+3. Encender el fuego bajo y tapar la olla.  <br>
+4. Esperar a que se derrita sin resolver.  <br>
+5. Una vez derretido, agregar la cera carnauba y revolver suavemente.  <br>
+6. Volver a tapar por unos segundos hasta que esté todo derretido.  <br>
+7. Sumergir en la olla y escurrir capa por capa.  <br>
+8. Dejar enfriar y desmoldar  <br>
+
+Para limpiar: volver a poner alcohol en la olla, dejar hervir. Retirar la resina de pino con papel de cocina, repitiendo la operación cuantas veces sean necesarias. 
 
 Resultado de receta con resina de pino
 ![Como](../images/PROYECTO/resina2.png)
 
-
-
-PASO 1.: Preparar todos los ingredientes 
-etcetc COMPLETAAAAAAAAAAAAAAAAAARRRR
 
 Entendí que, aunque los textiles sintéticos son complicados de reutilizar, representan un desafío interesante porque en Uruguay no hay empresas que trabajen específicamente en su reciclaje. Esto me hizo replantear mi enfoque hacia aplicaciones más prácticas y directas para este tipo de materiales, sin depender de tecnologías complejas como la trituración.
 
