@@ -395,9 +395,7 @@ Proceso:
 ![Procesoprensado](../images/PROYECTO/prensaldpe.png)
 ![Procesoprensado](../images/PROYECTO/resultadoprensaldpe.png)
 ![Procesoprensado](../images/PROYECTO/prensahdpe.png)
-![Procesoprensado](../images/PROYECTO
-
-FOTO RESULTADOPRENSAHDPE
+![Procesoprensado](../images/PROYECTO/resultadoprensahdpe.png)
 
 **Paso 3.** Bajar la prensa para iniciar el proceso de prensado.
 
