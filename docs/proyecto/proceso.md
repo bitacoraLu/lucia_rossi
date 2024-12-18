@@ -357,7 +357,7 @@ Recorté varias capas de cada tela en un tamaño promedio de 20x20 cm para lleva
 **4.  Recolección y Preparación de LDPE** <br>
 Utilicé bolsas plásticas que tenía en casa desde hace años, ya que prefiero no desecharlas. Algunas tienen referencias de fechas. 
 
-![Procesoprensado](../images/PROYECTO/bolsasrecicladas.png)
+![Procesoprensado](../images/PROYECTO/bolsasenteras.png)
 
 **5. Preparación de HDPE** <br>
 Las tapitas plásticas trituradas fueron provistas por Victoria en la fábrica. El proceso utiliza una trituradora con cuchillas que reducen las tapas a partículas de 3-4 mm de forma irregular. <br>
