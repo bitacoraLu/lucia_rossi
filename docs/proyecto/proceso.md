@@ -388,8 +388,8 @@ Materiales utilizados: <br>
 - Colocación de teflón en la prensa para evitar que los plásticos se adhieran. <br>
 - Diferentes temperaturas y tiempos según el tipo de plástico (HDPE o LDPE).
 
-![Procesoprensado](../images/PROYECTO/prensa.png)
-![Procesoprensado](../images/PROYECTO/detall)
+![Procesoprensado](../images/PROYECTO/prensatermica.png)
+![Procesoprensado](../images/PROYECTO/detalleprensa.png)
 
 Proceso: 
 
@@ -410,7 +410,7 @@ Proceso:
 
 **Paso 5.** Retirar el material y colocarlo en la prensa fría.
 
-**8.** Prensado en frío <br>
+**Paso 8.** Prensado en frío <br>
 Para asegurar que las placas queden planas, las coloqué en una prensa fría para su enfriamiento.
 
 ![Procesoprensado](../images/PROYECTO/prensaenfrio.png)
@@ -419,13 +419,13 @@ También probé con una prensa rudimentaria hecha con vidrios y pinzas de presi�
 
 ![Procesoprensado](../images/PROYECTO/prensaenfriorudimentaria.png)
 
-**9. Resultados** <br>
-Resultado final del prensado, mostrando la transformación de los materiales iniciales. 
-
 
 **SEGURIDAD:** <br>
 Trabajé en un ambiente ventilado y, siempre que fue posible, utilicé mascarilla por precaución, ya que al superar el punto de fusión del plástico podrían liberarse componentes perjudiciales. <br>
 Usé guantes de goma para proteger mis manos durante la manipulación de los materiales y muestras.
+
+**9. Resultados** <br>
+Resultado final del prensado, mostrando la transformación de los materiales iniciales. 
 
 
 ## **Aplicación de Fabricación digital**
