@@ -286,7 +286,9 @@ Referencias adicionales sobre reciclaje textil y biomateriales
 
 Ante los desafíos de combinar textiles con biomateriales y las limitaciones prácticas y conceptuales que esto presentaba, decidí explorar una alternativa más coherente: utilizar plásticos como aglomerante. Esta opción resuelve la contradicción entre materiales sintéticos y biodegradables, ya que los plásticos, al igual que los textiles seleccionados, es un material sintético.
 
-En Uruguay no encontré específicamente iniciativas que trabajen con reciclaje de textiles sintéticos y plásticos como aglomerante. Sin embargo, investigué proyectos que reutilizan bolsas plásticas y otros desechos sintéticos, como: [eme plásticos](https://www.instagram.com/emeplasticas/?hl=es), [Enanas de jardín](https://enanasdejardin.com/ENANAS_2022.pdf) y [Mare sustentable](https://maresustentable.uy/). 
+En Uruguay no había, hasta hace unos días atrás, específicamente iniciativas que trabajen con reciclaje de textiles sintéticos y plásticos como aglomerante.<br> Sin embargo, investigué proyectos que reutilizan bolsas plásticas y otros desechos sintéticos, como: [eme plásticos](https://www.instagram.com/emeplasticas/?hl=es), [Enanas de jardín](https://enanasdejardin.com/ENANAS_2022.pdf) y [Mare sustentable](https://maresustentable.uy/). 
+
+La semana pasada, Lucía López junto con la EUCD-FADU-UDELAR compartió la investigación que realizó con Casa Urbana Uniformes, una ficha guía de upcycling  llamada: [Cortex](https://www.researchgate.net/publication/384291444_FICHA_GUIA_DE_UPCYCLING_CORTEX). Justamente investigaron sobre la unión de textiles con bolsas plásticas de composición LDPE.
 
 **Pruebas iniciales con plancha casera**
 
