@@ -168,7 +168,6 @@ El LDPE (polietileno de baja densidad), en combinación con textiles sintéticos
 - Textiles laminados con patrones funcionales realizados en corte láser, como 
 
 
-
 ## **Muestras de textiles con LDPE** 
 
 ![Procesoprensado](../images/PROYECTO/muestrasfinaleslpde.png)
@@ -178,7 +177,70 @@ El LDPE (polietileno de baja densidad), en combinación con textiles sintéticos
 
 ![Textilesldpe](../images/PROYECTO/sistematizacionldpe.png)
 
+PRESENTACIÓN 
 
+## **¿Por qué?**
+
+**Problemática**
+
+La industria de la moda opera bajo un modelo de sobreproducción y consumo rápido, fabricando prendas que muchas veces no son utilizadas más de una vez o, incluso, nunca llegan a ser usadas. Esto genera una acumulación masiva de textiles sin destino y deriva en un impacto ambiental significativo, ya que los textiles sintéticos, que dominan el mercado por su bajo costo, son difíciles de reciclar debido a su baja biodegradabilidad. 
+
+El proyecto surge como respuesta a esto, proponiendo una alternativa accesible para el reciclaje textil que reutiliza capas de telas sin necesidad de triturarlas, ya que en Uruguay no se cuenta con las herramientas industriales necesarias para estos procesos.
+
+**Comunidad y contexto**
+
+Si bien en otros países existen iniciativas que utilizan textiles triturados para fabricar materiales como ladrillos o placas (ejemplo: Fabrick), este proyecto toma un enfoque diferente, aprovechando herramientas más accesibles como el corte láser o el CNC. Busca ser una solución adaptable al contexto local, explorando aplicaciones prácticas para espacios interiores y exteriores. Las placas laminadas resultantes tienen propiedades como impermeabilidad y resistencia al calor, lo que las hace útiles para diseño de mobiliario, revestimientos u otros productos sostenibles.
+
+**Explica de qué manera has considerado los aspectos sociales, económicos y ambientales para dar respuesta a problemáticas locales**
+
+
+- En términos sociales, busca concienciar sobre la importancia de reutilizar textiles y fomenta la participación comunitaria mediante la difusión abierta de recetas y procesos. <br>
+- Desde un enfoque económico, promueve un modelo de economía circular que genera valor a partir de desechos y reduce costos.  <br>
+- Ambientalmente, contribuye a la reducción de residuos textiles en vertederos y reutiliza plásticos reciclados como aglomerantes, disminuyendo el impacto ecológico general.
+
+**Explica cómo has incorporado un enfoque de diseño abierto, distribuido y sostenible**
+
+Enfoque de diseño abierto, distribuido y sostenible
+El diseño abierto y distribuido es central en este proyecto, ya que al compartir las recetas, parámetros técnicos y resultados obtenidos, fomenta y facilita que comunidades locales puedan replicarlo utilizando herramientas digitales disponibles. <br>
+Al utilizar materiales reciclados se alinea con los principios de sostenibilidad, y se demuestra que es posible combinar accesibilidad, innovación, economía circular y responsabilidad ambiental.
+
+## **¿Qué?**
+
+**Nombre**
+
+Mutex (de "mutar" y "textil").
+
+**Descripción del proyecto**
+
+Mutex consiste en la creación de placas laminadas a partir de textiles en desuso, unidas mediante aglomerantes plásticos reciclados como tapas de botellas (HDPE) y bolsas plásticas (LDPE).
+
+**Propuesta de valor**
+
+El proyecto ofrece una alternativa para dar una segunda vida a textiles descartados, transformándolos en placas funcionales con múltiples aplicaciones. Además de reducir el desperdicio, fomenta el reciclaje accesible y la economía circular al convertir residuosp en recursos útiles. 
+
+## **¿Cómo?**
+
+**Describe cómo es tu prototipo, funcional y cómo integraste diseño 2D y 3D, procesos aditivos y/o sustractivos, electrónica y programación en tu propuesta**
+
+El prototipo se materializa en placas laminadas fabricadas mediante el prensado de textiles sintéticos reciclados y plásticos. 
+
+El diseño involucró herramientas de fabricación digital en varias etapas:
+
+- Diseño 2D y 3D para modelar el diseño de corte láser y router cnc. 
+- Corte láser y Fresado CNC para las muestras. 
+- Fresado CNC 
+- No pude incluir electrónica y programación pero estoy segura que podrá ser incoporado en futuras aplicaciones
+
+**Proceso de diseño y cocreación**
+
+El desarrollo del proyecto inició con una investigación sobre el uso de biomateriales como aglomerantes para unir textiles, pero los resultados no fueron efectivos en términos de adhesión ni resistencia. A partir de esta limitación, el enfoque se redirigió hacia el uso de plásticos reciclados, ya que su composición sintética es más compatible con los textiles sintéticos en desuso.
+
+Se realizaron múltiples pruebas utilizando plásticos triturados y bolsas recicladas, ajustando parámetros como la temperatura, la presión y el tiempo para optimizar la adherencia y la funcionalidad de las placas. Estas pruebas fueron sistematizadas detalladamente y documentadas para generar un sistema replicable. 
+
+El uso de fabricación digital permitió experimentar con aplicaciones decorativas y estructurales, ampliando el potencial de las placas para diversos usos. El proyecto se mantiene en constante investigación, buscando perfeccionar técnicas, explorar nuevas combinaciones de materiales y ampliar sus aplicaciones prácticas.
+
+
+VIDEO 
 
 ### **Reflexiones finales**
 
