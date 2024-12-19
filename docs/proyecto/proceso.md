@@ -9,7 +9,8 @@ hide:
 
 ### **Introducción**
 
-Acá documentaré el proceso de diseño del proyecto integrador final. <br>
+Acá documentaré el proceso de diseño del proyecto integrador en su evolución. <br>
+En la siguiente pestaña encontrarán una sintésis del proyecto. 
 
 ### **Documentación del proceso**
 
@@ -331,10 +332,12 @@ Los plásticos que utilicé son Polietileno, ya que son polímeros derivados del
 
 Esto me permitió generar láminas con diferentes resultados en resistencia y cohesión.
 
-**Muestras de textiles con LDPE** 
+## **Muestras de textiles con LDPE** 
+
 ![Procesoprensado](../images/PROYECTO/muestrasldpe.png)
 
-**Muestras de textiles con HDPE** 
+## **Muestras de textiles con HDPE** 
+
 ![Procesoprensado](../images/PROYECTO/muestrashdpe.png)
 
 ## **Proceso de fabricación**
@@ -391,7 +394,7 @@ Materiales utilizados: <br>
 ![Procesoprensado](../images/PROYECTO/prensatermica.png)
 ![Procesoprensado](../images/PROYECTO/detalleprensa.png)
 
-Proceso: 
+**Proceso de prensado**
 
 **Paso 1.** Preparar los materiales y colocarlos en la prensa. 
 
@@ -424,8 +427,6 @@ También probé con una prensa rudimentaria hecha con vidrios y pinzas de presi�
 Trabajé en un ambiente ventilado y, siempre que fue posible, utilicé mascarilla por precaución, ya que al superar el punto de fusión del plástico podrían liberarse componentes perjudiciales. <br>
 Usé guantes de goma para proteger mis manos durante la manipulación de los materiales y muestras.
 
-**9. Resultados** <br>
-Resultado final del prensado, mostrando la transformación de los materiales iniciales. 
 
 
 ## **Aplicación de Fabricación digital**
@@ -564,10 +565,9 @@ Realizamos tres pruebas con este diseño:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embed YouTube Short</title>
+    <title>YouTube Video</title>
 </head>
 <body>
-    <h1>Embedded YouTube Short</h1>
     <iframe 
         width="560" 
         height="315" 
@@ -583,9 +583,13 @@ Realizamos tres pruebas con este diseño:
 
 **IMPORTANTE:** El comportamiento del material podría estar influenciado por su falta de planitud o por la propia composición de la tela.
 
-FOTO: Comparativa de pruebas y resultado final
+## **Sistematización de muestras de textiles y HDPE**
 
+![Textileshdpe](../images/PROYECTO/hdpesolo.png)
 
+## **Sistemización de muestras de textiles y LDPE**
+
+![Textilesldpe](../images/PROYECTO/hdpesolo.png)
 
 
 
