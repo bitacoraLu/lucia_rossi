@@ -770,41 +770,30 @@ El IDE tiene varias herramientas clave: <br>
 Leer mínimo dos inputs (módulo sensor de distancias SRF05 / pulsador + fotoresistencias) y actuar mínimo dos outputs (servomotor + leds)</p>
 <p>Antes de documentar todo, tildaré los materiales claves para el funcionamiento en sí del <a href="https://candy-ho.com/Drivers/librodeproyectosdearduinostarterkit-151212174250.pdf">kit de arduino</a> </p>
 <p><img alt="Arduino" src="../../images/MT04/kit.png" /></p>
-<p>**Materiales a utilizar: <br>
-- Arduino Uno: La tarjeta de desarrollo del microcontrolador la cual será el corazón de tus proyectos. Es un simple ordenador, pero uno con el cual todavía no puedes realizar nada. Construirás circuitos e interfaces para hacer cosas y decirle al microcontrolador como trabajar con otros componentes. <br>
-- Placa de pruebas: Una placa sobre la cual puede montar componentes electrónicos. Es como un panel con agujeros, con filas de agujeros que le permite conectar juntos cables y componentes electrónicos. También están disponibles tarjetas sobre las que hay que soldar y también sin necesidad de usar un soldador como la mostrada aquí. <br>
-- Cables puente – Utilizarlos para conectar unos componentes con otros sobre la placa de prueba, y la tarjeta de Arduino. <br>
-- Foto resistencia: (también llamada foto célula o resistencia dependiente de la luz). Se trata de una resistencia variable que cambia su resistencia según el nivel de luz que incide sobre su superficie. <br>
-- Resistencias: Se opone al paso de la corriente eléctrica en un circuito, dando como resultado a un cambio en la tensión y en dicha corriente. El valor de las resistencias se mide en ohmios (se representa por la letra griega omega). Las bandas de colores en un lado de la resistencia indica su valor. <br>
-- Potenciómetro: Una resistencia variable con tres terminales. Dos de estos terminales están conectados a los extremos de una resistencia fija. El terminal central se puede mover a través de la superficie de la resistencia fija (dispone de un mando), consiguiendo de esta forma dos valores diferentes de resistencia según el terminal extremo que se tome como referencia. Cuando los terminales extremos del potenciómetro se conectan entre una tensión y masa, en el terminal central aparece una tensión que es proporcional al giro del mando central, entre cero (un extremo) y la máxima tensión (el otro extremo).  <br>
-- Pulsador: Interruptores momentáneos que cierran un circuito cuando son presionados. Se colocan con facilidad sobre la placa de pruebas. Son buenos para abrir o cerrar el paso a una señal.  <br>
-- Servo motor: Un tipo de motor reductor que solo puede girar 180 grados. Es controlado por las señales eléctricas en formato de pulsos que son enviadas desde la tarjeta Arduino. Estos pulsos le dicen al motor a que posición se debe de mover.  <br>
-- Diodos Emisores de Luz (LEDs): Un tipo de diodo que emite luz cuando la corriente lo atraviesa. Como en todos los diodos, la corriente solo fluye en un sentido a través de estos componentes. Estará probablemente familiarizado con ellos al verlos como indicadores dentro de una gran variedad de dispositivos electrónicos. El ánodo, que normalmente se conecta al positivo de la alimentación, es generalmente el terminal mas largo, y el cátodo el terminal mas corto.  <br>
-- Cable USB: Permite conectar la placa Arduino Uno a un ordenador para que se pueda programar. También proporciona la alimentación necesaria tanto a la placa Arduino como a todos los componentes electrónicos que forman parte de los proyectos de este kit.</p>
+<p><strong>Materiales a utilizar:</strong> <br></p>
+<p><strong>- Arduino Uno:</strong> La tarjeta de desarrollo del microcontrolador la cual será el corazón de tus proyectos. Es un simple ordenador, pero uno con el cual todavía no puedes realizar nada. Construirás circuitos e interfaces para hacer cosas y decirle al microcontrolador como trabajar con otros componentes. <br>
+<strong>- Placa de pruebas:</strong> Una placa sobre la cual puede montar componentes electrónicos. Es como un panel con agujeros, con filas de agujeros que le permite conectar juntos cables y componentes electrónicos. También están disponibles tarjetas sobre las que hay que soldar y también sin necesidad de usar un soldador como la mostrada aquí. <br>
+<strong>- Cables puente:</strong> Utilizarlos para conectar unos componentes con otros sobre la placa de prueba, y la tarjeta de Arduino. <br>
+<strong>- Foto resistencia:</strong> (también llamada foto célula o resistencia dependiente de la luz). Se trata de una resistencia variable que cambia su resistencia según el nivel de luz que incide sobre su superficie. <br>
+<strong>- Resistencias:</strong> Se opone al paso de la corriente eléctrica en un circuito, dando como resultado a un cambio en la tensión y en dicha corriente. El valor de las resistencias se mide en ohmios (se representa por la letra griega omega). Las bandas de colores en un lado de la resistencia indica su valor. <br>
+<strong>- Potenciómetro:</strong> Una resistencia variable con tres terminales. Dos de estos terminales están conectados a los extremos de una resistencia fija. El terminal central se puede mover a través de la superficie de la resistencia fija (dispone de un mando), consiguiendo de esta forma dos valores diferentes de resistencia según el terminal extremo que se tome como referencia. Cuando los terminales extremos del potenciómetro se conectan entre una tensión y masa, en el terminal central aparece una tensión que es proporcional al giro del mando central, entre cero (un extremo) y la máxima tensión (el otro extremo).  <br>
+<strong>- Pulsador:</strong> Interruptores momentáneos que cierran un circuito cuando son presionados. Se colocan con facilidad sobre la placa de pruebas. Son buenos para abrir o cerrar el paso a una señal.  <br>
+<strong>- Servo motor:</strong> Un tipo de motor reductor que solo puede girar 180 grados. Es controlado por las señales eléctricas en formato de pulsos que son enviadas desde la tarjeta Arduino. Estos pulsos le dicen al motor a que posición se debe de mover.  <br>
+<strong>- Diodos Emisores de Luz (LEDs):</strong> Un tipo de diodo que emite luz cuando la corriente lo atraviesa. Como en todos los diodos, la corriente solo fluye en un sentido a través de estos componentes. Estará probablemente familiarizado con ellos al verlos como indicadores dentro de una gran variedad de dispositivos electrónicos. El ánodo, que normalmente se conecta al positivo de la alimentación, es generalmente el terminal mas largo, y el cátodo el terminal mas corto.  <br>
+<strong>- Cable USB:</strong> Permite conectar la placa Arduino Uno a un ordenador para que se pueda programar. También proporciona la alimentación necesaria tanto a la placa Arduino como a todos los componentes electrónicos que forman parte de los proyectos de este kit.</p>
 <p>Después de estudiar toda la información de arduino, ya que nunca había hecho nada al respecto y me llevó mucho tiempo para entender su funcionamiento y lógica. Empecé a con la tarea de este módulo que consistía en leer dos inputs y dos outputs. Para eso, descargué arduino a mi computadora. 
 Usé tinkercad pero necesité ir a probar directamente con los materiales para entender mejor. Programé una luz que se prende con un pulsador y calculé la distancia con el sensor de distancia. </p>
-<p>Aclaración: pasó un tiempo de la primera prueba a la segunda y cuando volví a conectar la placa arduino, no me reconoció el puerto. Estuve mucho tiempo investigando el motivo y como la placa arduino es una copia, supuestamente se necesitaba un driver CH340g que es el chip. Lo descargué pero seguí sin poder solucionarlo, me auxilié con chat gpt que me brindó muchas opciones, probé muchas opciones y finalmente era el cable de conexión, compré otro y funcionó correctamente. La alegría fue enorme. </p>
+<p><strong>Aclaración:</strong> pasó un tiempo de la primera prueba a la segunda y cuando volví a conectar la placa arduino, no me reconoció el puerto. Estuve mucho tiempo investigando el motivo y como la placa arduino es una copia, supuestamente se necesitaba un driver CH340g que es el chip. Lo descargué pero seguí sin poder solucionarlo, me auxilié con chat gpt que me brindó muchas opciones, probé muchas opciones y finalmente era el cable de conexión, compré otro y funcionó correctamente. La alegría fue enorme. </p>
 <p><img alt="Arduino" src="../../images/MT04/error.png" />
 <img alt="Arduino" src="../../images/MT04/puerto.png" /></p>
 <p>Después de muchas pruebas, la solución fue comprar un nuevo cable de datos y funcionó correctamente. </p>
-<p><strong>Prender un led con un pulsador</strong></p>
+<p><strong>Ejercicio 1: Prender un led con un pulsador</strong></p>
 <p>Materiales: Un LEDs, una placa arduino uno, un cable de impresora, una computadora, cables para el montaje del circuito, placa de prueba, resistencia eléctrónica, un botón pulsador. </p>
 <p>Primero hice el circuito en Tinkercad para realizar la simulación de que realmente la conexión funcionara.</p>
 <p><img alt="Arduino" src="../../images/MT04/pulsador.png" /></p>
 <p>Referencia de colores: rojo conexión de 5V al positivo, anaranajado de los “aparatos” al positivo, azul de GNR al negativo, amarillo de los aparatos al negativo, violeta de los aparatos a los pines digitales o analógicos</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OnWI7UgqTWs?si=6-H3TRgdvoniakBf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p>const int bpulsar = 2;
-const int led = 13; //indica que el led esta conectado al pin 13
-int boton; // // se declara la variable boton</p>
-<p>void setup(){
-pinMode(bpulsar,INPUT); // se declara el pin 2 como entrada
-pinMode(led, OUTPUT);   // se declara el pin 13 como salida </p>
-<p>}</p>
-<p>void loop(){
-  boton=digitalRead(bpulsar); // se asigna la variable &ldquo;boton&rdquo; el valor del pin 2
-  digitalWrite(led,boton);    // // el led se enciende o no de acuerdo al valor del push button</p>
-<p>} </p>
 <p><img alt="Arduino" src="../../images/MT04/tinkerarduino.png" /></p>
 <!DOCTYPE html>
 <html lang="en">
@@ -814,7 +803,6 @@ pinMode(led, OUTPUT);   // se declara el pin 13 como salida </p>
     <title>Embed YouTube Short</title>
 </head>
 <body>
-    <h1>Video de YouTube Short</h1>
     <iframe 
         width="560" 
         height="315" 
