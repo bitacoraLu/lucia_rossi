@@ -177,7 +177,7 @@ El LDPE (polietileno de baja densidad), en combinación con textiles sintéticos
 
 ![Textilesldpe](../images/PROYECTO/sistematizacionldpe.png)
 
-PRESENTACIÓN 
+## **Presentación**
 
 ## **¿Por qué?**
 
@@ -238,6 +238,22 @@ El desarrollo del proyecto inició con una investigación sobre el uso de biomat
 Se realizaron múltiples pruebas utilizando plásticos triturados y bolsas recicladas, ajustando parámetros como la temperatura, la presión y el tiempo para optimizar la adherencia y la funcionalidad de las placas. Estas pruebas fueron sistematizadas detalladamente y documentadas para generar un sistema replicable. 
 
 El uso de fabricación digital permitió experimentar con aplicaciones decorativas y estructurales, ampliando el potencial de las placas para diversos usos. El proyecto se mantiene en constante investigación, buscando perfeccionar técnicas, explorar nuevas combinaciones de materiales y ampliar sus aplicaciones prácticas.
+
+
+
+![Presentacion](../images/PROYECTO/pag1.png)
+
+![Presentacion](../images/PROYECTO/pag2.png)
+
+![Presentacion](../images/PROYECTO/pag3.png)
+
+![Presentacion](../images/PROYECTO/pag4.png)
+
+![Presentacion](../images/PROYECTO/pag5.png)
+
+![Presentacion](../images/PROYECTO/pag6.png)
+
+![Presentacion](../images/PROYECTO/pag7.png)
 
 
 VIDEO 
