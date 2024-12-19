@@ -255,6 +255,10 @@ El uso de fabricación digital permitió experimentar con aplicaciones decorativ
 
 ![Presentacion](../images/PROYECTO/pag7.png)
 
+## **PRESENTACIÓN para descargar:**
+
+[Enlace al archivo en Google Drive](https://drive.google.com/file/d/1fgG7iBAle3sHMd6s-vZmtO-9rPAtR0fZ/view?usp=share_link)
+
 
 ## **VIDEOpresentación de todas las muestras**
 
