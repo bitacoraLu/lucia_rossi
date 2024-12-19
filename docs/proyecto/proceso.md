@@ -276,7 +276,7 @@ Referencias adicionales sobre reciclaje textil y biomateriales
 
 ## **Muestras con BIOMATERIALES**
 
-![Biomateriales](../images/PROYECTO/muestrasbiomateriales.png)
+![Biomateriales](../images/PROYECTO/muestrrasfinalesbiomateriales.png)
 
 ## **Sistematización de muestras de textiles y biomateriales**
 
@@ -337,13 +337,14 @@ Los plásticos que utilicé son Polietileno, ya que son polímeros derivados del
 
 Esto me permitió generar láminas con diferentes resultados en resistencia y cohesión.
 
-## **Muestras de textiles con LDPE** 
-
-![Procesoprensado](../images/PROYECTO/muestrasldpe.png)
 
 ## **Muestras de textiles con HDPE** 
 
-![Procesoprensado](../images/PROYECTO/muestrashdpe.png)
+![Procesoprensado](../images/PROYECTO/muestrasfinaleshdpe.png)
+
+## **Muestras de textiles con LDPE** 
+
+![Procesoprensado](../images/PROYECTO/muestrasfinaleslpde.png
 
 ## **Proceso de fabricación**
 

@@ -9,10 +9,8 @@ hide:
 
 ### **Introducción**
 
-
-
-![Metodologia](../images/PROYECTO/metodologia.png)
+Aquí documentaré la síntesis del proyecto final integrador. 
 
 ### **Documentación del proceso**
 
-![Como](../images/PROYECTO/biomateriales.png)
+
