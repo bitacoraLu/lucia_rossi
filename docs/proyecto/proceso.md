@@ -589,6 +589,7 @@ Realizamos tres pruebas con este diseño:
 
 **IMPORTANTE:** El comportamiento del material podría estar influenciado por su falta de planitud o por la propia composición de la tela.
 
+
 ## **Sistematización de muestras de textiles y HDPE**
 
 ![Textileshdpe](../images/PROYECTO/sistematizacionhdpe.png)
@@ -596,6 +597,16 @@ Realizamos tres pruebas con este diseño:
 ## **Sistemización de muestras de textiles y LDPE**
 
 ![Textilesldpe](../images/PROYECTO/sistematizacionldpe.png)
+
+
+### **Reflexiones**
+
+El proceso fue un recorrido experimental en el que cada material reveló sus límites y posibilidades:
+
+- Los biomateriales abren la puerta a opciones sostenibles y biodegradables, con potencial para aplicaciones en diseño temporal, estructuras ligeras y superficies impermeabilizadas. <br>
+- Los composites con HDPE y LDPE ofrecen alternativas resistentes, moldeables y funcionales a partir del reciclaje de plásticos. La diferencia clave radica en la rigidez (HDPE) y flexibilidad (LDPE), permitiendo una amplia gama de aplicaciones según la necesidad del producto final.
+
+Este proceso no es un producto final, sino una serie de exploraciones que sistematizan conocimientos y muestran el potencial de los textiles reciclados combinados con biomateriales y plásticos. Cada prueba deja abierta la posibilidad de diseñar nuevas aplicaciones, adaptando las propiedades del material a distintas necesidades creativas y funcionales, aportando a una economía circular. 
 
 
 
