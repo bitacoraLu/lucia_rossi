@@ -177,3 +177,19 @@ El LDPE (polietileno de baja densidad), en combinación con textiles sintéticos
 ## **Sistemización de muestras de textiles y LDPE**
 
 ![Textilesldpe](../images/PROYECTO/sistematizacionldpe.png)
+
+
+
+### **Reflexiones finales**
+
+Este proyecto no busca presentar un producto final acabado, sino sistematizar un proceso de exploración que abre puertas a nuevas formas de pensar el reciclaje textil y su integración con biomateriales y plásticos. A través de las múltiples pruebas realizadas, se han generado conocimientos que evidencian el potencial de combinar textiles reciclados con materiales innovadores, adaptando sus propiedades a diversas necesidades creativas y funcionales. Este enfoque no solo responde a una inquietud personal de investigar, sino que también aborda un desafío mayor: la necesidad urgente de aplicar principios de economía circular en una industria textil que tradicionalmente genera altos niveles de contaminación y desperdicio.
+
+Las reflexiones obtenidas durante el proceso refuerzan la idea de que este es un puntapié inicial. El proyecto se posiciona como una invitación a seguir investigando y desarrollando aplicaciones que puedan aprovechar los avances en herramientas de fabricación digital. Estas tecnologías, combinadas con el conocimiento adquirido, permiten diseñar soluciones distribuidas y sostenibles que fomenten la cocreación interdisciplinaria y ofrezcan respuestas innovadoras a problemas sociales y ambientales.
+
+Los objetivos planteados—tecnológicos, de diseño y sostenibilidad—se ven reflejados en cada etapa del proceso. Por un lado, el uso de tecnologías como el corte láser, el router CNC y los moldes personalizados demuestran la capacidad técnica de adaptar y prototipar materiales en un entorno de fabricación digital. Por otro, la experimentación con diferentes materiales y técnicas no solo amplía las posibilidades de diseño, sino que también fomenta la innovación en métodos de producción sostenibles. Este enfoque evidencia la viabilidad de crear soluciones que minimicen el desperdicio y que, además, puedan ser escaladas o replicadas en otros contextos.
+
+En términos de impacto, el proyecto cumple con el objetivo de proponer alternativas sostenibles basadas en principios de economía circular. Desde las propiedades de rigidez y resistencia del HDPE hasta la flexibilidad y versatilidad del LDPE, pasando por el potencial de los biomateriales como la resina de pino o la gelatina, las pruebas realizadas sugieren aplicaciones concretas: baldosas, ladrillos, revestimientos impermeables, placas flexibles, entre otros. Estas propuestas responden a necesidades funcionales mientras revalorizan los desechos textiles, convirtiéndolos en materiales útiles con nuevas cadenas de valor.
+
+Finalmente, este proyecto reafirma la importancia de seguir investigando e innovando en torno al reciclaje textil. Si bien no pretende ser una solución definitiva, sí ofrece un marco de trabajo para pensar en futuros desarrollos que integren sostenibilidad, tecnología y diseño. Es una invitación a colaborar, a experimentar y a construir colectivamente un sistema más eficiente y respetuoso con el planeta. 
+
+
