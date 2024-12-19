@@ -344,7 +344,7 @@ Esto me permitió generar láminas con diferentes resultados en resistencia y co
 
 ## **Muestras de textiles con LDPE** 
 
-![Procesoprensado](../images/PROYECTO/muestrasfinaleslpde.png
+![Procesoprensado](../images/PROYECTO/muestrasfinaleslpde.png)
 
 ## **Proceso de fabricación**
 
