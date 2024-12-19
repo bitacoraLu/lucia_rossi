@@ -256,7 +256,9 @@ El uso de fabricación digital permitió experimentar con aplicaciones decorativ
 ![Presentacion](../images/PROYECTO/pag7.png)
 
 
-VIDEO 
+## **VIDEOpresentación de todas las muestras**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D3pR22qPbDA?si=LfmiDieS5_vET_BM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### **Reflexiones finales**
 
