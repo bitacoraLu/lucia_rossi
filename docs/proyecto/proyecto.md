@@ -114,6 +114,14 @@ Gelatina:  <br>
 Agar-Agar:  <br>
 - Si se ajustara la receta, podría funcionar como una opción para estructuras temporales o efímeras, como piezas de diseño en ferias o instalaciones artísticas.
 
+## **Muestras con BIOMATERIALES**
+
+![Biomateriales](../images/PROYECTO/muestrrasfinalesbiomateriales.png)
+
+## **Sistematización de muestras de textiles y biomateriales**
+
+![Textilesbiomateriales](../images/PROYECTO/sistematizacionbiomateriales.png) 
+
 ## **Composites con Textiles sintéticos y HDPE**
 
 Trabajando con HDPE (polietileno de alta densidad) combinado con textiles sintéticos, los mejores resultados se lograron al triturar finamente el HDPE y al prensarlo térmicamente a 170 ºC durante 10 minutos. Preferentemente darle forma con Router CNC.
@@ -130,6 +138,16 @@ Las costuras textiles actúan como puntos de quiebre sin llegar a romperse, lo c
 - Placas estructurales para revestimientos de paredes o suelos. <br>
 - Juntas y uniones rígidas en combinación con textiles de punto, aprovechando las propiedades de quiebre controlado. <br>
 - Molduras y marcos diseñados con router CNC.
+
+## **Muestras de textiles con HDPE** 
+
+![Procesoprensado](../images/PROYECTO/muestrasfinaleshdpe.png)
+
+
+## **Sistematización de muestras de textiles y HDPE**
+
+![Textileshdpe](../images/PROYECTO/sistematizacionhdpe.png)
+
 
 ## **Composites con Textiles sintéticos y LDPE**
 
@@ -148,3 +166,14 @@ El LDPE (polietileno de baja densidad), en combinación con textiles sintéticos
 - Fundas y protectores para dispositivos debido a su resistencia a la humedad y flexibilidad. <br>
 - Elementos modulares para aplicaciones en arquitectura temporal (paredes, paneles ligeros). <br>
 - Textiles laminados con patrones funcionales realizados en corte láser, como 
+
+
+
+## **Muestras de textiles con LDPE** 
+
+![Procesoprensado](../images/PROYECTO/muestrasfinaleslpde.png)
+
+
+## **Sistemización de muestras de textiles y LDPE**
+
+![Textilesldpe](../images/PROYECTO/sistematizacionldpe.png)
