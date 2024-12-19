@@ -75,3 +75,76 @@ Este proyecto demuestra que los textiles desechados pueden reutilizarse en combi
 - Investigar nuevas fórmulas para biomateriales que sean compatibles con textiles sintéticos. <br>
 - Explorar técnicas de fabricación digital avanzadas para optimizar los procesos y adaptarlos a diversas escalas de producción.
 
+### **Síntesis del Proceso de diseño con textiles, biomateriales y plásticos** 
+
+**Proceso de diseño**
+
+El punto de partida fue la recolección y clasificación de textiles: prendas y recortes organizados según el tipo de tejido (punto o plano) y su composición (100% sintético o mezclado con fibras naturales de origen vegetal o animal). Esta fase fue esencial para entender cómo se comportan los materiales durante los procesos de prensado y mezcla. 
+
+Luego, preparé las muestras cortando los textiles en diferentes tamaños, probando tanto piezas grandes como fragmentos más pequeños.
+
+## **Experimentación con biomateriales**
+
+Para explorar opciones biodegradables, trabajé con diferentes recetas a partir de ingredientes accesibles como resina de pino, gelatina y agar-agar. Cada material demandó su propio proceso de preparación, con moldes iniciales construidos en cartón, aunque con la posibilidad de realizar moldes en corte láser o router CNC para obtener resultados más precisos.
+
+**Resultados y Reflexiones**
+
+Resina de Pino: <br>
+- Resultó una mezcla fuerte y con propiedades impermeabilizantes, ideal para superficies de contacto con agua fría, como baldosas de baño. <br>
+- Sin embargo, su rigidez se ve afectada por el calor; al dejarla al sol comenzó a deformarse. <br>
+
+
+Gelatina:  <br>
+- Proporcionó un material flexible y resistente a la torsión, lo que valida su uso como aglomerante para textiles triturados. <br>
+
+
+Agar-Agar:  <br>
+- A pesar de su rigidez inicial, se quebró con facilidad y mostró signos de descomposición en pocos días, probablemente por un desequilibrio en la mezcla (faltó vinagre).  <br>
+
+
+
+**Aplicaciones Futuras**
+
+Resina de Pino: <br>
+- Creación de azulejos decorativos para ambientes húmedos o estructuras no expuestas a calor extremo.
+
+Gelatina:  <br>
+- Comparte principios con empresas que trabajan en composites biodegradables, dando potencial para desarrollar ladrillos modulares ligeros o placas flexibles.
+
+Agar-Agar:  <br>
+- Si se ajustara la receta, podría funcionar como una opción para estructuras temporales o efímeras, como piezas de diseño en ferias o instalaciones artísticas.
+
+## **Composites con Textiles sintéticos y HDPE**
+
+Trabajando con HDPE (polietileno de alta densidad) combinado con textiles sintéticos, los mejores resultados se lograron al triturar finamente el HDPE y al prensarlo térmicamente a 170 ºC durante 10 minutos. Preferentemente darle forma con Router CNC.
+
+**Observaciones y Reflexiones**
+
+- Las telas de tejido plano tienden a arrugarse más, especialmente si son finas, mientras que las telas gruesas y las de punto con spandex/elastano tienen mejor rendimiento al momento de moldear el HDPE. <br>
+- El material resultante es rígido, impermeable y resistente a altas temperaturas.  <br>
+Las costuras textiles actúan como puntos de quiebre sin llegar a romperse, lo cual podría aprovecharse como parte del diseño estructural.  <br>
+- Aunque las placas laminadas no funcionaron para corte láser, sí fueron efectivas con router CNC, permitiendo tallados y cortes precisos.
+
+**Aplicaciones Futuras**
+- Mobiliario rígido para exteriores o espacios públicos (bancos, mesas pequeñas).  <br>
+- Placas estructurales para revestimientos de paredes o suelos. <br>
+- Juntas y uniones rígidas en combinación con textiles de punto, aprovechando las propiedades de quiebre controlado. <br>
+- Molduras y marcos diseñados con router CNC.
+
+## **Composites con Textiles sintéticos y LDPE**
+
+El LDPE (polietileno de baja densidad), en combinación con textiles sintéticos, resultó mucho más flexible que el HDPE, pero igualmente impermeable. El prensado térmico a 170 ºC durante 3 minutos fue suficiente para unir las capas sin comprometer la flexibilidad del material.
+
+**Observaciones y Reflexiones**
+
+- Las bolsas plásticas de LDPE funcionaron perfectamente, a diferencia de otros plásticos como el polipropileno tejido y el PVC, que no lograron unirse. <br>
+- La cantidad de capas define el nivel de rigidez: más capas = más rigidez. <br>
+- Las telas de tejido plano, si son finas, tienden a arrugarse más que las gruesas. <br>
+- Funcionaron muy bien con corte láser, permitiendo diseños precisos y perforaciones, aunque no se probaron con router CNC debido a su flexibilidad.
+
+**Aplicaciones Futuras**
+
+- Cubiertas flexibles e impermeables para mobiliario exterior, para sillas playeras o techos para generar sombras o sombrillas. <br>
+- Fundas y protectores para dispositivos debido a su resistencia a la humedad y flexibilidad. <br>
+- Elementos modulares para aplicaciones en arquitectura temporal (paredes, paneles ligeros). <br>
+- Textiles laminados con patrones funcionales realizados en corte láser, como 
