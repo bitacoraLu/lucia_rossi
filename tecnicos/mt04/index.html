@@ -339,13 +339,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#reflexiones" class="md-nav__link">
-    Reflexiones
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -655,13 +648,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#reflexiones" class="md-nav__link">
-    Reflexiones
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -766,8 +752,6 @@ El IDE tiene varias herramientas clave: <br>
 - Esquina inferior derecha: Muestra la placa Arduino seleccionada y el puerto serie conectado. <br>
 - Los bocetos son las instrucciones que el Arduino sigue para controlar sus componentes y se cargan desde el IDE a la placa mediante un cable USB.</p>
 <h4 id="documentacion-del-proceso"><strong>Documentación del proceso</strong><a class="headerlink" href="#documentacion-del-proceso" title="Permanent link">&para;</a></h4>
-<p>Actividad: <br>
-Leer mínimo dos inputs (módulo sensor de distancias SRF05 / pulsador + fotoresistencias) y actuar mínimo dos outputs (servomotor + leds)</p>
 <p>Antes de documentar todo, tildaré los materiales claves para el funcionamiento en sí del <a href="https://candy-ho.com/Drivers/librodeproyectosdearduinostarterkit-151212174250.pdf">kit de arduino</a> </p>
 <p><img alt="Arduino" src="../../images/MT04/kit.png" /></p>
 <p><strong>Materiales a utilizar:</strong> <br></p>
@@ -789,11 +773,13 @@ Usé tinkercad pero necesité ir a probar directamente con los materiales para e
 <p>Después de muchas pruebas, la solución fue comprar un nuevo cable de datos y funcionó correctamente. </p>
 <p><strong>Ejercicio 1: Prender un led con un pulsador</strong></p>
 <p>Materiales: Un LEDs, una placa arduino uno, un cable de impresora, una computadora, cables para el montaje del circuito, placa de prueba, resistencia eléctrónica, un botón pulsador. </p>
-<p>Primero hice el circuito en Tinkercad para realizar la simulación de que realmente la conexión funcionara.</p>
+<p>Paso 1: Armé el circuito en Tinkercad para realizar la simulación de que realmente la conexión funcionara.</p>
 <p><img alt="Arduino" src="../../images/MT04/pulsador.png" /></p>
 <p>Referencia de colores: rojo conexión de 5V al positivo, anaranajado de los “aparatos” al positivo, azul de GNR al negativo, amarillo de los aparatos al negativo, violeta de los aparatos a los pines digitales o analógicos</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OnWI7UgqTWs?si=6-H3TRgdvoniakBf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<p>Paso 2: Armé las mismas conexiones en la placa de prueba y utilicé el código que me proponía tinkercad para arduino IDE.  </p>
+<p>Paso 3: Verifiqué y cargué el código y funcionó correctamente. </p>
 <p><img alt="Arduino" src="../../images/MT04/tinkerarduino.png" /></p>
 <!DOCTYPE html>
 <html lang="en">
@@ -815,21 +801,57 @@ Usé tinkercad pero necesité ir a probar directamente con los materiales para e
 </body>
 </html>
 
-<p>Armé las mismas conexiones en la placa de prueba y utilicé el código que me proponía tinkercad para arduino IDE.  </p>
 <p><strong>Sensor de distancia con luces leds</strong></p>
 <p>Materiales: Tres LEDs, una placa arduino uno, un cable de impresora, una computadora, cables para el montaje del circuito, placa de prueba, resistencia eléctrónica, un sensor de distancia. </p>
-<p>Primero hice el circuito en Tinkercad </p>
-<p>Pasos:</p>
-<ul>
-<li>Primero hice el circuito en Tinkercad para realizar la simulación de que realmente la conexión funcionara.</li>
-</ul>
-<p><img alt="Arduino" src="../../images/MT04/tinkerarduino.png" /></p>
+<p>Paso 1: Armé el circuito en Tinkercad para realizar la simulación de que realmente la conexión funcionara.</p>
+<p>![Arduino](../images/MT0</p>
 <p>FOTO PULSADOR 
-<img alt="Fusion" src="../images/MT04/distancia.png" /></p>
+<img alt="Fusion" src="../../images/MT04/distancia.png" /></p>
 <p>Referencia de colores: rojo conexión de 5V al positivo y de los “aparatos” al positivo, azul de GNR al negativo y de los aparatos al negativo, violenta de los aparatos a los pines digitales o analógicos</p>
-<h4 id="reflexiones"><strong>Reflexiones</strong><a class="headerlink" href="#reflexiones" title="Permanent link">&para;</a></h4>
-<p>Arduino me permitió comprender cómo funcionan los sistemas que ya forman parte de nuestra vida cotidiana, como los sensores que encienden luces o activan alarmas. Esto amplía mi conocimiento y me proporciona más herramientas para diseñar soluciones que mejoren algún problema. Sin embargo, en este módulo no profundicé en la programación con código. Si trabajara con Arduino en el futuro, preferiría colaborar con alguien que tenga más experiencia técnica en ese campo.</p>
-<p>Es inimaginable todo lo que se puede hacer con Arduino, hay sensores para todo y para mezclar con cualquier tipo de fabricación digital. </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Video de YouTube Shorts</h1>
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/wnnoIFpS-Go" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Video de YouTube Shorts</h1>
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/OWvlV5XM_MY" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-med
+
+
+
+
+#### **Reflexiones**
+
+Arduino me permitió comprender cómo funcionan los sistemas que ya forman parte de nuestra vida cotidiana, como los sensores que encienden luces o activan alarmas. Esto amplía mi conocimiento y me proporciona más herramientas para diseñar soluciones que mejoren algún problema. Sin embargo, en este módulo no profundicé en la programación con código. Si trabajara con Arduino en el futuro, preferiría colaborar con alguien que tenga más experiencia técnica en ese campo.
+
+Es inimaginable todo lo que se puede hacer con Arduino, hay sensores para todo y para mezclar con cualquier tipo de fabricación digital.
                 
                   
                     
