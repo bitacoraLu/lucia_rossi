@@ -278,6 +278,9 @@ Referencias adicionales sobre reciclaje textil y biomateriales
 
 ![Biomateriales](../images/PROYECTO/muestrasbiomateriales.png)
 
+## **Sistematización de muestras de textiles y biomateriales**
+
+![Textilesbiomateriales](../images/PROYECTO/sistematizacionbiomateriales.png) 
 
 ## **Exploración con nuevos aglomerantes**
 
@@ -585,11 +588,11 @@ Realizamos tres pruebas con este diseño:
 
 ## **Sistematización de muestras de textiles y HDPE**
 
-![Textileshdpe](../images/PROYECTO/hdpesolo.png)
+![Textileshdpe](../images/PROYECTO/sistematizacionhdpe.png)
 
 ## **Sistemización de muestras de textiles y LDPE**
 
-![Textilesldpe](../images/PROYECTO/hdpesolo.png)
+![Textilesldpe](../images/PROYECTO/sistematizacionldpe.png)
 
 
 
