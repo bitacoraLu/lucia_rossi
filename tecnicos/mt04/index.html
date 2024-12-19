@@ -329,6 +329,19 @@
     Glosario
   </a>
   
+    <nav class="md-nav" aria-label="Glosario">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentacion-del-proceso" class="md-nav__link">
+    Documentación del proceso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -625,6 +638,19 @@
     Glosario
   </a>
   
+    <nav class="md-nav" aria-label="Glosario">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documentacion-del-proceso" class="md-nav__link">
+    Documentación del proceso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -657,6 +683,7 @@
 <h3 id="introduccion"><strong>Introducción</strong><a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h3>
 <h3 id="glosario"><strong>Glosario</strong><a class="headerlink" href="#glosario" title="Permanent link">&para;</a></h3>
 <p><strong><a href="https://arduino.cl/que-es-arduino/">Placa Arduino</a></strong></p>
+<p><img alt="Arduino" src="../../images/MT04/placarduino.png" /></p>
 <p>La placa Arduino es una plataforma de hardware libre que integra un microcontrolador programable y una serie de pines hembra. Estos pines permiten conectar la placa a diferentes dispositivos de entrada y salida, facilitando la creación de sistemas electrónicos interactivos. Arduino es una herramienta clave para desarrollar proyectos que combinan software y hardware de manera sencilla.</p>
 <p><strong>¿Para qué sirve?</strong> <br>
 La placa Arduino es capaz de leer entradas como la luz detectada por un sensor, la presión de un botón o mensajes digitales, y transformar esas entradas en acciones, como encender un LED, activar un motor o incluso publicar datos en línea. Para realizar estas acciones, se escribe un conjunto de instrucciones (un programa) que se carga en el microcontrolador. Este programa se desarrolla en el <strong><em>Arduino IDE</em></strong>, un software que utiliza un lenguaje de programación basado en C/C++, diseñado para ser fácil de aprender y aplicar.</p>
@@ -696,8 +723,8 @@ La Ley de Ohm establece que <span class="arithmatex"><span class="MathJax_Previe
 <p><strong>Control de flujo eléctrico</strong> <br>
 En un circuito, se puede controlar el flujo de electrones usando un interruptor. Cuando el circuito está cerrado, los electrones fluyen, generando corriente. Al abrir el circuito, se interrumpe el flujo de electrones, deteniendo la corriente. Esto es esencial para diseñar sistemas que reaccionen o se apaguen cuando sea necesario.</p>
 <p><strong>Arduino uno</strong> </p>
-<p><strong><a href="https://candy-ho.com/Drivers/librodeproyectosdearduinostarterkit-151212174250.pdf">Kit Arduino Uno</a></strong> <br>
-El Kit Arduino Uno es una de las opciones más completas para quienes desean iniciarse en el mundo de la electrónica y la programación. Este kit incluye una placa Arduino Uno, acompañada de una variedad de componentes y accesorios que permiten realizar una amplia gama de proyectos electrónicos interactivos. Al adquirir un kit de Arduino, los usuarios tienen todo lo necesario para aprender los conceptos básicos de la informática física y desarrollar proyectos prácticos desde el principio.</p>
+<p><strong><a href="https://candy-ho.com/Drivers/librodeproyectosdearduinostarterkit-151212174250.pdf">Kit Arduino Uno</a></strong> <br></p>
+<p>El Kit Arduino Uno es una de las opciones más completas para quienes desean iniciarse en el mundo de la electrónica y la programación. Este kit incluye una placa Arduino Uno, acompañada de una variedad de componentes y accesorios que permiten realizar una amplia gama de proyectos electrónicos interactivos. Al adquirir un kit de Arduino, los usuarios tienen todo lo necesario para aprender los conceptos básicos de la informática física y desarrollar proyectos prácticos desde el principio.</p>
 <p><strong>Componentes del Kit Arduino Uno</strong> <br>
 El kit suele incluir varios componentes esenciales que permiten experimentar con las diferentes capacidades de Arduino. <br>
 Algunos de estos componentes son: <br>
@@ -724,6 +751,77 @@ El IDE tiene varias herramientas clave: <br>
 - Barra de herramientas: Facilita acciones comunes como verificar, cargar, crear, abrir y guardar bocetos, además de abrir el monitor en serie para ver la comunicación entre la placa y la computadora. <br>
 - Esquina inferior derecha: Muestra la placa Arduino seleccionada y el puerto serie conectado. <br>
 - Los bocetos son las instrucciones que el Arduino sigue para controlar sus componentes y se cargan desde el IDE a la placa mediante un cable USB.</p>
+<h4 id="documentacion-del-proceso"><strong>Documentación del proceso</strong><a class="headerlink" href="#documentacion-del-proceso" title="Permanent link">&para;</a></h4>
+<p>Actividad: <br>
+Leer mínimo dos inputs (módulo sensor de distancias SRF05 / pulsador + fotoresistencias) y actuar mínimo dos outputs (servomotor + leds)</p>
+<p>Antes de documentar todo, tildaré los materiales claves para el funcionamiento en sí del <a href="https://candy-ho.com/Drivers/librodeproyectosdearduinostarterkit-151212174250.pdf">kit de arduino</a> </p>
+<p><img alt="Arduino" src="../../images/MT04/kit.png" /></p>
+<p>**Materiales a utilizar: <br>
+- Arduino Uno: La tarjeta de desarrollo del microcontrolador la cual será el corazón de tus proyectos. Es un simple ordenador, pero uno con el cual todavía no puedes realizar nada. Construirás circuitos e interfaces para hacer cosas y decirle al microcontrolador como trabajar con otros componentes. <br>
+- Placa de pruebas: Una placa sobre la cual puede montar componentes electrónicos. Es como un panel con agujeros, con filas de agujeros que le permite conectar juntos cables y componentes electrónicos. También están disponibles tarjetas sobre las que hay que soldar y también sin necesidad de usar un soldador como la mostrada aquí. <br>
+- Cables puente – Utilizarlos para conectar unos componentes con otros sobre la placa de prueba, y la tarjeta de Arduino. <br>
+- Foto resistencia: (también llamada foto célula o resistencia dependiente de la luz). Se trata de una resistencia variable que cambia su resistencia según el nivel de luz que incide sobre su superficie. <br>
+- Resistencias: Se opone al paso de la corriente eléctrica en un circuito, dando como resultado a un cambio en la tensión y en dicha corriente. El valor de las resistencias se mide en ohmios (se representa por la letra griega omega). Las bandas de colores en un lado de la resistencia indica su valor. <br>
+- Potenciómetro: Una resistencia variable con tres terminales. Dos de estos terminales están conectados a los extremos de una resistencia fija. El terminal central se puede mover a través de la superficie de la resistencia fija (dispone de un mando), consiguiendo de esta forma dos valores diferentes de resistencia según el terminal extremo que se tome como referencia. Cuando los terminales extremos del potenciómetro se conectan entre una tensión y masa, en el terminal central aparece una tensión que es proporcional al giro del mando central, entre cero (un extremo) y la máxima tensión (el otro extremo).  <br>
+- Pulsador: Interruptores momentáneos que cierran un circuito cuando son presionados. Se colocan con facilidad sobre la placa de pruebas. Son buenos para abrir o cerrar el paso a una señal.  <br>
+- Servo motor: Un tipo de motor reductor que solo puede girar 180 grados. Es controlado por las señales eléctricas en formato de pulsos que son enviadas desde la tarjeta Arduino. Estos pulsos le dicen al motor a que posición se debe de mover.  <br>
+- Diodos Emisores de Luz (LEDs): Un tipo de diodo que emite luz cuando la corriente lo atraviesa. Como en todos los diodos, la corriente solo fluye en un sentido a través de estos componentes. Estará probablemente familiarizado con ellos al verlos como indicadores dentro de una gran variedad de dispositivos electrónicos. El ánodo, que normalmente se conecta al positivo de la alimentación, es generalmente el terminal mas largo, y el cátodo el terminal mas corto.  <br>
+- Cable USB: Permite conectar la placa Arduino Uno a un ordenador para que se pueda programar. También proporciona la alimentación necesaria tanto a la placa Arduino como a todos los componentes electrónicos que forman parte de los proyectos de este kit.</p>
+<p>Después de estudiar toda la información de arduino, ya que nunca había hecho nada al respecto y me llevó mucho tiempo para entender su funcionamiento y lógica. Empecé a con la tarea de este módulo que consistía en leer dos inputs y dos outputs. Para eso, descargué arduino a mi computadora. 
+Usé tinkercad pero necesité ir a probar directamente con los materiales para entender mejor. Programé una luz que se prende con un pulsador y calculé la distancia con el sensor de distancia. </p>
+<p>Aclaración: pasó un tiempo de la primera prueba a la segunda y cuando volví a conectar la placa arduino, no me reconoció el puerto. Estuve mucho tiempo investigando el motivo y como la placa arduino es una copia, supuestamente se necesitaba un driver CH340g que es el chip. Lo descargué pero seguí sin poder solucionarlo, me auxilié con chat gpt que me brindó muchas opciones, probé muchas opciones y finalmente era el cable de conexión, compré otro y funcionó correctamente. La alegría fue enorme. </p>
+<p><img alt="Arduino" src="../../images/MT04/error.png" />
+<img alt="Arduino" src="../../images/MT04/puerto.png" /></p>
+<p>Después de muchas pruebas, la solución fue comprar un nuevo cable de datos y funcionó correctamente. </p>
+<p><strong>Prender un led con un pulsador</strong></p>
+<p>Materiales: Un LEDs, una placa arduino uno, un cable de impresora, una computadora, cables para el montaje del circuito, placa de prueba, resistencia eléctrónica, un botón pulsador. </p>
+<p>Primero hice el circuito en Tinkercad para realizar la simulación de que realmente la conexión funcionara.</p>
+<p><img alt="Arduino" src="../../images/MT04/pulsador.png" /></p>
+<p>Referencia de colores: rojo conexión de 5V al positivo, anaranajado de los “aparatos” al positivo, azul de GNR al negativo, amarillo de los aparatos al negativo, violeta de los aparatos a los pines digitales o analógicos</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OnWI7UgqTWs?si=6-H3TRgdvoniakBf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>const int bpulsar = 2;
+const int led = 13; //indica que el led esta conectado al pin 13
+int boton; // // se declara la variable boton</p>
+<p>void setup(){
+pinMode(bpulsar,INPUT); // se declara el pin 2 como entrada
+pinMode(led, OUTPUT);   // se declara el pin 13 como salida </p>
+<p>}</p>
+<p>void loop(){
+  boton=digitalRead(bpulsar); // se asigna la variable &ldquo;boton&rdquo; el valor del pin 2
+  digitalWrite(led,boton);    // // el led se enciende o no de acuerdo al valor del push button</p>
+<p>} </p>
+<p><img alt="Arduino" src="../../images/MT04/tinkerarduino.png" /></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed YouTube Short</title>
+</head>
+<body>
+    <h1>Video de YouTube Short</h1>
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/DXATQqKQnVc" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
+
+<p>Armé las mismas conexiones en la placa de prueba y utilicé el código que me proponía tinkercad para arduino ide </p>
+<p><strong>Sensor de distancia con luces leds</strong></p>
+<p>Materiales: Tres LEDs, una placa arduino uno, un cable de impresora, una computadora, cables para el montaje del circuito, placa de prueba, resistencia eléctrónica de .., un sensor de distancia. </p>
+<p>Primero hice el circuito en Tinkercad </p>
+<p>Pasos:</p>
+<p>Primero hice el circuito en Tinkercad para realizar la simulación de que realmente la conexión funcionara.
+FOTO PULSADOR 
+<img alt="Fusion" src="../images/MT04/distancia.png" />
+Referencia de colores: rojo conexión de 5V al positivo y de los “aparatos” al positivo, azul de GNR al negativo y de los aparatos al negativo, violenta de los aparatos a los pines digitales o analógicos</p>
                 
                   
                     
