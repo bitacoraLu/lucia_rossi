@@ -1,7 +1,3 @@
----
-hide:
-    - toc
----
 
 # MT04 Tecnología y Fabricación 
 
@@ -128,8 +124,6 @@ Usé tinkercad pero necesité ir a probar directamente con los materiales para e
 Después de muchas pruebas, la solución fue comprar un nuevo cable de datos y funcionó correctamente. 
 
 
-
-
 ##**Ejercicio 1: Prender un led con un pulsador**
 
 Materiales: Un LEDs, una placa arduino uno, un cable de impresora, una computadora, cables para el montaje del circuito, placa de prueba, resistencia eléctrónica, un botón pulsador. 
@@ -189,17 +183,47 @@ Referencia de colores: rojo conexión de 5V al positivo y del sensor al positivo
 
 **Paso 3**: Verifiqué y cargué el código y funcionó correctamente. 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/wnnoIFpS-Go" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
 
-### **Reflexiones**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zJPHC61ihhk?si=q2txaJ-NosXVxJvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/OWvlV5XM_MY" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-med
+
+
+####**Reflexiones** <br> 
 Arduino me permitió comprender cómo funcionan los sistemas que ya forman parte de nuestra vida cotidiana, como los sensores que encienden luces o activan alarmas. Esto amplía mi conocimiento y me proporciona más herramientas para diseñar soluciones que mejoren algún problema. Sin embargo, en este módulo no profundicé en la programación con código. Si trabajara con Arduino en el futuro, preferiría colaborar con alguien que tenga más experiencia técnica en ese campo.
 
 Es inimaginable todo lo que se puede hacer con Arduino, hay sensores para todo y para mezclar con cualquier tipo de fabricación digital. 
-
-
-
-
-
 
 
 
