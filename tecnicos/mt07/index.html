@@ -362,6 +362,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#reflexiones" class="md-nav__link">
+    Reflexiones
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -653,6 +660,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#reflexiones" class="md-nav__link">
+    Reflexiones
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -705,61 +719,7 @@ Configurar la Placa ESP32 DEV Module y el Puerto correspondiente (varía en toda
 <p>Instalar en configuraciones la placa ESP32 en arduino IDE, agregar a “URLs adicionales de gestor de placas”: <a href="https://dl.espressif.com/dl/package_esp32_index.json">https://dl.espressif.com/dl/package_esp32_index.json</a> </p>
 <p><strong>Generación de código</strong> <br>
 Le pedí a chat gpt: que genere un código para Arduino IDE que utilice una placa ESP32, conectado a un led rojo en el pin D15. El código tiene que permitir conectarse a una red wifi generada por la placa y acceder a una dirección IP, donde abre una interfaz web que contenga dos botones: uno de encendido y otro de apagado. </p>
-<h1 id="include">include <WiFi.h><a class="headerlink" href="#include" title="Permanent link">&para;</a></h1>
-<h1 id="include_1">include <WebServer.h><a class="headerlink" href="#include_1" title="Permanent link">&para;</a></h1>
-<p>// Configuración del acceso Wi-Fi
-const char *ssid = &ldquo;ESP32_Network&rdquo;;  // Nombre de la red Wi-Fi
-const char *password = &ldquo;12345678&rdquo;;  // Contraseña de la red Wi-Fi</p>
-<p>// Pin del LED
-const int ledPin = 15;</p>
-<p>// Crear un servidor web en el puerto 80
-WebServer server(80);</p>
-<p>// Funciones para manejar las solicitudes web
-void handleRoot() {
- String html = R&rdquo;rawliteral(
-   <!DOCTYPE html></p>
-<html>
-   <head>
-     <title>Control LED</title>
-   </head>
-   <body>
-     <h1>Control de LED</h1>
-     <button onclick="location.href='/on'" style="padding:15px; font-size:20px;">Encender</button>
-     <button onclick="location.href='/off'" style="padding:15px; font-size:20px;">Apagar</button>
-   </body>
-   </html>
-<p>)rawliteral&rdquo;;
- server.send(200, &ldquo;text/html&rdquo;, html);
-}</p>
-<p>void handleOn() {
- digitalWrite(ledPin, HIGH);  // Encender el LED
- server.send(200, &ldquo;text/html&rdquo;, &ldquo;LED encendido. <a href='/'>Volver</a>&ldquo;);
-}</p>
-<p>void handleOff() {
- digitalWrite(ledPin, LOW);  // Apagar el LED
- server.send(200, &ldquo;text/html&rdquo;, &ldquo;LED apagado. <a href='/'>Volver</a>&ldquo;);
-}</p>
-<p>void setup() {
- // Configurar el LED como salida
- pinMode(ledPin, OUTPUT);
- digitalWrite(ledPin, LOW);  // Apagar el LED al inicio</p>
-<p>// Iniciar el servidor Wi-Fi
- WiFi.softAP(ssid, password);
- IPAddress IP = WiFi.softAPIP();
- Serial.begin(115200);
- Serial.println(&ldquo;Servidor iniciado.&rdquo;);
- Serial.print(&ldquo;IP del servidor: &ldquo;);
- Serial.println(IP);</p>
-<p>// Rutas del servidor
- server.on(&ldquo;/&rdquo;, handleRoot);
- server.on(&ldquo;/on&rdquo;, handleOn);
- server.on(&ldquo;/off&rdquo;, handleOff);</p>
-<p>// Iniciar el servidor
- server.begin();
-}</p>
-<p>void loop() {
- server.handleClient();  // Manejar solicitudes de clientes
-}</p>
+<p><img alt="Codigo" src="../../images/MT07/codigo.png" /></p>
 <p><strong>Arduino IDE</strong> <br>
 Verificamos y cargamos el código. </p>
 <p><strong>Wifi</strong> <br>
