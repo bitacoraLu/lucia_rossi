@@ -346,24 +346,11 @@
     Introducción
   </a>
   
-    <nav class="md-nav" aria-label="Introducción">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
   <a href="#documentacion-del-proceso" class="md-nav__link">
     Documentación del proceso
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#reflexiones" class="md-nav__link">
-    Reflexiones
   </a>
   
 </li>
@@ -643,24 +630,11 @@
     Introducción
   </a>
   
-    <nav class="md-nav" aria-label="Introducción">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
   <a href="#documentacion-del-proceso" class="md-nav__link">
     Documentación del proceso
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#reflexiones" class="md-nav__link">
-    Reflexiones
   </a>
   
 </li>
@@ -693,26 +667,81 @@
                 <h1 id="mt07-tecnologia-y-fabricacion">MT07 Tecnología y Fabricación<a class="headerlink" href="#mt07-tecnologia-y-fabricacion" title="Permanent link">&para;</a></h1>
 <h2 id="interfaces-y-aplicaciones"><strong>Interfaces y aplicaciones</strong><a class="headerlink" href="#interfaces-y-aplicaciones" title="Permanent link">&para;</a></h2>
 <h3 id="introduccion"><strong>Introducción</strong><a class="headerlink" href="#introduccion" title="Permanent link">&para;</a></h3>
-<h4 id="documentacion-del-proceso"><strong>Documentación del proceso</strong><a class="headerlink" href="#documentacion-del-proceso" title="Permanent link">&para;</a></h4>
-<p><strong>Preparación de componentes</strong>
-Materiales necesarios: placa esp32, cable de conexión, luz led, protoboard 
+<h3 id="documentacion-del-proceso"><strong>Documentación del proceso</strong><a class="headerlink" href="#documentacion-del-proceso" title="Permanent link">&para;</a></h3>
+<p><strong>Preparación de componentes</strong> <br>
+Materiales necesarios: placa esp32, cable de conexión, luz led, protoboard. <br>
 Poner la placa ESP32 al protoboard, conectar el ánodo de la luz led (extremo más largo) al pin D15 y el cátodo (extremo más corto) al pin de GND. </p>
-<p><strong>Preparación en Arduino IDE</strong>
+<p><strong>Preparación en Arduino IDE</strong> <br>
 Configurar la Placa ESP32 DEV Module y el Puerto correspondiente (varía en todas las computadoras el nombre) </p>
 <p>Instalar en configuraciones la placa ESP32 en arduino IDE, agregar a “URLs adicionales de gestor de placas”: <a href="https://dl.espressif.com/dl/package_esp32_index.json">https://dl.espressif.com/dl/package_esp32_index.json</a> </p>
-<p><strong>Generación de código</strong>
+<p><strong>Generación de código</strong> <br>
 Le pedí a chat gpt: que genere un código para Arduino IDE que utilice una placa ESP32, conectado a un led rojo en el pin D15. El código tiene que permitir conectarse a una red wifi generada por la placa y acceder a una dirección IP, donde abre una interfaz web que contenga dos botones: uno de encendido y otro de apagado. </p>
-<p><strong>Arduino IDE</strong>
+<h1 id="include">include <WiFi.h><a class="headerlink" href="#include" title="Permanent link">&para;</a></h1>
+<h1 id="include_1">include <WebServer.h><a class="headerlink" href="#include_1" title="Permanent link">&para;</a></h1>
+<p>// Configuración del acceso Wi-Fi
+const char *ssid = &ldquo;ESP32_Network&rdquo;;  // Nombre de la red Wi-Fi
+const char *password = &ldquo;12345678&rdquo;;  // Contraseña de la red Wi-Fi</p>
+<p>// Pin del LED
+const int ledPin = 15;</p>
+<p>// Crear un servidor web en el puerto 80
+WebServer server(80);</p>
+<p>// Funciones para manejar las solicitudes web
+void handleRoot() {
+ String html = R&rdquo;rawliteral(
+   <!DOCTYPE html></p>
+<html>
+   <head>
+     <title>Control LED</title>
+   </head>
+   <body>
+     <h1>Control de LED</h1>
+     <button onclick="location.href='/on'" style="padding:15px; font-size:20px;">Encender</button>
+     <button onclick="location.href='/off'" style="padding:15px; font-size:20px;">Apagar</button>
+   </body>
+   </html>
+<p>)rawliteral&rdquo;;
+ server.send(200, &ldquo;text/html&rdquo;, html);
+}</p>
+<p>void handleOn() {
+ digitalWrite(ledPin, HIGH);  // Encender el LED
+ server.send(200, &ldquo;text/html&rdquo;, &ldquo;LED encendido. <a href='/'>Volver</a>&ldquo;);
+}</p>
+<p>void handleOff() {
+ digitalWrite(ledPin, LOW);  // Apagar el LED
+ server.send(200, &ldquo;text/html&rdquo;, &ldquo;LED apagado. <a href='/'>Volver</a>&ldquo;);
+}</p>
+<p>void setup() {
+ // Configurar el LED como salida
+ pinMode(ledPin, OUTPUT);
+ digitalWrite(ledPin, LOW);  // Apagar el LED al inicio</p>
+<p>// Iniciar el servidor Wi-Fi
+ WiFi.softAP(ssid, password);
+ IPAddress IP = WiFi.softAPIP();
+ Serial.begin(115200);
+ Serial.println(&ldquo;Servidor iniciado.&rdquo;);
+ Serial.print(&ldquo;IP del servidor: &ldquo;);
+ Serial.println(IP);</p>
+<p>// Rutas del servidor
+ server.on(&ldquo;/&rdquo;, handleRoot);
+ server.on(&ldquo;/on&rdquo;, handleOn);
+ server.on(&ldquo;/off&rdquo;, handleOff);</p>
+<p>// Iniciar el servidor
+ server.begin();
+}</p>
+<p>void loop() {
+ server.handleClient();  // Manejar solicitudes de clientes
+}</p>
+<p><strong>Arduino IDE</strong> <br>
 Verificamos y cargamos el código. </p>
-<p><strong>Wifi</strong> 
+<p><strong>Wifi</strong> <br>
 Conectarse a la red wifi generada por la ESP32, que se llama “ESP32_Network” en el dispositivo a utilizar (computadora o celular). </p>
 <p><img alt="Wifi" src="../../images/MT07/wifi.png" /></p>
-<p><strong>Interfaz</strong>
+<p><strong>Interfaz</strong> <br>
 La dirección IP se encuentra en Herramientas/Monitor serie. Aparecerá la dirección IP, en mi caso fue: <a href="http://192.168.4.1">http://192.168.4.1</a> . Donde aparecen los botones de Encender y Apagar. </p>
 <p><img alt="Botones" src="../../images/MT07/encenderapagar.png" /> 
 <img alt="Interfaz" src="../../images/MT07/interfaz.png" />  </p>
-<p><strong>Funcionamiento</strong></p>
-<p>Cuando apretamos el botón de ENCENDER en la dirección IP creada se prende la luz led y cuando apretamos el botón de APAGAR, se apaga. </p>
+<p><strong>Funcionamiento</strong> <br>
+Cuando apretamos el botón de ENCENDER en la dirección IP creada se prende la luz led y cuando apretamos el botón de APAGAR, se apaga. </p>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -721,7 +750,6 @@ La dirección IP se encuentra en Herramientas/Monitor serie. Aparecerá la direc
     <title>YouTube Short</title>
 </head>
 <body>
-    <h1>Embed de YouTube Short</h1>
     <div style="text-align: center;">
         <iframe 
             width="560" 
