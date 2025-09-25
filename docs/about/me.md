@@ -1,6 +1,6 @@
 # Sobre mi
 
-![yo](../images/me.jpeg)
+![yo](../images/yo.jpg)
 
 Soy Diseñadora Industrial especializada en textil e indumentaria, graduada en diciembre de 2019 de la [Escuela Universitaria Centro de Diseño](https://www.fadu.edu.uy/eucd/institucion/) (EUCD) de la FADU/UdelaR en Montevideo, Uruguay. Mi tesis, "[Diseñando el Cuerpo](https://www.colibri.udelar.edu.uy/jspui/handle/20.500.12008/39703)" exploró el vínculo entre la lencería y el cuerpo, y cómo las campañas publicitarias influyen en la creación de discursos corporales. 
 
